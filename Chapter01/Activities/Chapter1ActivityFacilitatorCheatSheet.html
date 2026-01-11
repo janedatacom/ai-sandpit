@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facilitator Cheat Sheet - AI Use Case Workshop</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      padding: 20px;
+      font-size: 9px;
+      line-height: 1.3;
+    }
+    
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+        font-size: 8px;
+      }
+      .no-print {
+        display: none;
+      }
+      .page {
+        page-break-after: always;
+        box-shadow: none !important;
+        margin: 0 !important;
+        padding: 8mm !important;
+        min-height: auto;
+        height: 277mm;
+        overflow: hidden;
+      }
+      .page:last-child {
+        page-break-after: avoid;
+      }
+    }
+    
+    .no-print {
+      background: #7c3aed;
+      color: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    
+    .no-print h1 {
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+    
+    .no-print p {
+      font-size: 12px;
+    }
+    
+    .page {
+      background: white;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto 20px auto;
+      padding: 8mm;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .page-title {
+      font-size: 14px;
+      font-weight: bold;
+      color: #1e293b;
+      margin-bottom: 8px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #7c3aed;
+    }
+    
+    .intro-box {
+      background: #f8fafc;
+      border-left: 3px solid #7c3aed;
+      padding: 6px 8px;
+      margin-bottom: 8px;
+      font-size: 9px;
+    }
+    
+    .intro-box h3 {
+      color: #7c3aed;
+      margin-bottom: 3px;
+      font-size: 10px;
+    }
+    
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    
+    .three-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 6px;
+    }
+    
+    .industry-section {
+      border: 1px solid #e2e8f0;
+      border-radius: 4px;
+      padding: 6px;
+      margin-bottom: 6px;
+    }
+    
+    .industry-header {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-bottom: 4px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    
+    .industry-icon {
+      font-size: 12px;
+    }
+    
+    .industry-name {
+      font-weight: bold;
+      font-size: 9px;
+      color: #334155;
+    }
+    
+    .question-category {
+      font-size: 7px;
+      font-weight: bold;
+      color: #7c3aed;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      margin-top: 4px;
+      margin-bottom: 2px;
+    }
+    
+    .question-category:first-of-type {
+      margin-top: 0;
+    }
+    
+    .questions {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .questions li {
+      padding: 1px 0;
+      padding-left: 8px;
+      position: relative;
+      font-size: 8px;
+      color: #475569;
+    }
+    
+    .questions li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: #94a3b8;
+      font-size: 7px;
+    }
+    
+    .hot-tip {
+      background: #fef3c7;
+      border-radius: 3px;
+      padding: 3px 5px;
+      margin-top: 4px;
+      font-size: 7px;
+    }
+    
+    .hot-tip strong {
+      color: #b45309;
+    }
+    
+    .general-section {
+      background: #f1f5f9;
+      border-radius: 4px;
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+    
+    .general-section h3 {
+      font-size: 10px;
+      color: #334155;
+      margin-bottom: 5px;
+    }
+    
+    .general-section ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .general-section li {
+      padding: 2px 0;
+      padding-left: 14px;
+      position: relative;
+      font-size: 8px;
+    }
+    
+    .general-section li::before {
+      content: "💡";
+      position: absolute;
+      left: 0;
+      font-size: 8px;
+    }
+    
+    .objection-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 8px;
+      margin-top: 5px;
+    }
+    
+    .objection-table th {
+      background: #7c3aed;
+      color: white;
+      padding: 4px 6px;
+      text-align: left;
+      font-size: 8px;
+    }
+    
+    .objection-table td {
+      padding: 4px 6px;
+      border-bottom: 1px solid #e2e8f0;
+      vertical-align: top;
+    }
+    
+    .objection-table tr:nth-child(even) {
+      background: #f8fafc;
+    }
+    
+    .run-sheet {
+      margin-top: 6px;
+    }
+    
+    .run-sheet-item {
+      display: flex;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 5px 0;
+    }
+    
+    .run-sheet-item.highlight {
+      background: #f0fdf4;
+      margin: 0 -8px;
+      padding: 5px 8px;
+      border-left: 2px solid #22c55e;
+    }
+    
+    .run-sheet-time {
+      width: 55px;
+      font-weight: bold;
+      color: #7c3aed;
+      font-size: 8px;
+    }
+    
+    .run-sheet-item.highlight .run-sheet-time {
+      color: #16a34a;
+    }
+    
+    .run-sheet-content {
+      flex: 1;
+    }
+    
+    .run-sheet-content h4 {
+      font-size: 9px;
+      color: #334155;
+      margin-bottom: 2px;
+    }
+    
+    .run-sheet-content p {
+      font-size: 8px;
+      color: #64748b;
+    }
+    
+    .run-sheet-content ul {
+      font-size: 8px;
+      color: #64748b;
+      margin-top: 2px;
+      padding-left: 12px;
+    }
+    
+    .run-sheet-content li {
+      margin-bottom: 1px;
+    }
+    
+    .phase-label {
+      font-size: 7px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      color: white;
+      background: #7c3aed;
+      padding: 1px 4px;
+      border-radius: 2px;
+      margin-right: 4px;
+    }
+    
+    .phase-label.activity {
+      background: #22c55e;
+    }
+    
+    .persona-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 6px;
+      margin-top: 6px;
+    }
+    
+    .persona-card {
+      background: #f8fafc;
+      border-radius: 4px;
+      padding: 6px;
+      border-left: 2px solid #7c3aed;
+    }
+    
+    .persona-card h4 {
+      font-size: 8px;
+      color: #334155;
+      margin-bottom: 3px;
+    }
+    
+    .persona-card p {
+      font-size: 7px;
+      color: #64748b;
+      margin-bottom: 2px;
+    }
+    
+    .persona-card ul {
+      font-size: 7px;
+      padding-left: 10px;
+      color: #475569;
+    }
+    
+    .persona-card li {
+      margin-bottom: 1px;
+    }
+
+    .closing-prompts {
+      background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+      color: white;
+      border-radius: 4px;
+      padding: 8px;
+      margin-top: 8px;
+    }
+    
+    .closing-prompts h3 {
+      font-size: 9px;
+      margin-bottom: 4px;
+    }
+    
+    .closing-prompts ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .closing-prompts li {
+      padding: 2px 0;
+      font-size: 8px;
+      padding-left: 12px;
+      position: relative;
+    }
+    
+    .closing-prompts li::before {
+      content: "▸";
+      position: absolute;
+      left: 3px;
+    }
+    
+    .transition-note {
+      background: #dbeafe;
+      border-radius: 3px;
+      padding: 5px 8px;
+      margin: 6px 0;
+      font-size: 8px;
+      color: #1e40af;
+    }
+    
+    .transition-note strong {
+      color: #1e3a8a;
+    }
+    
+    .time-warning {
+      background: #fef2f2;
+      border-left: 2px solid #ef4444;
+      padding: 4px 8px;
+      margin: 6px 0;
+      font-size: 8px;
+      color: #991b1b;
+    }
+  </style>
+</head>
+<body>
+
+<div class="no-print">
+  <h1>📋 Facilitator Cheat Sheet</h1>
+  <p>Print this double-sided. Press <strong>Ctrl+P</strong> and set margins to "None" or "Minimum".</p>
+</div>
+
+<!-- Page 1: Overview & Run Sheet -->
+<div class="page">
+  <div class="page-title">🎯 AI Sandpit Use Case Workshop — Facilitator Guide</div>
+  
+  <div class="intro-box">
+    <h3>Your Goal</h3>
+    <p>Help participants identify 2-3 concrete AI use cases they could prototype in their Datacom AI Sandpit. Move them from vague interest → specific, testable ideas they're excited to try.</p>
+  </div>
+  
+  <div class="general-section">
+    <h3>⏱️ 30-Minute Activity Run Sheet</h3>
+    <div class="run-sheet">
+      <div class="run-sheet-item">
+        <div class="run-sheet-time"><span class="phase-label">Before</span></div>
+        <div class="run-sheet-content">
+          <h4>Your Slides, Quiz & Story — Sets up the activity</h4>
+          <p>Examples, context setting, loosening people up.</p>
+        </div>
+      </div>
+      
+      <div class="transition-note">
+        <strong>🎬 Transition:</strong> "Now let's flip it — instead of me talking at you, let's explore what's relevant to YOUR world. I've got some cards here..."
+      </div>
+      
+      <div class="run-sheet-item highlight">
+        <div class="run-sheet-time"><span class="phase-label activity">0-3</span></div>
+        <div class="run-sheet-content">
+          <h4>Card Spread & Quick Browse</h4>
+          <ul>
+            <li>"Grab 2-3 cards that spark something — doesn't have to be your industry"</li>
+            <li>Keep it moving — this is just to seed conversation</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="run-sheet-item highlight">
+        <div class="run-sheet-time"><span class="phase-label activity">3-15</span></div>
+        <div class="run-sheet-content">
+          <h4>Share & Translate</h4>
+          <ul>
+            <li>"What caught your eye about this one?"</li>
+            <li>"What's the equivalent in YOUR world?"</li>
+            <li>Capture ideas on whiteboard as you go</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="run-sheet-item highlight">
+        <div class="run-sheet-time"><span class="phase-label activity">15-25</span></div>
+        <div class="run-sheet-content">
+          <h4>Deep Dive: Pick 1-2 Ideas & Probe</h4>
+          <ul>
+            <li>Push for specifics: "How many? How often? What system?"</li>
+            <li>Find the champion: "Who would be the first user?"</li>
+            <li>Size the prize: "What would 30% faster mean for you?"</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="run-sheet-item highlight">
+        <div class="run-sheet-time"><span class="phase-label activity">25-30</span></div>
+        <div class="run-sheet-content">
+          <h4>Commit & Close</h4>
+          <ul>
+            <li>"Which ONE use case would you most like to see working?"</li>
+            <li>"What's the smallest version we could test in 2 weeks?"</li>
+            <li>Capture: who owns what, what data they'll provide</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="time-warning">
+        <strong>⏰ Tight on time?</strong> Cut Deep Dive to 5 mins and focus on ONE use case only. Better to go deep on one than shallow on three.
+      </div>
+    </div>
+  </div>
+
+  <div class="general-section">
+    <h3>🎭 Know Your Audience</h3>
+    <div class="persona-grid">
+      <div class="persona-card">
+        <h4>CIO / CTO</h4>
+        <p><strong>Worries:</strong></p>
+        <ul>
+          <li>Integration complexity</li>
+          <li>Skills gaps</li>
+          <li>Technical debt</li>
+          <li>Security & data</li>
+        </ul>
+      </div>
+      <div class="persona-card">
+        <h4>CEO / GM</h4>
+        <p><strong>Worries:</strong></p>
+        <ul>
+          <li>Competitive edge</li>
+          <li>Speed to ROI</li>
+          <li>Staff adoption</li>
+          <li>Reputation risk</li>
+        </ul>
+      </div>
+      <div class="persona-card">
+        <h4>CSO / CISO</h4>
+        <p><strong>Worries:</strong></p>
+        <ul>
+          <li>Data governance</li>
+          <li>Compliance</li>
+          <li>Explainability</li>
+          <li>Audit trails</li>
+        </ul>
+      </div>
+      <div class="persona-card">
+        <h4>Enterprise Arch</h4>
+        <p><strong>Worries:</strong></p>
+        <ul>
+          <li>Patterns & reuse</li>
+          <li>Tech stack fit</li>
+          <li>Scalability</li>
+          <li>Build vs buy</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="general-section">
+    <h3>🚫 Common Objections & Responses</h3>
+    <table class="objection-table">
+      <tr>
+        <th style="width: 30%;">They Say...</th>
+        <th>You Say...</th>
+      </tr>
+      <tr>
+        <td>"Our data isn't ready"</td>
+        <td>"What's the smallest dataset you could test with? A sandpit lets you experiment without production-grade pipelines."</td>
+      </tr>
+      <tr>
+        <td>"We don't have the skills"</td>
+        <td>"That's what the sandpit solves — low-risk learning. What if we start with config, not code?"</td>
+      </tr>
+      <tr>
+        <td>"Leadership won't approve it"</td>
+        <td>"What proof point would convince them? That's your sandpit goal."</td>
+      </tr>
+      <tr>
+        <td>"We tried AI and it failed"</td>
+        <td>"What went wrong? (Listen.) Sandpit de-risks that — small experiments, fast feedback."</td>
+      </tr>
+      <tr>
+        <td>"It's not a priority"</td>
+        <td>"What IS the priority? Could AI accelerate that?"</td>
+      </tr>
+      <tr>
+        <td>"What about hallucinations?"</td>
+        <td>"Which use cases are 'human in the loop' where that's manageable? Start there."</td>
+      </tr>
+    </table>
+  </div>
+  
+  <div class="closing-prompts">
+    <h3>🎬 Closing Questions to Drive Commitment</h3>
+    <ul>
+      <li>"Of everything we discussed, which ONE use case would you most like to see working?"</li>
+      <li>"What would a successful proof of concept look like for you?"</li>
+      <li>"Who else in your organisation needs to see this to believe it?"</li>
+      <li>"What's the smallest version we could test in the sandpit in 2 weeks?"</li>
+      <li>"What data would you need to provide to make this prototype real?"</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Page 2: Industry Questions Part 1 -->
+<div class="page">
+  <div class="page-title">🔍 Industry Probing Questions (1 of 2)</div>
+  
+  <div class="three-column">
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">📚</span>
+        <span class="industry-name">Education</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Time on marking vs research?</li>
+        <li>Student-to-advisor ratio?</li>
+        <li>How do students find info?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Where do materials live?</li>
+        <li>Past assignments to learn from?</li>
+        <li>What's your LMS?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Save 30% marking time — what unlocks?"</li>
+        <li>"What questions repeat endlessly?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Research summarisation is low-hanging fruit.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">💻</span>
+        <span class="industry-name">IT Services</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Ticket triage time? Mis-routing?</li>
+        <li>Documentation burden?</li>
+        <li>RFP response process?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Knowledge base current?</li>
+        <li>Ticketing system?</li>
+        <li>Where are past proposals?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"20% faster resolution = ?"</li>
+        <li>"How many proposals/year?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> RFP drafting has clear ROI.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">⛏️</span>
+        <span class="industry-name">Mining</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Unplanned downtime cost?</li>
+        <li>Safety incident search?</li>
+        <li>Shift handover gaps?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Equipment sensor data?</li>
+        <li>Geological reports where?</li>
+        <li>Safety/incident system?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Predict failure 24hrs early = ?"</li>
+        <li>"Time to find past incident?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Safety search beats predictive maintenance for quick wins.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🏛️</span>
+        <span class="industry-name">Federal/State Govt</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Ministerial brief time?</li>
+        <li>FOI backlog?</li>
+        <li>Consultation synthesis?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Policy docs — version control?</li>
+        <li>Records system searchable?</li>
+        <li>Classification level?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"How many submissions last time?"</li>
+        <li>"Brief turnaround bottleneck?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Start UNCLASSIFIED. FOI & consult summaries are entry points.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🏘️</span>
+        <span class="industry-name">Local Govt</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>% calls = same 10 things?</li>
+        <li>DA assessment backlog?</li>
+        <li>Meeting minutes burden?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Bylaws searchable?</li>
+        <li>CRM tracks history?</li>
+        <li>Record council meetings?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Self-serve 50% queries = ?"</li>
+        <li>"30% faster DA = ?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Citizen triage is visible and politically popular.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🔬</span>
+        <span class="industry-name">Science & Research</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Lit review time?</li>
+        <li>Find past org research?</li>
+        <li>Grant success rate?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Research repository?</li>
+        <li>Lab notebooks digital?</li>
+        <li>Unused experimental data?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Papers per lit review?"</li>
+        <li>"NL search all past work?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Grant writing resonates universally.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🛒</span>
+        <span class="industry-name">Retail</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Manual returns %? Cost?</li>
+        <li>Product description volume?</li>
+        <li>Sentiment analysis?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Customer photos on returns?</li>
+        <li>Product data in PIM/ERP?</li>
+        <li>Review volume?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"SKUs needing descriptions?"</li>
+        <li>"20% less return fraud = ?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Product descriptions at scale = quick win.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">⚖️</span>
+        <span class="industry-name">Legal</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Contract review time/cost?</li>
+        <li>Due diligence burden?</li>
+        <li>Case law search?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Clause bank exists?</li>
+        <li>DMS (iManage etc)?</li>
+        <li>Contract formats?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Contract review checklist?"</li>
+        <li>"Docs per data room?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Risk finding beats drafting. Lawyers trust AI to find, not write.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🏥</span>
+        <span class="industry-name">Healthcare</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Documentation vs patient time?</li>
+        <li>Pre-consult history review?</li>
+        <li>Clinical coding backlog?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>EMR/EHR system?</li>
+        <li>Referral letter format?</li>
+        <li>Ethics approval path?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Auto pre-consult = mins saved?"</li>
+        <li>"Coding error rate?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Non-clinical (admin, coding) = fewer hurdles.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 3: Industry Questions Part 2 -->
+<div class="page">
+  <div class="page-title">🔍 Industry Probing Questions (2 of 2)</div>
+  
+  <div class="three-column">  
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🛡️</span>
+        <span class="industry-name">Insurance</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Time to first claim response?</li>
+        <li>Straightforward claims %?</li>
+        <li>Call centre policy lookup?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Claims data structured?</li>
+        <li>Claimant photo submissions?</li>
+        <li>Core policy admin system?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Cost of fraud slip-through?"</li>
+        <li>"Policies per agent to know?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Call centre Q&A = quick win, high volume, human in loop.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🏗️</span>
+        <span class="industry-name">Engineering</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Finding specs/standards?</li>
+        <li>Rework from missed reqs?</li>
+        <li>Defect documentation?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Tech docs current?</li>
+        <li>Site photos organised?</li>
+        <li>PM system (Procore etc)?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Find clause in 500pg spec?"</li>
+        <li>"% overruns = missed reqs?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Tech doc search resonates — engineers live this pain.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">💰</span>
+        <span class="industry-name">Finance & Banking</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Regulatory reporting time?</li>
+        <li>Fraud false positive rate?</li>
+        <li>Advisor meeting prep?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Transaction data access?</li>
+        <li>Client call recordings?</li>
+        <li>Audit trail requirements?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Hours per report cycle?"</li>
+        <li>"False positive investigation cost?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Meeting notes = low-risk, hours saved weekly.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">👥</span>
+        <span class="industry-name">HR / P&C</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>CVs screened per role?</li>
+        <li>Repeat HR questions?</li>
+        <li>Exit interview themes?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>ATS structured?</li>
+        <li>HR policies searchable?</li>
+        <li>Exit notes format?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"% HR queries = repeats?"</li>
+        <li>"Time to write PD?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Policy Q&A = low-risk. CV screening needs bias chat.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">⚡</span>
+        <span class="industry-name">Utilities & Energy</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Unplanned outage cost/hr?</li>
+        <li>Field worker info access?</li>
+        <li>Regulatory submission time?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Sensor/SCADA data?</li>
+        <li>Field mobile access?</li>
+        <li>Asset imagery location?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"15% faster MTTR = ?"</li>
+        <li>"Vegetation encroachments/yr?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Field worker assistant = high-value, very demonstrable.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🚛</span>
+        <span class="industry-name">Transport & Logistics</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>% routes manually planned?</li>
+        <li>Vehicle downtime cost?</li>
+        <li>"Where's my delivery" load?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Telematics/GPS data?</li>
+        <li>Fleet management system?</li>
+        <li>Driver compliance docs?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Suboptimal route cost?"</li>
+        <li>"Delivery queries per day?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Delivery chatbot = quick prototype, very visible.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🌾</span>
+        <span class="industry-name">Agriculture</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Crop health monitoring?</li>
+        <li>Compliance paperwork?</li>
+        <li>Pest/disease detection speed?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Drone/satellite imagery?</li>
+        <li>Farm management system?</li>
+        <li>Compliance docs location?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Missed disease cost/hectare?"</li>
+        <li>"Compliance forms/season?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Compliance easier to prototype than image analysis.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">💚</span>
+        <span class="industry-name">Not-for-Profit</span>
+      </div>
+      <div class="question-category">Pain Points</div>
+      <ul class="questions">
+        <li>Grant application time?</li>
+        <li>Demonstrating impact?</li>
+        <li>Case note burden?</li>
+      </ul>
+      <div class="question-category">Data & Systems</div>
+      <ul class="questions">
+        <li>Case management system?</li>
+        <li>Program outcome data?</li>
+        <li>Past grants to learn from?</li>
+      </ul>
+      <div class="question-category">Specifics</div>
+      <ul class="questions">
+        <li>"Grants/year? Success rate?"</li>
+        <li>"Case notes per client/week?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> Grant writing = killer use case. Time is their scarcest resource.</div>
+    </div>
+    
+    <div class="industry-section">
+      <div class="industry-header">
+        <span class="industry-icon">🃏</span>
+        <span class="industry-name">Universal / Wildcard</span>
+      </div>
+      <div class="question-category">Works Everywhere</div>
+      <ul class="questions">
+        <li>Meeting transcription & actions</li>
+        <li>Email drafting & replies</li>
+        <li>"Ask the org" knowledge bot</li>
+        <li>Onboarding assistant</li>
+        <li>Policy/procedure Q&A</li>
+        <li>Legacy system documentation</li>
+      </ul>
+      <div class="question-category">Key Questions</div>
+      <ul class="questions">
+        <li>"What do people always ask?"</li>
+        <li>"What's tribal knowledge?"</li>
+        <li>"Where does info get lost?"</li>
+      </ul>
+      <div class="hot-tip"><strong>Tip:</strong> These cross every industry. Great fallback if specific cards don't land.</div>
+    </div>
+  </div>
+  
+  <div class="closing-prompts" style="margin-top: 12px;">
+    <h3>🎬 If You Only Remember 5 Questions...</h3>
+    <ul>
+      <li>"What's the equivalent of this in YOUR world?"</li>
+      <li>"How many times a day/week/month does this happen?"</li>
+      <li>"What system does that data live in?"</li>
+      <li>"Who would be the first user?"</li>
+      <li>"What's the smallest version we could test?"</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Use Case Cards - Print Ready</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      padding: 20px;
+    }
+    
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .no-print {
+        display: none;
+      }
+      .page {
+        page-break-after: always;
+        box-shadow: none !important;
+        margin: 0 !important;
+        padding: 10mm !important;
+      }
+      .page:last-child {
+        page-break-after: avoid;
+      }
+    }
+    
+    .no-print {
+      background: #2563eb;
+      color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    
+    .no-print h1 {
+      margin-bottom: 10px;
+    }
+    
+    .no-print p {
+      margin-bottom: 8px;
+    }
+    
+    .legend {
+      display: flex;
+      gap: 30px;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+    
+    .legend-section h3 {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      margin-bottom: 3px;
+    }
+    
+    .page {
+      background: white;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto 20px auto;
+      padding: 15mm;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 8mm;
+    }
+    
+    .card {
+      border: 2px solid #333;
+      border-radius: 8px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      min-height: 75mm;
+    }
+    
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e5e5e5;
+    }
+    
+    .card-icon {
+      font-size: 20px;
+    }
+    
+    .card-industry {
+      font-size: 11px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #666;
+    }
+    
+    .card-content {
+      font-size: 15px;
+      line-height: 1.4;
+      color: #333;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+    }
+    
+    .card-ratings {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid #e5e5e5;
+      font-size: 11px;
+    }
+    
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    
+    .rating-label {
+      color: #666;
+      font-weight: 500;
+    }
+    
+    .rating-dots {
+      display: flex;
+      gap: 2px;
+    }
+    
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 1.5px solid #666;
+      background: white;
+    }
+    
+    .dot.filled {
+      background: #666;
+    }
+    
+    .complexity .dot.filled { background: #ef4444; border-color: #ef4444; }
+    .complexity .dot { border-color: #ef4444; }
+    
+    .value .dot.filled { background: #22c55e; border-color: #22c55e; }
+    .value .dot { border-color: #22c55e; }
+    
+    .card.blank .card-content {
+      border: 2px dashed #ccc;
+      border-radius: 4px;
+      padding: 10px;
+      color: #999;
+      font-style: italic;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    /* Industry colors */
+    .education { border-color: #3b82f6; }
+    .education .card-header { border-color: #93c5fd; }
+    .education .card-industry { color: #3b82f6; }
+    
+    .it-services { border-color: #8b5cf6; }
+    .it-services .card-header { border-color: #c4b5fd; }
+    .it-services .card-industry { color: #8b5cf6; }
+    
+    .mining { border-color: #f59e0b; }
+    .mining .card-header { border-color: #fcd34d; }
+    .mining .card-industry { color: #f59e0b; }
+    
+    .federal-state { border-color: #dc2626; }
+    .federal-state .card-header { border-color: #fca5a5; }
+    .federal-state .card-industry { color: #dc2626; }
+    
+    .local-govt { border-color: #ea580c; }
+    .local-govt .card-header { border-color: #fdba74; }
+    .local-govt .card-industry { color: #ea580c; }
+    
+    .science { border-color: #0891b2; }
+    .science .card-header { border-color: #67e8f9; }
+    .science .card-industry { color: #0891b2; }
+    
+    .retail { border-color: #16a34a; }
+    .retail .card-header { border-color: #86efac; }
+    .retail .card-industry { color: #16a34a; }
+    
+    .legal { border-color: #4b5563; }
+    .legal .card-header { border-color: #d1d5db; }
+    .legal .card-industry { color: #4b5563; }
+    
+    .healthcare { border-color: #db2777; }
+    .healthcare .card-header { border-color: #f9a8d4; }
+    .healthcare .card-industry { color: #db2777; }
+    
+    .insurance { border-color: #7c3aed; }
+    .insurance .card-header { border-color: #c4b5fd; }
+    .insurance .card-industry { color: #7c3aed; }
+    
+    .engineering { border-color: #ca8a04; }
+    .engineering .card-header { border-color: #fde047; }
+    .engineering .card-industry { color: #ca8a04; }
+    
+    .finance { border-color: #059669; }
+    .finance .card-header { border-color: #6ee7b7; }
+    .finance .card-industry { color: #059669; }
+    
+    .hr { border-color: #0284c7; }
+    .hr .card-header { border-color: #7dd3fc; }
+    .hr .card-industry { color: #0284c7; }
+    
+    .utilities { border-color: #eab308; }
+    .utilities .card-header { border-color: #fef08a; }
+    .utilities .card-industry { color: #eab308; }
+    
+    .transport { border-color: #64748b; }
+    .transport .card-header { border-color: #cbd5e1; }
+    .transport .card-industry { color: #64748b; }
+    
+    .agriculture { border-color: #65a30d; }
+    .agriculture .card-header { border-color: #bef264; }
+    .agriculture .card-industry { color: #65a30d; }
+    
+    .nfp { border-color: #e11d48; }
+    .nfp .card-header { border-color: #fda4af; }
+    .nfp .card-industry { color: #e11d48; }
+    
+    .wildcard { border-color: #6366f1; border-style: dashed; }
+    .wildcard .card-header { border-color: #a5b4fc; }
+    .wildcard .card-industry { color: #6366f1; }
+  </style>
+</head>
+<body>
+
+<div class="no-print">
+  <h1>🎴 AI Use Case Cards</h1>
+  <p>Press <strong>Ctrl+P</strong> (or Cmd+P on Mac) to print. Set margins to "None" or "Minimum" for best results.</p>
+  
+  <div class="legend">
+    <div class="legend-section">
+      <h3>🔴 Complexity (to implement)</h3>
+      <div class="legend-item">
+        <div class="rating-dots complexity"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div>
+        <span>Low - Quick win, minimal integration</span>
+      </div>
+      <div class="legend-item">
+        <div class="rating-dots complexity"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div>
+        <span>Medium - Some integration/data work</span>
+      </div>
+      <div class="legend-item">
+        <div class="rating-dots complexity"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div>
+        <span>High - Significant effort, multiple systems</span>
+      </div>
+    </div>
+    <div class="legend-section">
+      <h3>🟢 Business Value (potential impact)</h3>
+      <div class="legend-item">
+        <div class="rating-dots value"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div>
+        <span>Low - Nice to have, incremental</span>
+      </div>
+      <div class="legend-item">
+        <div class="rating-dots value"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div>
+        <span>Medium - Clear efficiency gains</span>
+      </div>
+      <div class="legend-item">
+        <div class="rating-dots value"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div>
+        <span>High - Strategic, significant ROI</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 1: Education & IT Services -->
+<div class="page">
+  <div class="card education">
+    <div class="card-header">
+      <span class="card-icon">📚</span>
+      <span class="card-industry">Education</span>
+    </div>
+    <div class="card-content">Generating first-draft feedback on student assignments</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card education">
+    <div class="card-header">
+      <span class="card-icon">📚</span>
+      <span class="card-industry">Education</span>
+    </div>
+    <div class="card-content">Answering student admin queries (enrolments, deadlines, policies)</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card education">
+    <div class="card-header">
+      <span class="card-icon">📚</span>
+      <span class="card-industry">Education</span>
+    </div>
+    <div class="card-content">Summarising research papers for literature reviews</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card education">
+    <div class="card-header">
+      <span class="card-icon">📚</span>
+      <span class="card-industry">Education</span>
+    </div>
+    <div class="card-content">Creating personalised learning pathway recommendations</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card education">
+    <div class="card-header">
+      <span class="card-icon">📚</span>
+      <span class="card-industry">Education</span>
+    </div>
+    <div class="card-content">Translating content for ESOL students</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card it-services">
+    <div class="card-header">
+      <span class="card-icon">💻</span>
+      <span class="card-industry">IT Services</span>
+    </div>
+    <div class="card-content">Auto-triaging and routing support tickets</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 2: IT Services & Mining -->
+<div class="page">
+  <div class="card it-services">
+    <div class="card-header">
+      <span class="card-icon">💻</span>
+      <span class="card-industry">IT Services</span>
+    </div>
+    <div class="card-content">Generating documentation from code or system configs</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card it-services">
+    <div class="card-header">
+      <span class="card-icon">💻</span>
+      <span class="card-industry">IT Services</span>
+    </div>
+    <div class="card-content">Drafting RFP/tender responses from past submissions</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card it-services">
+    <div class="card-header">
+      <span class="card-icon">💻</span>
+      <span class="card-industry">IT Services</span>
+    </div>
+    <div class="card-content">Root cause analysis from log files</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card it-services">
+    <div class="card-header">
+      <span class="card-icon">💻</span>
+      <span class="card-industry">IT Services</span>
+    </div>
+    <div class="card-content">Chatbot for internal IT service desk</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card mining">
+    <div class="card-header">
+      <span class="card-icon">⛏️</span>
+      <span class="card-industry">Mining</span>
+    </div>
+    <div class="card-content">Predictive maintenance alerts from equipment sensor data</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card mining">
+    <div class="card-header">
+      <span class="card-icon">⛏️</span>
+      <span class="card-industry">Mining</span>
+    </div>
+    <div class="card-content">Searching safety incident history in natural language</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 3: Mining & Federal/State Govt -->
+<div class="page">
+  <div class="card mining">
+    <div class="card-header">
+      <span class="card-icon">⛏️</span>
+      <span class="card-industry">Mining</span>
+    </div>
+    <div class="card-content">Summarising geological survey reports</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card mining">
+    <div class="card-header">
+      <span class="card-icon">⛏️</span>
+      <span class="card-industry">Mining</span>
+    </div>
+    <div class="card-content">Environmental compliance report drafting</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card mining">
+    <div class="card-header">
+      <span class="card-icon">⛏️</span>
+      <span class="card-industry">Mining</span>
+    </div>
+    <div class="card-content">Shift handover note generation</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card federal-state">
+    <div class="card-header">
+      <span class="card-icon">🏛️</span>
+      <span class="card-industry">Federal/State Govt</span>
+    </div>
+    <div class="card-content">Drafting ministerial briefing notes from source documents</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card federal-state">
+    <div class="card-header">
+      <span class="card-icon">🏛️</span>
+      <span class="card-industry">Federal/State Govt</span>
+    </div>
+    <div class="card-content">FOI request redaction and response assistance</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card federal-state">
+    <div class="card-header">
+      <span class="card-icon">🏛️</span>
+      <span class="card-industry">Federal/State Govt</span>
+    </div>
+    <div class="card-content">Policy document comparison and change detection</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 4: Federal/State Govt & Local Govt -->
+<div class="page">
+  <div class="card federal-state">
+    <div class="card-header">
+      <span class="card-icon">🏛️</span>
+      <span class="card-industry">Federal/State Govt</span>
+    </div>
+    <div class="card-content">Summarising public consultation submissions</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card federal-state">
+    <div class="card-header">
+      <span class="card-icon">🏛️</span>
+      <span class="card-industry">Federal/State Govt</span>
+    </div>
+    <div class="card-content">Translating government content into Plain English</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card federal-state">
+    <div class="card-header">
+      <span class="card-icon">🏛️</span>
+      <span class="card-industry">Federal/State Govt</span>
+    </div>
+    <div class="card-content">Cross-agency knowledge search</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card federal-state">
+    <div class="card-header">
+      <span class="card-icon">🏛️</span>
+      <span class="card-industry">Federal/State Govt</span>
+    </div>
+    <div class="card-content">Fraud and anomaly detection in claims/payments</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card local-govt">
+    <div class="card-header">
+      <span class="card-icon">🏘️</span>
+      <span class="card-industry">Local Government</span>
+    </div>
+    <div class="card-content">Triaging citizen requests (fix my street, permits, complaints)</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card local-govt">
+    <div class="card-header">
+      <span class="card-icon">🏘️</span>
+      <span class="card-industry">Local Government</span>
+    </div>
+    <div class="card-content">Assessing development applications against planning rules</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 5: Local Govt & Science -->
+<div class="page">
+  <div class="card local-govt">
+    <div class="card-header">
+      <span class="card-icon">🏘️</span>
+      <span class="card-industry">Local Government</span>
+    </div>
+    <div class="card-content">Generating meeting minutes from council recordings</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card local-govt">
+    <div class="card-header">
+      <span class="card-icon">🏘️</span>
+      <span class="card-industry">Local Government</span>
+    </div>
+    <div class="card-content">Drafting community newsletter content</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card local-govt">
+    <div class="card-header">
+      <span class="card-icon">🏘️</span>
+      <span class="card-industry">Local Government</span>
+    </div>
+    <div class="card-content">Searching bylaws and regulations in natural language</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card science">
+    <div class="card-header">
+      <span class="card-icon">🔬</span>
+      <span class="card-industry">Science & Research</span>
+    </div>
+    <div class="card-content">Extracting methods and findings across multiple papers</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card science">
+    <div class="card-header">
+      <span class="card-icon">🔬</span>
+      <span class="card-industry">Science & Research</span>
+    </div>
+    <div class="card-content">Lab notebook search and knowledge retrieval</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card science">
+    <div class="card-header">
+      <span class="card-icon">🔬</span>
+      <span class="card-industry">Science & Research</span>
+    </div>
+    <div class="card-content">Grant application drafting assistance</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 6: Science & Retail -->
+<div class="page">
+  <div class="card science">
+    <div class="card-header">
+      <span class="card-icon">🔬</span>
+      <span class="card-industry">Science & Research</span>
+    </div>
+    <div class="card-content">Data cleaning and anomaly flagging in datasets</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card science">
+    <div class="card-header">
+      <span class="card-icon">🔬</span>
+      <span class="card-industry">Science & Research</span>
+    </div>
+    <div class="card-content">Generating plain-language research summaries for public</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card retail">
+    <div class="card-header">
+      <span class="card-icon">🛒</span>
+      <span class="card-industry">Retail</span>
+    </div>
+    <div class="card-content">AI reviews customer returns photos to auto-approve refunds</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card retail">
+    <div class="card-header">
+      <span class="card-icon">🛒</span>
+      <span class="card-industry">Retail</span>
+    </div>
+    <div class="card-content">Product description generation from specs</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card retail">
+    <div class="card-header">
+      <span class="card-icon">🛒</span>
+      <span class="card-industry">Retail</span>
+    </div>
+    <div class="card-content">Customer sentiment analysis from reviews</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card retail">
+    <div class="card-header">
+      <span class="card-icon">🛒</span>
+      <span class="card-industry">Retail</span>
+    </div>
+    <div class="card-content">Demand forecasting from sales patterns</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 7: Retail & Legal -->
+<div class="page">
+  <div class="card retail">
+    <div class="card-header">
+      <span class="card-icon">🛒</span>
+      <span class="card-industry">Retail</span>
+    </div>
+    <div class="card-content">Personalised product recommendations</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card legal">
+    <div class="card-header">
+      <span class="card-icon">⚖️</span>
+      <span class="card-industry">Legal</span>
+    </div>
+    <div class="card-content">Contract clause extraction and risk flagging</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card legal">
+    <div class="card-header">
+      <span class="card-icon">⚖️</span>
+      <span class="card-industry">Legal</span>
+    </div>
+    <div class="card-content">Due diligence document review</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card legal">
+    <div class="card-header">
+      <span class="card-icon">⚖️</span>
+      <span class="card-industry">Legal</span>
+    </div>
+    <div class="card-content">Case law search and summarisation</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card legal">
+    <div class="card-header">
+      <span class="card-icon">⚖️</span>
+      <span class="card-industry">Legal</span>
+    </div>
+    <div class="card-content">First-draft legal correspondence</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card legal">
+    <div class="card-header">
+      <span class="card-icon">⚖️</span>
+      <span class="card-industry">Legal</span>
+    </div>
+    <div class="card-content">Time entry narrative generation</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 8: Healthcare & Insurance -->
+<div class="page">
+  <div class="card healthcare">
+    <div class="card-header">
+      <span class="card-icon">🏥</span>
+      <span class="card-industry">Healthcare</span>
+    </div>
+    <div class="card-content">Summarising patient notes before appointments</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card healthcare">
+    <div class="card-header">
+      <span class="card-icon">🏥</span>
+      <span class="card-industry">Healthcare</span>
+    </div>
+    <div class="card-content">Clinical coding assistance from discharge summaries</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card healthcare">
+    <div class="card-header">
+      <span class="card-icon">🏥</span>
+      <span class="card-industry">Healthcare</span>
+    </div>
+    <div class="card-content">Patient FAQ chatbot (non-diagnostic)</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card healthcare">
+    <div class="card-header">
+      <span class="card-icon">🏥</span>
+      <span class="card-industry">Healthcare</span>
+    </div>
+    <div class="card-content">Extracting key info from referral letters</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card healthcare">
+    <div class="card-header">
+      <span class="card-icon">🏥</span>
+      <span class="card-industry">Healthcare</span>
+    </div>
+    <div class="card-content">Staff rostering optimisation</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card insurance">
+    <div class="card-header">
+      <span class="card-icon">🛡️</span>
+      <span class="card-industry">Insurance</span>
+    </div>
+    <div class="card-content">Auto-generating first-draft claim assessments</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 9: Insurance & Engineering -->
+<div class="page">
+  <div class="card insurance">
+    <div class="card-header">
+      <span class="card-icon">🛡️</span>
+      <span class="card-industry">Insurance</span>
+    </div>
+    <div class="card-content">Fraud indicator detection in claims</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card insurance">
+    <div class="card-header">
+      <span class="card-icon">🛡️</span>
+      <span class="card-industry">Insurance</span>
+    </div>
+    <div class="card-content">Policy document Q&A for call centre staff</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card insurance">
+    <div class="card-header">
+      <span class="card-icon">🛡️</span>
+      <span class="card-industry">Insurance</span>
+    </div>
+    <div class="card-content">Underwriting data extraction from applications</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card insurance">
+    <div class="card-header">
+      <span class="card-icon">🛡️</span>
+      <span class="card-industry">Insurance</span>
+    </div>
+    <div class="card-content">Customer communication drafting</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card engineering">
+    <div class="card-header">
+      <span class="card-icon">🏗️</span>
+      <span class="card-industry">Engineering</span>
+    </div>
+    <div class="card-content">Searching technical documentation in natural language</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card engineering">
+    <div class="card-header">
+      <span class="card-icon">🏗️</span>
+      <span class="card-industry">Engineering</span>
+    </div>
+    <div class="card-content">Extracting requirements from specs and standards</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 10: Engineering & Finance -->
+<div class="page">
+  <div class="card engineering">
+    <div class="card-header">
+      <span class="card-icon">🏗️</span>
+      <span class="card-industry">Engineering</span>
+    </div>
+    <div class="card-content">Site diary summarisation</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card engineering">
+    <div class="card-header">
+      <span class="card-icon">🏗️</span>
+      <span class="card-industry">Engineering</span>
+    </div>
+    <div class="card-content">Defect photo classification</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card engineering">
+    <div class="card-header">
+      <span class="card-icon">🏗️</span>
+      <span class="card-industry">Engineering</span>
+    </div>
+    <div class="card-content">Health and safety compliance checking</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card finance">
+    <div class="card-header">
+      <span class="card-icon">💰</span>
+      <span class="card-industry">Finance & Banking</span>
+    </div>
+    <div class="card-content">Anomaly detection in transaction patterns</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card finance">
+    <div class="card-header">
+      <span class="card-icon">💰</span>
+      <span class="card-industry">Finance & Banking</span>
+    </div>
+    <div class="card-content">Regulatory reporting assistance</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card finance">
+    <div class="card-header">
+      <span class="card-icon">💰</span>
+      <span class="card-industry">Finance & Banking</span>
+    </div>
+    <div class="card-content">Customer query summarisation for advisors</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 11: Finance & HR -->
+<div class="page">
+  <div class="card finance">
+    <div class="card-header">
+      <span class="card-icon">💰</span>
+      <span class="card-industry">Finance & Banking</span>
+    </div>
+    <div class="card-content">Credit risk document analysis</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card finance">
+    <div class="card-header">
+      <span class="card-icon">💰</span>
+      <span class="card-industry">Finance & Banking</span>
+    </div>
+    <div class="card-content">Meeting note generation from client calls</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card hr">
+    <div class="card-header">
+      <span class="card-icon">👥</span>
+      <span class="card-industry">HR / People & Culture</span>
+    </div>
+    <div class="card-content">Screening CVs against role criteria</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card hr">
+    <div class="card-header">
+      <span class="card-icon">👥</span>
+      <span class="card-industry">HR / People & Culture</span>
+    </div>
+    <div class="card-content">Drafting position descriptions</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card hr">
+    <div class="card-header">
+      <span class="card-icon">👥</span>
+      <span class="card-industry">HR / People & Culture</span>
+    </div>
+    <div class="card-content">Policy Q&A bot for employees</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card hr">
+    <div class="card-header">
+      <span class="card-icon">👥</span>
+      <span class="card-industry">HR / People & Culture</span>
+    </div>
+    <div class="card-content">Onboarding checklist personalisation</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 12: HR & Utilities -->
+<div class="page">
+  <div class="card hr">
+    <div class="card-header">
+      <span class="card-icon">👥</span>
+      <span class="card-industry">HR / People & Culture</span>
+    </div>
+    <div class="card-content">Exit interview theme analysis</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card utilities">
+    <div class="card-header">
+      <span class="card-icon">⚡</span>
+      <span class="card-industry">Utilities & Energy</span>
+    </div>
+    <div class="card-content">Outage prediction from network sensor data</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card utilities">
+    <div class="card-header">
+      <span class="card-icon">⚡</span>
+      <span class="card-industry">Utilities & Energy</span>
+    </div>
+    <div class="card-content">Customer call summarisation</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card utilities">
+    <div class="card-header">
+      <span class="card-icon">⚡</span>
+      <span class="card-industry">Utilities & Energy</span>
+    </div>
+    <div class="card-content">Vegetation encroachment detection from imagery</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card utilities">
+    <div class="card-header">
+      <span class="card-icon">⚡</span>
+      <span class="card-industry">Utilities & Energy</span>
+    </div>
+    <div class="card-content">Regulatory submission drafting</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card utilities">
+    <div class="card-header">
+      <span class="card-icon">⚡</span>
+      <span class="card-industry">Utilities & Energy</span>
+    </div>
+    <div class="card-content">Field worker knowledge assistant</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 13: Transport & Agriculture -->
+<div class="page">
+  <div class="card transport">
+    <div class="card-header">
+      <span class="card-icon">🚛</span>
+      <span class="card-industry">Transport & Logistics</span>
+    </div>
+    <div class="card-content">Route optimisation from delivery data</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card transport">
+    <div class="card-header">
+      <span class="card-icon">🚛</span>
+      <span class="card-industry">Transport & Logistics</span>
+    </div>
+    <div class="card-content">Maintenance prediction for fleet vehicles</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card transport">
+    <div class="card-header">
+      <span class="card-icon">🚛</span>
+      <span class="card-industry">Transport & Logistics</span>
+    </div>
+    <div class="card-content">Customer delivery inquiry chatbot</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card transport">
+    <div class="card-header">
+      <span class="card-icon">🚛</span>
+      <span class="card-industry">Transport & Logistics</span>
+    </div>
+    <div class="card-content">Incident report classification</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card transport">
+    <div class="card-header">
+      <span class="card-icon">🚛</span>
+      <span class="card-industry">Transport & Logistics</span>
+    </div>
+    <div class="card-content">Driver compliance documentation review</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card agriculture">
+    <div class="card-header">
+      <span class="card-icon">🌾</span>
+      <span class="card-industry">Agriculture</span>
+    </div>
+    <div class="card-content">Crop health analysis from drone/satellite imagery</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 14: Agriculture & NFP -->
+<div class="page">
+  <div class="card agriculture">
+    <div class="card-header">
+      <span class="card-icon">🌾</span>
+      <span class="card-industry">Agriculture</span>
+    </div>
+    <div class="card-content">Weather pattern impact forecasting</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card agriculture">
+    <div class="card-header">
+      <span class="card-icon">🌾</span>
+      <span class="card-industry">Agriculture</span>
+    </div>
+    <div class="card-content">Supply chain document processing</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card agriculture">
+    <div class="card-header">
+      <span class="card-icon">🌾</span>
+      <span class="card-industry">Agriculture</span>
+    </div>
+    <div class="card-content">Pest and disease identification from photos</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card agriculture">
+    <div class="card-header">
+      <span class="card-icon">🌾</span>
+      <span class="card-industry">Agriculture</span>
+    </div>
+    <div class="card-content">Compliance record keeping assistance</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card nfp">
+    <div class="card-header">
+      <span class="card-icon">💚</span>
+      <span class="card-industry">Not-for-Profit</span>
+    </div>
+    <div class="card-content">Grant application drafting and editing</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card nfp">
+    <div class="card-header">
+      <span class="card-icon">💚</span>
+      <span class="card-industry">Not-for-Profit</span>
+    </div>
+    <div class="card-content">Donor communication personalisation</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 15: NFP & Wildcards -->
+<div class="page">
+  <div class="card nfp">
+    <div class="card-header">
+      <span class="card-icon">💚</span>
+      <span class="card-industry">Not-for-Profit</span>
+    </div>
+    <div class="card-content">Volunteer matching and scheduling</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card nfp">
+    <div class="card-header">
+      <span class="card-icon">💚</span>
+      <span class="card-industry">Not-for-Profit</span>
+    </div>
+    <div class="card-content">Impact report generation from program data</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card nfp">
+    <div class="card-header">
+      <span class="card-icon">💚</span>
+      <span class="card-industry">Not-for-Profit</span>
+    </div>
+    <div class="card-content">Case note summarisation for social workers</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card wildcard">
+    <div class="card-header">
+      <span class="card-icon">🃏</span>
+      <span class="card-industry">Wildcard</span>
+    </div>
+    <div class="card-content">Internal "ask the organisation" bot trained on your own documents</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card wildcard">
+    <div class="card-header">
+      <span class="card-icon">🃏</span>
+      <span class="card-industry">Wildcard</span>
+    </div>
+    <div class="card-content">Translating technical jargon into plain language</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card wildcard">
+    <div class="card-header">
+      <span class="card-icon">🃏</span>
+      <span class="card-industry">Wildcard</span>
+    </div>
+    <div class="card-content">Onboarding assistant for new staff</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 16: Wildcards & Blanks -->
+<div class="page">
+  <div class="card wildcard">
+    <div class="card-header">
+      <span class="card-icon">🃏</span>
+      <span class="card-industry">Wildcard</span>
+    </div>
+    <div class="card-content">Meeting transcription and action item extraction</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card wildcard">
+    <div class="card-header">
+      <span class="card-icon">🃏</span>
+      <span class="card-industry">Wildcard</span>
+    </div>
+    <div class="card-content">Email drafting and reply suggestions</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card wildcard">
+    <div class="card-header">
+      <span class="card-icon">🃏</span>
+      <span class="card-industry">Wildcard</span>
+    </div>
+    <div class="card-content">Legacy system documentation extraction</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot filled"></div><div class="dot filled"></div><div class="dot filled"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card wildcard blank">
+    <div class="card-header">
+      <span class="card-icon">🃏</span>
+      <span class="card-industry">Wildcard</span>
+    </div>
+    <div class="card-content">Write your own use case...</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card wildcard blank">
+    <div class="card-header">
+      <span class="card-icon">🃏</span>
+      <span class="card-industry">Wildcard</span>
+    </div>
+    <div class="card-content">Write your own use case...</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+  
+  <div class="card wildcard blank">
+    <div class="card-header">
+      <span class="card-icon">🃏</span>
+      <span class="card-industry">Wildcard</span>
+    </div>
+    <div class="card-content">Write your own use case...</div>
+    <div class="card-ratings">
+      <div class="rating complexity"><span class="rating-label">Complexity</span><div class="rating-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>
+      <div class="rating value"><span class="rating-label">Value</span><div class="rating-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
