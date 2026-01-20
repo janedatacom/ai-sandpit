@@ -6,6 +6,8 @@ This repository hosts twelve chapters of hands-on material for the Datacom AI Ma
 - `Activities`: open-ended prompts to explore additional angles.
 - `Exercises`: short practice tasks for repetition and mastery.
 
+See [LAB_INSTRUCTIONS.md](LAB_INSTRUCTIONS.md) for student-facing lab instructions.
+
 ## Getting Started
 
 1. Pick a chapter folder (Chapter01 through Chapter12).
