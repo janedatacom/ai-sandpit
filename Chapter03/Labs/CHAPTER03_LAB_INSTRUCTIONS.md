@@ -37,11 +37,9 @@ By the end of this lab you can:
 - [ ] Open the OpenShift console in your browser.
 
 - [ ] Sign in with your provided credentials to the Axis Portal (Datacom Training) or other portal (Customer Training), then choose **AI Lab - OpenShift Console (Web)**.
-
     ![Axis Portal: OpenShift Console link](image-20.png)
 
 - [ ] Sign in with your provided credentials to AI Lab - OpenShift Console (Web).
-
     ![OpenShift landing page after login](image-3.png)
 
 ---
@@ -52,12 +50,10 @@ By the end of this lab you can:
 When prompted, click **Get started** to begin the tour.
 
 - [ ] Start the tour and click through the next few pop-up screens.
-
     ![Start guided tour prompt](image-30.png)
 
 - [ ] Click **Next** through the tour screens.
 - [ ] Pay attention to the different **Perspectives** (Administrator vs Developer).
-
     ![Perspective switcher (Administrator/Developer)](image-31.png)
 
 Along the way you’ll see:
@@ -73,7 +69,6 @@ Along the way you’ll see:
   ![You're ready to go](image-37.png)
 
 - [ ] Finish the tour (e.g., **Okay, got it**).
-
     ![Create a pod (overview)](image-38.png)
 
 ### 3) Create your project and pod (via GUI or CLI)
@@ -108,12 +103,10 @@ Along the way you’ll see:
 Open the built-in terminal:
 
 - [ ] Click the `>_` icon (top-right) to open the **Command Line Interface**.
-
     ![Open the built-in web terminal](image-15.png)
 
-At the bottom of the screen you should see a terminal area.
-
-![CLI terminal](image-16.png)
+- [ ] Confirm the terminal panel is visible at the bottom of the screen.
+    ![CLI terminal](image-16.png)
 
 This is where you run `oc` commands to create and manage resources.
 
