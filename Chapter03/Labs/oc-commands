@@ -1,0 +1,1 @@
+oc run student1pod --image=registry.access.redhat.com/ubi9/ubi --restart=Never
