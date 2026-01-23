@@ -47,6 +47,7 @@ By the end of this lab you can:
 ---
 
 ### 2) Take the guided tour (Developer Console)
+
 ![Step 2 Powerpoint page](image-7.png)
 
 When prompted, click **Get started** to begin the tour.
