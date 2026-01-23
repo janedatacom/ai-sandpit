@@ -37,9 +37,11 @@ By the end of this lab you can:
 - [ ] Open the OpenShift console in your browser.
 
 - [ ] Sign in with your provided credentials to the Axis Portal (Datacom Training) or other portal (Customer Training), then choose **AI Lab - OpenShift Console (Web)**.
+
     ![Axis Portal: OpenShift Console link](image-20.png)
 
 - [ ] Sign in with your provided credentials to AI Lab - OpenShift Console (Web).
+
     ![OpenShift landing page after login](image-3.png)
 
 ---
@@ -50,50 +52,65 @@ By the end of this lab you can:
 When prompted, click **Get started** to begin the tour.
 
 - [ ] Start the tour and click through the next few pop-up screens.
+
     ![Start guided tour prompt](image-30.png)
 
 - [ ] Click **Next** through the tour screens.
 - [ ] Pay attention to the different **Perspectives** (Administrator vs Developer).
+
     ![Perspective switcher (Administrator/Developer)](image-31.png)
 
 Along the way you’ll see:
 - Where to find metrics about application performance.
-  ![Observe](image-32.png)
+
+    ![Observe](image-32.png)
 - How to search and list resources in your project.
-  ![Search for resources in your project](image-33.png)
+
+    ![Search for resources in your project](image-33.png)
 - How to use command line tools (CLI) to create and check on resources.
-  ![Web Terminal](image-34.png)
+
+    ![Web Terminal](image-34.png)
 - Where to get help for quick starts, restarting the tour, deploying applications, etc.
-  ![Help page](image-35.png)
+
+    ![Help page](image-35.png)
 - Where to set up your preferences (default views, colour, etc.).
-  ![You're ready to go](image-37.png)
+
+    ![You're ready to go](image-37.png)
 
 - [ ] Finish the tour (e.g., **Okay, got it**).
+
     ![Create a pod (overview)](image-38.png)
 
 ### 3) Create your project and pod (via GUI or CLI)
 **GUI option**
 
 - [ ] Go to **Administrator** perspective.
+
     ![Switch to Administrator perspective](image-21.png)
 
 - [ ] Go to **Workloads** → **Pods**.
+
     ![Navigate to Workloads > Pods](image-22.png)
 
 - [ ] Click **Create Pod**.
+
     ![Create Pod button](image-23.png)
 
 - [ ] Review (and optionally edit) the YAML that is shown.
+
     ![Pod YAML editor](image-24.png)
 
 - [ ] Give the pod a name like `student1pod` (use your student number).
+
     ![Pod name field](image-26.png)
 
 - [ ] Review the right-hand schema/help panel (optional).
 - [ ] Click **Create**.
+
     ![Create pod confirmation](image-27.png)
 
 - [ ] Wait for the pod to be created.
+
     ![Pod status after create](image-28.png)
 
 - [ ] Confirm the status changes from **Pending/ContainerCreating** to **Running**.
@@ -103,9 +120,11 @@ Along the way you’ll see:
 Open the built-in terminal:
 
 - [ ] Click the `>_` icon (top-right) to open the **Command Line Interface**.
+
     ![Open the built-in web terminal](image-15.png)
 
 - [ ] Confirm the terminal panel is visible at the bottom of the screen.
+
     ![CLI terminal](image-16.png)
 
 This is where you run `oc` commands to create and manage resources.
