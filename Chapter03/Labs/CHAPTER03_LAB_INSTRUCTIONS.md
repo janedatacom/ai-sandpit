@@ -106,17 +106,17 @@ Along the way you’ll see:
     ![top menu with command line](image-47.png)
     ![CLI Prompt](image-48.png)
 
-- [ ] Type the ```oc new-project``` command in the CLI and hit enter
+- [ ] Type the `oc new-project` command in the CLI and hit enter.
 
     ![cli command](image-46.png)
 
     ```bash
     oc new-project ai-students \
-    --display-name="AI Training – Students" \
-    --description="Projects for student notebooks and AI experiments"
+      --display-name="AI Training – Students" \
+      --description="Projects for student notebooks and AI experiments"
     ```
 
-- [ ] Review your project here in Developer Prespective --> Project.
+- [ ] Review your project here in Developer Perspective → Project.
 
     ![Project view from menu](image-50.png)
 
@@ -126,10 +126,11 @@ Along the way you’ll see:
 
 ### 4) Create a Workbench with a Jupyter Image
 
-![Step 5 powerpoint](image-53.png)
+![Step 4 PowerPoint page](image-53.png)
 
-- [ ] Give the workbench a name like `Study1`, provide a description and choose and image 
-    ![Pod name field](image-54.png)
+- [ ] Give the workbench a name like `Study1`, provide a description, and choose an image.
+
+    ![Workbench name, description, and image](image-54.png)
 
 - [ ] Image Options - choose one with Jupyter, Data Science for eg.
 
