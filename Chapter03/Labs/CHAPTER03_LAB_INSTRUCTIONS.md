@@ -78,103 +78,105 @@ Along the way you’ll see:
 
     ![You're ready to go](image-37.png)
 
-- [ ] Finish the tour (e.g., **Okay, got it**).
+- [ ] Finish the tour (**Okay, got it**).
 
     ![Create a pod (overview)](image-38.png)
 
-### 3) Create your project and pod (via GUI or CLI)
+### 3) Create your project (via GUI or CLI)
+![Step 3 Powerpoint page](image-49.png)
+
 **GUI option**
 
-- [ ] Go to **Administrator** perspective.
+- [ ] Go to **Developer** perspective.
 
-    ![Switch to Administrator perspective](image-21.png)
+    ![Developer perspective and choose Topology](image-42.png)
 
-- [ ] Go to **Workloads** → **Pods**.
+- [ ] Create a **Project**, enter name, display name and description and click Create
 
-    ![Navigate to Workloads > Pods](image-22.png)
+    ![Enter the name, display name and description](image-43.png)
 
-- [ ] Click **Create Pod**.
+- [ ] Your project has been created
 
-    ![Create Pod button](image-23.png)
+    ![You Project is created](image-44.png)
 
-- [ ] Review (and optionally edit) the YAML that is shown.
+**CLI option**
+- [ ] You can also create a project via the Command Line Interface (CLI). 
+      Start with the CLI Button from the top left menu.
 
-    ![Pod YAML editor](image-24.png)
+    ![top menu with command line](image-47.png)
+    ![CLI Prompt](image-48.png)
 
-- [ ] Give the pod a name like `student1pod` (use your student number).
+- [ ] Type the ```oc new-project``` command in the CLI and hit enter
 
-    ![Pod name field](image-26.png)
+    ![cli command](image-46.png)
 
-- [ ] Review the right-hand schema/help panel (optional).
-- [ ] Click **Create**.
+    ```bash
+    oc new-project ai-students \
+    --display-name="AI Training – Students" \
+    --description="Projects for student notebooks and AI experiments"
+    ```
 
-    ![Create pod confirmation](image-27.png)
+- [ ] Review your project here in Developer Prespective --> Project.
 
-- [ ] Wait for the pod to be created.
+    ![Project view from menu](image-50.png)
+
+- [ ] See your project information and metrics
+
+    ![Project Screen](image-51.png)
+
+### 4) Create a Workbench with a Jupyter Image
+
+![Step 5 powerpoint](image-53.png)
+
+- [ ] Give the workbench a name like `Study1`, provide a description and choose and image 
+    ![Pod name field](image-54.png)
+
+- [ ] Image Options - choose one with Jupyter, Data Science for eg.
+
+    ![Workbench image](image-55.png)
+
+- [ ] You can also choose the version of python
+
+    ![Version of Python](image-58.png)
+
+- [ ] Leave everything else as default - deployment size, accelerator
+
+    ![Deployment size](image-56.png)
+
+- [ ] Environment variables, cluster storage and connections
+
+    ![Then Enviro vars, cluster and connections](image-57.png)
+
+- [ ] Click **Create Workbench**.
+
+    ![Create workbench button](image-59.png)
+
+- [ ] Wait for the project to be created.
 
     ![Pod status after create](image-28.png)
 
-- [ ] Confirm the status changes from **Pending/ContainerCreating** to **Running**.
+- [ ] Your project is not created and listed.
 
-**CLI option**
-
-Open the built-in terminal:
-
-- [ ] Click the `>_` icon (top-right) to open the **Command Line Interface**.
-
-    ![Open the built-in web terminal](image-15.png)
-
-- [ ] Confirm the terminal panel is visible at the bottom of the screen.
-
-    ![CLI terminal](image-16.png)
-
-This is where you run `oc` commands to create and manage resources.
-
-Run a few basic commands (replace `1` with your student number):
-
-```bash
-oc whoami
-oc project
-
-# Create (or switch to) your project/namespace
-oc new-project student1
-
-# Create a simple pod
-oc run student1pod --image=registry.access.redhat.com/ubi9/ubi --restart=Never
-
-# Check status
-oc get pods
-```
-
-Tip: the exact pod command is also in `oc-commands` in this folder.
-
-> If you see a **forbidden** or permissions error: ask your facilitator/admin to grant access or provide a pre-created project for you.
-
----
-
-### 4) Create your Jupyter workspace
-
-- [ ] Create your workspace using an image that includes Jupyter Notebooks.
-
-> Facilitator note: Add the exact steps for your environment here (OpenShift AI / Workbenches / image name / size limits / project naming conventions).
-
----
+    ![new project listed](image-60.png)
 
 ### 5) Explore Jupyter Notebooks
 
-- [ ] Launch Jupyter.
-- [ ] Create a notebook.
-- [ ] Run a first Python cell.
+![Step 5 - powerpoint slide](image-61.png)
 
+- [ ] From your previous step 4, choose the Project Workbench
 
+    ![Project workbench](image-62.png)
 
----
+- [ ] and click on the Workbench (Study1)
 
-## Save your work
+    ![Study1 workbench](image-63.png)
 
-- [ ] Save your notes in this folder (or a file like `my-notes.md`).
+- [ ] Choose Python Notebook
 
-## Deliverables
+    ![Jupyter notebook icon](image-64.png)
 
-- Notes or screenshots showing you successfully logged in and accessed the CLI terminal
-- (Optional) Evidence of a running Jupyter workspace/notebook
+- [ ] Write some code, rename the file, create and move cells, experiment with code
+
+    ![Jupyter Code example](image-65.png)
+
+**Lab Completed**
