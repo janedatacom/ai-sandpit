@@ -30,7 +30,7 @@ By the end of this lab you can:
 
 ## Lab steps
 
-![Lab Overview](image-29.png)
+![Lab Overview](assets/lab-overview.png)
 
 ### 1) Log in to OpenShift
 
@@ -38,77 +38,77 @@ By the end of this lab you can:
 
 - [ ] Sign in with your provided credentials to the Axis Portal (Datacom Training) or other portal (Customer Training), then choose **AI Lab - OpenShift Console (Web)**.
 
-    ![Axis Portal: OpenShift Console link](image-20.png)
+    ![Axis Portal: OpenShift Console link](assets/axis-portal-openshift-console-link.png)
 
 - [ ] Sign in with your provided credentials to AI Lab - OpenShift Console (Web).
 
-    ![OpenShift landing page after login](image-3.png)
+    ![OpenShift landing page after login](assets/openshift-landing-page-after-login.png)
 
 ---
 
 ### 2) Take the guided tour (Developer Console)
 
-![Step 2 Powerpoint page](image-7.png)
+![Step 2 Powerpoint page](assets/step-2-powerpoint-page.png)
 
 When prompted, click **Get started** to begin the tour.
 
 - [ ] Start the tour and click through the next few pop-up screens.
 
-    ![Start guided tour prompt](image-30.png)
+    ![Start guided tour prompt](assets/start-guided-tour-prompt.png)
 
 - [ ] Click **Next** through the tour screens.
 - [ ] Pay attention to the different **Perspectives** (Administrator vs Developer).
 
-    ![Perspective switcher (Administrator/Developer)](image-31.png)
+    ![Perspective switcher (Administrator/Developer)](assets/perspective-switcher-administrator-developer.png)
 
 Along the way you’ll see:
 - Where to find metrics about application performance.
 
-    ![Observe](image-32.png)
+    ![Observe](assets/observe.png)
 - How to search and list resources in your project.
 
-    ![Search for resources in your project](image-33.png)
+    ![Search for resources in your project](assets/search-resources-in-project.png)
 - How to use command line tools (CLI) to create and check on resources.
 
-    ![Web Terminal](image-34.png)
+    ![Web Terminal](assets/web-terminal.png)
 - Where to get help for quick starts, restarting the tour, deploying applications, etc.
 
-    ![Help page](image-35.png)
+    ![Help page](assets/help-page.png)
 - Where to set up your preferences (default views, colour, etc.).
 
-    ![You're ready to go](image-37.png)
+    ![You're ready to go](assets/youre-ready-to-go.png)
 
 - [ ] Finish the tour (**Okay, got it**).
 
-    ![Create a pod (overview)](image-38.png)
+    ![Create a pod (overview)](assets/create-a-pod-overview.png)
 
 ### 3) Create your project (via GUI or CLI)
-![Step 3 Powerpoint page](image-49.png)
+![Step 3 Powerpoint page](assets/step-3-powerpoint-page.png)
 
 **GUI option**
 
 - [ ] Go to **Developer** perspective.
 
-    ![Developer perspective and choose Topology](image-42.png)
+    ![Developer perspective and choose Topology](assets/developer-perspective-topology.png)
 
 - [ ] Create a **Project**, enter name, display name and description and click Create
 
-    ![Enter the name, display name and description](image-43.png)
+    ![Enter the name, display name and description](assets/create-project-enter-details.png)
 
 - [ ] Your project has been created
 
-    ![You Project is created](image-44.png)
+    ![You Project is created](assets/project-created.png)
 
 **CLI option**
 - [ ] You can also create a project via the Command Line Interface (CLI). 
       Start with the CLI Button from the top left menu.
 
-    ![top menu with command line](image-47.png)
-    ![CLI Prompt](image-48.png)
+    ![top menu with command line](assets/top-menu-command-line.png)
+    ![CLI Prompt](assets/cli-prompt.png)
 
 - [ ] Type the `oc new-project` command in the CLI and hit enter.
 
-    ![cli command](image-46.png)
+    ![cli command](assets/cli-command.png)
 
     ```bash
     oc new-project ai-students \
@@ -118,66 +118,66 @@ Along the way you’ll see:
 
 - [ ] Review your project here in Developer Perspective → Project.
 
-    ![Project view from menu](image-50.png)
+    ![Project view from menu](assets/project-view-menu.png)
 
 - [ ] See your project information and metrics
 
-    ![Project Screen](image-51.png)
+    ![Project Screen](assets/project-screen.png)
 
 ### 4) Create a Workbench with a Jupyter Image
 
-![Step 4 PowerPoint page](image-53.png)
+![Step 4 PowerPoint page](assets/step-4-powerpoint-page.png)
 
 - [ ] Give the workbench a name like `Study1`, provide a description, and choose an image.
 
-    ![Workbench name, description, and image](image-54.png)
+    ![Workbench name, description, and image](assets/workbench-name-description-image.png)
 
 - [ ] Image Options - choose one with Jupyter, Data Science for eg.
 
-    ![Workbench image](image-55.png)
+    ![Workbench image](assets/workbench-image.png)
 
 - [ ] You can also choose the version of python
 
-    ![Version of Python](image-58.png)
+    ![Version of Python](assets/version-of-python.png)
 
 - [ ] Leave everything else as default - deployment size, accelerator
 
-    ![Deployment size](image-56.png)
+    ![Deployment size](assets/deployment-size.png)
 
 - [ ] Environment variables, cluster storage and connections
 
-    ![Then Enviro vars, cluster and connections](image-57.png)
+    ![Then Enviro vars, cluster and connections](assets/env-vars-cluster-storage-connections.png)
 
 - [ ] Click **Create Workbench**.
 
-    ![Create workbench button](image-59.png)
+    ![Create workbench button](assets/create-workbench-button.png)
 
 - [ ] Wait for the project to be created.
 
-    ![Pod status after create](image-28.png)
+    ![Pod status after create](assets/pod-status-after-create.png)
 
 - [ ] Your project is not created and listed.
 
-    ![new project listed](image-60.png)
+    ![new project listed](assets/new-project-listed.png)
 
 ### 5) Explore Jupyter Notebooks
 
-![Step 5 - powerpoint slide](image-66.png)
+![Step 5 - powerpoint slide](assets/step-5-powerpoint-slide.png)
 
 - [ ] From your previous step 4, choose the Project Workbench
 
-    ![Project workbench](image-62.png)
+    ![Project workbench](assets/project-workbench.png)
 
 - [ ] and click on the Workbench (Study1)
 
-    ![Study1 workbench](image-63.png)
+    ![Study1 workbench](assets/study1-workbench.png)
 
 - [ ] Choose Python Notebook
 
-    ![Jupyter notebook icon](image-64.png)
+    ![Jupyter notebook icon](assets/jupyter-notebook-icon.png)
 
 - [ ] Write some code, rename the file, create and move cells, experiment with code
 
-    ![Jupyter Code example](image-65.png)
+    ![Jupyter Code example](assets/jupyter-code-example.png)
 
 **Lab Completed**
