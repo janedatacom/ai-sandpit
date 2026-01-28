@@ -24,7 +24,8 @@ Before you begin any chapter:
 
 ### Current chapters
 
-- Chapter 01: activities only ([Chapter01/Activities](Chapter01/Activities))
+- Chapter 01: Use Case Discovery activity — [Chapter01/Labs/CHAPTER01_LAB_INSTRUCTIONS.md](Chapter01/Labs/CHAPTER01_LAB_INSTRUCTIONS.md)
+- Chapter 01: activity assets ([Chapter01/Activities](Chapter01/Activities))
 - Chapter 02: activities only ([Chapter02/Activities](Chapter02/Activities))
 - Chapter 03: first hands-on lab (Red Hat OpenShift) — [Chapter03/Labs/CHAPTER03_LAB_INSTRUCTIONS.md](Chapter03/Labs/CHAPTER03_LAB_INSTRUCTIONS.md)
 

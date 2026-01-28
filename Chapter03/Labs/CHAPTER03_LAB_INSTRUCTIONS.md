@@ -162,7 +162,7 @@ Along the way you’ll see:
 
 ### 5) Explore Jupyter Notebooks
 
-![Step 5 - powerpoint slide](image-61.png)
+![Step 5 - powerpoint slide](image-66.png)
 
 - [ ] From your previous step 4, choose the Project Workbench
 
