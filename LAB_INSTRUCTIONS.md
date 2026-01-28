@@ -20,13 +20,14 @@ Before you begin any chapter:
 - Name your write-ups clearly (example: `my-notes.md`).
 - Commit early and often.
 
-## Chapter lab instructions
+## Chapter Activities and Labs
 
 ### Current chapters
 
-- Chapter 01: Use Case Discovery activity — [Chapter01/Labs/CHAPTER01_LAB_INSTRUCTIONS.md](Chapter01/Labs/CHAPTER01_LAB_INSTRUCTIONS.md)
-- Chapter 01: activity assets ([Chapter01/Activities](Chapter01/Activities))
-- Chapter 02: activities only ([Chapter02/Activities](Chapter02/Activities))
+- Chapter 01: Use Case Discovery activity — [Chapter01/Activities/CHAPTER01_ACTIVITY01.md](Chapter01/Activities/CHAPTER01_ACTIVITY01.md)
+- Chapter 01: assets folder ([Chapter01/Activities/assets](Chapter01/Activities/assets))
+- Chapter 02: Activity 1 — [Chapter02/Activities/CHAPTER02_ACTIVITY01.md](Chapter02/Activities/CHAPTER02_ACTIVITY01.md)
+- Chapter 02: assets folder ([Chapter02/Activities/assets](Chapter02/Activities/assets))
 - Chapter 03: first hands-on lab (Red Hat OpenShift) — [Chapter03/Labs/CHAPTER03_LAB_INSTRUCTIONS.md](Chapter03/Labs/CHAPTER03_LAB_INSTRUCTIONS.md)
 
-As new hands-on labs are introduced, this page will link to each chapter’s lab instructions.
+As new activities and hands-on labs are introduced, this page will link to each chapter’s materials.

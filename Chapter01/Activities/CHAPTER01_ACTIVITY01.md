@@ -29,13 +29,13 @@ By the end of this activity you can:
 
 ---
 
-## Lab steps
+## Activity steps
 
-![Activity: title slide](slide-01-title.png)
+![Activity: title slide](assets/slide-01-title.png)
 
 ### 0) Get set up
 
-- [ ] Open the cards: [Chapter01/Activities/Chapter1ActivityCards.html](../Activities/Chapter1ActivityCards.html)
+- [ ] Open the cards: [Chapter01/Activities/Chapter1ActivityCards.html](Chapter1ActivityCards.html)
 - [ ] If printing, print at 100% scale and cut cards (or print multiple pages and share per table).
 - [ ] Decide how you’ll capture ideas (whiteboard / shared notes).
 
@@ -43,7 +43,7 @@ By the end of this activity you can:
 
 ### 1) Browse (0–3 minutes) — pick 2–3 cards
 
-![Activity overview](slide-02-overview.png)
+![Step 1: Browse and Pick](assets/slide-02-step1-browse-and-pick.png)
 
 - [ ] Spread cards out (or scroll quickly if using the HTML).
 - [ ] Each participant grabs **2–3 cards** that spark interest.
@@ -57,7 +57,7 @@ Tip: Use the dots on cards as a quick filter:
 
 ### 2) Share & Translate (3–13 minutes)
 
-![Step 2: Share & Translate](slide-03-step2-share-translate.png)
+![Step 2: Share & Translate](assets/slide-03-step2-share-translate.png)
 
 For each selected card, do a fast round of discussion.
 
@@ -84,7 +84,7 @@ Capture format (copy/paste):
 
 ### 3) Deep Dive (13–23 minutes) — pick 1–2 ideas and probe
 
-![Step 3: Deep Dive](slide-04-step3-deep-dive.png)
+![Step 3: Deep Dive](assets/slide-04-step3-deep-dive.png)
 
 Choose **1–2** of the strongest ideas (highest energy + feasible) and push for specifics.
 
@@ -102,7 +102,7 @@ If you’re tight on time: cut deep dive to 5 minutes and go deep on **one** use
 ---
 
 ### 4) Close (23–25 minutes) - Take Away Exercise - Done after training day
-![Step 4: Close](slide-04-step4.png)
+![Step 4: Close](assets/slide-05-step4-close.png)
 
 - [ ] Decide on **one** use case to take forward.
 - [ ] Define the smallest test (2-week “sandpit-sized” experiment):
@@ -122,6 +122,6 @@ Suggested closing questions:
 ## Optional facilitator prompts
 
 For more probing questions and timeboxing guidance, see:
-- [Chapter01/Activities/Chapter1ActivityFacilitatorCheatSheet.html](../Activities/Chapter1ActivityFacilitatorCheatSheet.html)
+- [Chapter01/Activities/Chapter1ActivityFacilitatorCheatSheet.html](Chapter1ActivityFacilitatorCheatSheet.html)
 
 **Activity completed**
