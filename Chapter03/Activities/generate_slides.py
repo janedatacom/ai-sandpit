@@ -165,19 +165,39 @@ def generate_slides_json(
         {"role": "user", "content": json.dumps(user, ensure_ascii=False)},
     ]
 
+    def _create_chat_completion(*, include_temperature: bool, include_response_format: bool):
+        kwargs: dict[str, Any] = {
+            "model": config.deployment,
+            "messages": messages,
+        }
+        if include_temperature:
+            kwargs["temperature"] = temperature
+        if include_response_format:
+            kwargs["response_format"] = {"type": "json_object"}
+        return client.chat.completions.create(**kwargs)
+
+    # Some newer model deployments only support default temperature.
+    # Strategy:
+    # 1) Try with response_format + temperature
+    # 2) If response_format unsupported, retry without it
+    # 3) If temperature unsupported, retry without it
     try:
-        resp = client.chat.completions.create(
-            model=config.deployment,
-            messages=messages,
-            temperature=temperature,
-            response_format={"type": "json_object"},
-        )
+        resp = _create_chat_completion(include_temperature=True, include_response_format=True)
     except TypeError:
-        resp = client.chat.completions.create(
-            model=config.deployment,
-            messages=messages,
-            temperature=temperature,
-        )
+        resp = _create_chat_completion(include_temperature=True, include_response_format=False)
+    except Exception as exc:
+        msg = str(exc)
+        if "temperature" in msg and "Only the default (1) value is supported" in msg:
+            try:
+                resp = _create_chat_completion(
+                    include_temperature=False, include_response_format=True
+                )
+            except TypeError:
+                resp = _create_chat_completion(
+                    include_temperature=False, include_response_format=False
+                )
+        else:
+            raise
 
     content = resp.choices[0].message.content or ""
     data = _extract_json_object(content)
@@ -317,7 +337,12 @@ def main() -> int:
     parser.add_argument("--api-key", type=str, default=None)
     parser.add_argument("--deployment", type=str, default=None)
     parser.add_argument("--api-version", type=str, default=None)
-    parser.add_argument("--temperature", type=float, default=0.2)
+    parser.add_argument(
+        "--temperature",
+        type=float,
+        default=1.0,
+        help="Sampling temperature. Some model deployments only support the default value (1.0).",
+    )
     parser.add_argument("--max-slides", type=int, default=12)
 
     args = parser.parse_args()

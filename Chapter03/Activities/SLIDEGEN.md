@@ -47,6 +47,8 @@ $env:AZURE_OPENAI_API_VERSION = "<your-api-version>"
 .\.venv\Scripts\python Chapter03\Activities\generate_slides.py
 ```
 
+If your model deployment rejects custom temperature values, omit the flag (default is `1.0`).
+
 Outputs:
 
 - `Chapter03/Activities/slides.json`

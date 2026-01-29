@@ -6,15 +6,16 @@
 
 ## Goal
 
-Identify the layers in the **Datacom AI Pyramid** and describe what each layer is responsible for.
+Use the pyramid handout to generate handwritten inputs, then observe how well the AI scans/interprets them so students learn how to improve input quality (clarity, structure, and formatting).
 
 ## Learning outcomes
 
 By the end of this activity you can:
 
-- Describe the purpose of each layer in the Datacom AI Pyramid
-- Explain how the layers relate to each other (what sits “on top of” what)
-- Identify limits and potential of the platform as a shared capability
+- Describe the purpose of each layer in the Datacom AI Pyramid (at a high level)
+- Evaluate how well the AI reads handwritten/visual inputs
+- Identify input patterns that improve AI extraction (legibility, spacing, structure, labels)
+- Explain where human review is needed when using AI on scanned inputs
 
 ## Prerequisites
 
@@ -25,7 +26,7 @@ By the end of this activity you can:
 | Capture method | Camera/scan + upload to the Datacom AI Sandpit (or shared folder) |
 | Timebox | Keep to the time windows to maintain momentum |
 
-> Facilitator note: Don’t “teach” the pyramid first — let participants attempt it, then use the discussion to correct and align.
+> Facilitator note: Don’t “teach” the pyramid first — the point isn’t perfect answers. The goal is to see how the AI performs on real handwritten inputs, then discuss how to adjust inputs to improve results.
 
 ---
 
@@ -34,6 +35,8 @@ By the end of this activity you can:
 ![Activity: overview](assets/slide-00-overview.png)
 
 ### 1) Think (0–2 minutes) — what are the layers and what is their purpose?
+
+![Step 1: Think](assets/slide-01-think.png)
 
 - [ ] Individually scan the pyramid and the icons.
 - [ ] Based on what you’ve learned so far, guess the **layer names**.
@@ -45,6 +48,8 @@ By the end of this activity you can:
 ---
 
 ### 2) Write (2–7 minutes) — fill in the handout
+
+![Step 2: Write](assets/slide-02-write.png)
 
 ![Handout: fill in the blanks](assets/handout-datacom-ai-pyramid-fill-in-the-blanks.png)
 
@@ -61,15 +66,19 @@ Tip prompts:
 
 ### 3) Scan (7–9 minutes) — convert physical to digital
 
+![Step 3: Scan](assets/slide-03-scan.png)
+
 - [ ] Take a photo/scan of your completed handout.
-- [ ] Make sure the text is readable.
+- [ ] Just write naturally, mistakes will be interesting
 - [ ] If you’re working in groups, include all names.
 
 ---
 
 ### 4) Mark (9–11 minutes) — upload to the Datacom AI Sandpit
 
-- [ ] Upload your photo/scan to the agreed location (Datacom AI Sandpit / shared folder).
+![Step 4: Mark](assets/slide-04-mark.png)
+
+- [ ] Facilitator Uploads your photo to the agreed location (Datacom AI Sandpit / shared folder).
 - [ ] Use a consistent filename (suggested):
 
   `Chapter03_AI_Pyramid_<TeamOrName>_<YYYY-MM-DD>.png`
@@ -80,17 +89,19 @@ Tip prompts:
 
 ![Step 5: Discuss](assets/slide-05-discuss.png)
 
-- [ ] Compare answers between pairs/tables:
-  - [ ] Which layer was easiest to name?
-  - [ ] Which layer was hardest?
-  - [ ] Where were the disagreements?
+- [ ] Compare results between pairs/tables:
+  - [ ] How well did the AI read your handwriting and layout?
+  - [ ] What did the AI get right?
+  - [ ] What did the AI misunderstand or miss?
+  - [ ] Which inputs seemed to improve results (printing, spacing, neatness, darker pen)?
 - [ ] Discuss as a whole group:
-  - [ ] What are the pyramid’s biggest **limits** today?
-  - [ ] What’s the most valuable **potential** if used well?
+  - [ ] If you were redoing it for higher accuracy, what would you change in your handout?
+  - [ ] What does this tell you about how to format inputs for AI (clarity, structure, labels)?
 
 Optional closing questions:
-- “Which layer do you interact with most often?”
-- “Where would you want more self-service or guardrails?”
+- “If this system were used in production, where would you insist on human review?”
+- “What input guidance should we give users so the AI performs better?”
+- “What layer(s) did you use in this exercise?”
 
 ---
 

@@ -11,6 +11,10 @@ __pycache__/
 .env
 .venv
 
+# Slide generator outputs
+Chapter03/Activities/slides.json
+Chapter03/Activities/slides.pptx
+
 # Node artifacts
 node_modules/
 *.log
