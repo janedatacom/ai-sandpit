@@ -29,5 +29,9 @@ Before you begin any chapter:
 - Chapter 02: Activity 1 — [Chapter02/Activities/CHAPTER02_ACTIVITY01.md](Chapter02/Activities/CHAPTER02_ACTIVITY01.md)
 - Chapter 02: assets folder ([Chapter02/Activities/assets](Chapter02/Activities/assets))
 - Chapter 03: first hands-on lab (Red Hat OpenShift) — [Chapter03/Labs/CHAPTER03_LAB_INSTRUCTIONS.md](Chapter03/Labs/CHAPTER03_LAB_INSTRUCTIONS.md)
+- Chapter 03: Activity 1 (What are the layers?) — [Chapter03/Activities/CHAPTER03_ACTIVITY01.md](Chapter03/Activities/CHAPTER03_ACTIVITY01.md)
+- Chapter 03: assets folder ([Chapter03/Activities/assets](Chapter03/Activities/assets))
+- Chapter 04: Lab 1 (Set up a New User) — [Chapter04/Labs/CHAPTER04_LAB01_NEW_USER.md](Chapter04/Labs/CHAPTER04_LAB01_NEW_USER.md)
+- Chapter 04: Lab 2 (Set up a Policy) — [Chapter04/Labs/CHAPTER04_LAB02_POLICY.md](Chapter04/Labs/CHAPTER04_LAB02_POLICY.md)
 
 As new activities and hands-on labs are introduced, this page will link to each chapter’s materials.
