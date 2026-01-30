@@ -33,5 +33,8 @@ Before you begin any chapter:
 - Chapter 03: assets folder ([Chapter03/Activities/assets](Chapter03/Activities/assets))
 - Chapter 04: Lab 1 (Set up a New User) — [Chapter04/Labs/CHAPTER04_LAB01_NEW_USER.md](Chapter04/Labs/CHAPTER04_LAB01_NEW_USER.md)
 - Chapter 05: Lab 1 (Investigate your setup via CLI) — [Chapter05/Labs/CHAPTER05_LAB01_INVESTIGATE_SETUP_VIA_CLI.md](Chapter05/Labs/CHAPTER05_LAB01_INVESTIGATE_SETUP_VIA_CLI.md)
+- Chapter 06: Activity 1 (Training Layer: Lifecycle Tasks) — [Chapter06/Activities/CHAPTER06_ACTIVITY01.md](Chapter06/Activities/CHAPTER06_ACTIVITY01.md)
+- Chapter 06: Facilitator Appendix (Activity 1 sample answers) — [Chapter06/Activities/CHAPTER06_ACTIVITY01_APPENDIX_SAMPLES.md](Chapter06/Activities/CHAPTER06_ACTIVITY01_APPENDIX_SAMPLES.md)
+- Chapter 06: Lab 1 (Training Layer: Train + Evaluate a Baseline Model) — [Chapter06/Labs/CHAPTER06_LAB01_TRAINING_LAYER.md](Chapter06/Labs/CHAPTER06_LAB01_TRAINING_LAYER.md)
 
 As new activities and hands-on labs are introduced, this page will link to each chapter’s materials.
