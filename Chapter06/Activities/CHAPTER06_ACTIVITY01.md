@@ -291,7 +291,7 @@ Architecture touchpoints (examples):
 - Ops runbooks and SLOs
 
 
-### 4) Present (5 minutes)
+### 4) Present (10 minutes)
 
 ![Step 4 slide](assets/slide-05-step4-presentback.png)
 
