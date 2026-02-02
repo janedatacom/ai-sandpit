@@ -1,0 +1,501 @@
+message_id,student_id,created_at,channel,program,unit_code,week,text,label
+45f9d8a0-6dd8-400f-bd74-157a2a481172,S000166,2026-02-01T09:45:00+00:00,lms_forum,Diploma (Community Services),DAT690,5,How do I join a group for the group project?,0
+6ca62614-1428-42a7-99f4-82c0f695308a,S000087,2026-02-01T12:37:00+00:00,support_ticket,Bachelor (Business),EDU265,2,I’m enjoying the unit so far—thanks for the clear explanations.,0
+7878827b-706f-47a1-be9d-e8ce3610e436,S000009,2026-02-01T15:52:00+00:00,lms_forum,Bachelor (IT),IT158,9,Do we need APA 7th for assignment 2?,0
+d6167a91-af17-4f55-ba68-245f5413a726,S000164,2026-02-01T18:53:00+00:00,lms_forum,Graduate Certificate (Data),BUS670,2,Do we need APA 7th for quiz 2?,0
+361ef69a-caba-4984-b66c-e7d03bdbfe8a,S000034,2026-02-01T21:47:00+00:00,lms_forum,Graduate Certificate (Data),COM602,10,How do I join a group for the group project?,0
+e2b16b4d-9c6b-46e4-a373-630d399e2ab1,S000176,2026-02-02T00:06:00+00:00,lms_forum,Adult Education (Short Course),COM689,7,I failed to attach my file last time; can I resubmit the correct document?,0
+7c20bfd2-f945-4f67-9b80-5ba1ac40fd0f,S000082,2026-02-02T03:30:00+00:00,email,Adult Education (Short Course),CYS693,6,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+45fdb539-333b-4f43-a1bd-7f2c7c5cd15e,S000194,2026-02-02T06:34:00+00:00,email,Bachelor (IT),COM267,11,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+e0f9c9a8-4893-474a-888f-66994cd05587,S000175,2026-02-02T09:52:00+00:00,support_ticket,Adult Education (Short Course),COM451,5,Is there a recording for this week’s lecture?,0
+1e8047fe-4b23-4e7f-a87d-ac62cb8af5db,S000178,2026-02-02T12:11:00+00:00,email,Bachelor (Business),CYS136,2,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+f9ab1c3b-c9b3-4dd3-a88c-a9fcb948edf1,S000031,2026-02-02T15:12:00+00:00,lms_forum,Bachelor (Business),COM357,11,I’m enjoying the unit so far—thanks for the clear explanations.,0
+278009c6-b3bf-4e41-b5f2-cdf80d678ce1,S000011,2026-02-02T18:39:00+00:00,email,Bachelor (Business),COM560,8,Where do we submit quiz 1? I can’t find the link.,0
+757811f2-d69e-4258-b032-854a8a8797b7,S000075,2026-02-02T21:30:00+00:00,lms_forum,Micro-credential (Cybersecurity),COM514,6,I’m getting an error when uploading my file—any tips?,0
+ac11e2df-21a8-4963-8d80-c6fab66d42f8,S000046,2026-02-03T00:22:00+00:00,lms_forum,Micro-credential (Cybersecurity),COM304,10,I failed to attach my file last time; can I resubmit the correct document?,0
+948cc25f-ed0c-4c04-93b7-2b67d3bbc9dd,S000018,2026-02-03T03:05:00+00:00,lms_forum,Adult Education (Short Course),EDU588,1,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+aa636d36-1ea4-44cf-a597-802f326321da,S000109,2026-02-03T06:31:00+00:00,email,Diploma (Community Services),DAT311,7,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+baa472f6-8369-4da3-a078-b0190661e7b4,S000143,2026-02-03T09:04:00+00:00,support_ticket,Graduate Certificate (Data),CYS200,2,I failed to attach my file last time; can I resubmit the correct document?,0
+861793c7-84fc-4114-be7c-462b3095aba0,S000137,2026-02-03T12:08:00+00:00,chat,Graduate Certificate (Data),CYS551,12,I’m getting an error when uploading my file—any tips?,0
+6fb5baec-3024-4260-a430-a82bdf9ef2c0,S000129,2026-02-03T15:04:00+00:00,lms_forum,Bachelor (Business),IT219,2,Is there an extension process for assignment 1?,0
+15ffa981-5635-4d73-b9e4-f3e93222d2a7,S000131,2026-02-03T18:24:00+00:00,chat,Diploma (Community Services),BUS409,12,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+9af46ce9-bbf8-42a5-b113-56300ce75c82,S000071,2026-02-03T21:49:00+00:00,email,Bachelor (Business),EDU490,9,I missed the live session but I’m up to date—where can I find the slides?,0
+24a2cd34-5086-4f3d-9254-9d75abef38b8,S000095,2026-02-04T00:35:00+00:00,lms_forum,Adult Education (Short Course),DAT181,4,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+726a33dc-d7c6-45e0-a2dc-fda4cdceb82b,S000168,2026-02-04T03:48:00+00:00,lms_forum,Micro-credential (Cybersecurity),DAT661,9,How do I join a group for the group project?,0
+3bf20912-cbc2-4770-9dd1-4cc4391c8a42,S000101,2026-02-04T06:36:00+00:00,lms_forum,Bachelor (Business),DAT225,11,I missed the live session but I’m up to date—where can I find the slides?,0
+1e4e0c2e-fc3b-41ad-879b-c67ed70ede95,S000172,2026-02-04T09:22:00+00:00,support_ticket,Graduate Certificate (Data),BUS643,12,Is there a recording for this week’s lecture?,0
+147ac98e-3d5b-4de2-9911-695d7740dee2,S000095,2026-02-04T12:55:00+00:00,chat,Adult Education (Short Course),CYS295,12,What’s the format for the weekly reflection?,0
+ea494ff6-e487-4991-ae2f-97511985767c,S000180,2026-02-04T15:45:00+00:00,chat,Micro-credential (Cybersecurity),IT471,9,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+985adf47-3574-4d83-94dd-0d49addc3767,S000049,2026-02-04T18:27:00+00:00,email,Bachelor (Business),COM104,12,I failed capstone submission and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+1d24f1ed-12f6-470b-a8c2-a99082dc2828,S000103,2026-02-04T21:18:00+00:00,lms_forum,Bachelor (Business),IT578,1,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+fa12bece-dc86-416f-a182-793d18e69f9f,S000043,2026-02-05T00:18:00+00:00,lms_forum,Graduate Certificate (Data),DAT672,12,Can someone explain question 3 on the practice quiz?,0
+a62e2ab9-1768-4258-9a58-a11776cf140d,S000159,2026-02-05T03:40:00+00:00,lms_forum,Graduate Certificate (Data),CYS603,10,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+47a52e07-e923-4463-9e60-9043d3cf7c26,S000070,2026-02-05T06:39:00+00:00,lms_forum,Bachelor (Business),BUS369,6,What’s the format for the weekly reflection?,0
+02e4ce56-182b-49a8-b925-697840845366,S000162,2026-02-05T09:52:00+00:00,email,Diploma (Community Services),DAT164,1,I’m getting an error when uploading my file—any tips?,0
+023e2b02-8563-4462-8905-671ea2df0fd6,S000040,2026-02-05T12:46:00+00:00,support_ticket,Bachelor (IT),CYS421,3,I failed to attach my file last time; can I resubmit the correct document?,0
+cd5c8e07-cfe7-4031-b44c-3dbba7ea63fd,S000148,2026-02-05T15:21:00+00:00,email,Micro-credential (Cybersecurity),COM226,3,Can you confirm the due date for capstone submission in week 3?,0
+505bd39a-eb1f-475b-befa-bfa88f6cf64b,S000045,2026-02-05T18:45:00+00:00,email,Bachelor (IT),CYS401,4,Do we need APA 7th for quiz 2?,0
+14153b5c-4c8d-4fd4-bdd6-924324d0d3a5,S000144,2026-02-05T21:36:00+00:00,support_ticket,Adult Education (Short Course),BUS408,4,I missed the live session but I’m up to date—where can I find the slides?,0
+d763511b-4edc-410b-a0ef-6ffeb7f15ba7,S000025,2026-02-06T00:23:00+00:00,email,Adult Education (Short Course),IT268,3,How do I join a group for the group project?,0
+fa9a6ff2-84a8-4e66-b22b-9288e3445529,S000085,2026-02-06T03:50:00+00:00,support_ticket,Bachelor (IT),EDU401,4,Where do we submit weekly reflection? I can’t find the link.,0
+8d74631c-9562-4c56-b871-29aeccd85124,S000078,2026-02-06T06:02:00+00:00,support_ticket,Adult Education (Short Course),CYS652,8,Is there an extension process for capstone submission?,0
+c710f906-f709-4528-a994-46e0ec60721d,S000164,2026-02-06T09:19:00+00:00,chat,Graduate Certificate (Data),BUS564,5,Where do we submit group project? I can’t find the link.,0
+0ce7c5c9-70dc-4730-8216-81fd5a77b119,S000009,2026-02-06T12:07:00+00:00,lms_forum,Bachelor (IT),BUS403,8,Where do we submit final assessment? I can’t find the link.,0
+3915852b-6c7d-4153-a3c8-73c0a1258d1f,S000159,2026-02-06T15:35:00+00:00,lms_forum,Graduate Certificate (Data),DAT691,8,I failed to attach my file last time; can I resubmit the correct document?,0
+20f65797-de30-417d-806e-d69692411c71,S000194,2026-02-06T18:36:00+00:00,lms_forum,Bachelor (IT),BUS120,6,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+65ec6251-9b89-4fc4-85b3-d735d17f0281,S000019,2026-02-06T21:24:00+00:00,lms_forum,Bachelor (Business),CYS129,5,Is there a recording for this week’s lecture?,0
+9d5e390b-e2c6-4ade-a382-0a523f56109c,S000036,2026-02-07T00:43:00+00:00,support_ticket,Adult Education (Short Course),BUS204,3,What’s the format for the weekly reflection?,0
+df486ceb-cd26-4b4f-8531-634f8fe77b22,S000130,2026-02-07T03:46:00+00:00,email,Graduate Certificate (Data),BUS345,12,Do we need APA 7th for capstone submission?,0
+247f5b53-766e-4da7-8740-b6a16a6be82a,S000133,2026-02-07T06:22:00+00:00,lms_forum,Diploma (Community Services),IT573,9,Is there a recording for this week’s lecture?,0
+f6905ff8-4476-4c6c-ad05-e5bfa1f18f30,S000105,2026-02-07T09:08:00+00:00,lms_forum,Adult Education (Short Course),BUS257,12,Can someone explain question 3 on the practice quiz?,0
+89a6c74d-570c-4fb9-b791-d404cbe3c419,S000164,2026-02-07T12:00:00+00:00,lms_forum,Graduate Certificate (Data),CYS651,12,I failed to attach my file last time; can I resubmit the correct document?,0
+67f7f347-7019-448c-88cf-8db217cb3dcd,S000197,2026-02-07T15:48:00+00:00,email,Adult Education (Short Course),DAT276,10,I’m getting an error when uploading my file—any tips?,0
+0f21d9fd-b94d-419a-a232-a9db80626cc5,S000169,2026-02-07T18:05:00+00:00,lms_forum,Adult Education (Short Course),DAT353,2,I failed to attach my file last time; can I resubmit the correct document?,0
+6674fa32-7970-458a-8fe2-936040c9fd8b,S000034,2026-02-07T21:29:00+00:00,email,Graduate Certificate (Data),DAT130,4,Can you confirm the due date for quiz 1 in week 4?,0
+6ca04188-4194-449c-a609-4e034b82d24b,S000141,2026-02-08T00:38:00+00:00,lms_forum,Micro-credential (Cybersecurity),BUS357,3,I missed the live session but I’m up to date—where can I find the slides?,0
+d25b078a-8d0d-4d74-80b1-f550dab47abb,S000153,2026-02-08T03:10:00+00:00,lms_forum,Graduate Certificate (Data),BUS343,3,I’m getting an error when uploading my file—any tips?,0
+06ef9706-3f8b-4966-ba5d-22be341d01f6,S000156,2026-02-08T06:51:00+00:00,support_ticket,Bachelor (IT),EDU620,5,Can you confirm the due date for assignment 2 in week 5?,0
+b2cd1782-38b0-4dac-81bf-4a3423c00408,S000155,2026-02-08T09:24:00+00:00,chat,Bachelor (IT),CYS535,1,I’m getting an error when uploading my file—any tips?,0
+31c968f5-428e-4ba4-b689-70bb499f7ea1,S000010,2026-02-08T12:42:00+00:00,chat,Bachelor (IT),DAT630,5,Where do we submit quiz 1? I can’t find the link.,0
+ef4adaf0-02b8-46de-b8df-fd2dde260c35,S000128,2026-02-08T15:14:00+00:00,email,Bachelor (IT),EDU468,3,Where do we submit assignment 2? I can’t find the link.,0
+fc3b75d0-31a8-421b-ae11-8ea767215b30,S000126,2026-02-08T18:47:00+00:00,email,Adult Education (Short Course),CYS189,11,Do we need APA 7th for assignment 1?,0
+3d9be9b0-f100-4506-aa24-a9a48657dbf0,S000180,2026-02-08T21:40:00+00:00,chat,Micro-credential (Cybersecurity),EDU632,12,Is there an extension process for capstone submission?,0
+e5d72caf-320c-44ab-b1fd-36102143363b,S000138,2026-02-09T00:52:00+00:00,chat,Bachelor (IT),BUS544,3,Can you confirm the due date for capstone submission in week 3?,0
+fdc19a45-e0a1-4154-a450-209bed3f35e1,S000062,2026-02-09T03:49:00+00:00,lms_forum,Adult Education (Short Course),DAT283,1,I failed to attach my file last time; can I resubmit the correct document?,0
+14a92838-1960-41b8-b20e-5195c137d6f7,S000093,2026-02-09T06:31:00+00:00,support_ticket,Adult Education (Short Course),COM144,2,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+7304076a-6252-4ca8-946b-ca85c4f93775,S000141,2026-02-09T09:15:00+00:00,lms_forum,Micro-credential (Cybersecurity),EDU470,4,Is there a recording for this week’s lecture?,0
+48069b07-6ea6-4c5e-93dd-57f72c519319,S000001,2026-02-09T12:33:00+00:00,support_ticket,Bachelor (IT),DAT340,8,What’s the format for the weekly reflection?,0
+b9d5f8e0-ce36-4887-a775-17560d80d0ab,S000177,2026-02-09T15:07:00+00:00,chat,Micro-credential (Cybersecurity),CYS527,8,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+2778e0f4-a31f-42f5-a1c0-362b668806cd,S000143,2026-02-09T18:39:00+00:00,lms_forum,Graduate Certificate (Data),COM518,11,I missed the live session but I’m up to date—where can I find the slides?,0
+4eda1875-6255-459c-a439-ac5155eb8a02,S000078,2026-02-09T21:14:00+00:00,email,Adult Education (Short Course),CYS193,7,How do I join a group for the group project?,0
+f6e4d764-fe95-4dbb-b01e-9cc925a1b579,S000108,2026-02-10T00:04:00+00:00,chat,Bachelor (IT),DAT439,4,Is there a recording for this week’s lecture?,0
+48a72d10-ebab-4116-a09a-3201d3f70a0b,S000022,2026-02-10T03:08:00+00:00,lms_forum,Bachelor (IT),CYS584,8,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+7fc1eaa6-97d8-42db-ba92-b5ad2bb7ca89,S000178,2026-02-10T06:46:00+00:00,lms_forum,Bachelor (Business),EDU171,9,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+55d2a349-b5de-4e4a-a8a1-747db9ed4a13,S000027,2026-02-10T09:23:00+00:00,email,Micro-credential (Cybersecurity),COM192,7,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+7718907e-8fcd-462e-9cc4-bf256516535d,S000033,2026-02-10T12:16:00+00:00,email,Diploma (Community Services),BUS575,3,Do we need APA 7th for assignment 2?,0
+c9463fc5-a271-4106-9624-1cf82e7ee973,S000178,2026-02-10T15:38:00+00:00,lms_forum,Bachelor (Business),CYS337,8,I missed the live session but I’m up to date—where can I find the slides?,0
+496cd3fe-595d-406d-8e2c-8259a7e886fb,S000181,2026-02-10T18:08:00+00:00,chat,Adult Education (Short Course),IT671,2,I missed the live session but I’m up to date—where can I find the slides?,0
+d5791c7e-e8ec-4f39-9e63-aa330a02785c,S000031,2026-02-10T21:49:00+00:00,email,Bachelor (Business),CYS324,2,I’m getting an error when uploading my file—any tips?,0
+3eadd662-1412-4e4a-b283-88ab117bc202,S000020,2026-02-11T00:09:00+00:00,support_ticket,Adult Education (Short Course),BUS244,6,Can someone explain question 3 on the practice quiz?,0
+5c27a19e-8429-40db-a2d1-c26c9c467f25,S000155,2026-02-11T03:44:00+00:00,lms_forum,Bachelor (IT),EDU653,3,I failed to attach my file last time; can I resubmit the correct document?,0
+cf6503af-7ef2-4b71-b4b5-c7e0dc86663a,S000063,2026-02-11T06:34:00+00:00,lms_forum,Adult Education (Short Course),EDU327,1,What’s the format for the weekly reflection?,0
+4c21805d-e853-434b-bfef-0440337bc950,S000162,2026-02-11T09:23:00+00:00,email,Diploma (Community Services),BUS223,10,I’m getting an error when uploading my file—any tips?,0
+8ae1840b-ac45-41c8-9f9a-ae3cc0595ae6,S000143,2026-02-11T12:17:00+00:00,lms_forum,Graduate Certificate (Data),COM117,12,Do we need APA 7th for quiz 2?,0
+09d528fb-7f55-47ab-8666-c2addd1490f4,S000046,2026-02-11T15:41:00+00:00,email,Micro-credential (Cybersecurity),CYS265,12,I failed to attach my file last time; can I resubmit the correct document?,0
+035f9163-1629-43da-a8e5-bd475142efa0,S000067,2026-02-11T18:01:00+00:00,email,Adult Education (Short Course),IT211,7,I submitted weekly reflection late again. I’m worried about penalties and failing the unit.,1
+48b00d7d-40ff-4a64-91e4-5c86bca5673b,S000155,2026-02-11T21:29:00+00:00,email,Bachelor (IT),EDU298,2,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+671e75f0-533a-4c34-8e97-31cd30b2bca4,S000020,2026-02-12T00:52:00+00:00,lms_forum,Adult Education (Short Course),EDU570,1,Where do we submit assignment 1? I can’t find the link.,0
+fee6b906-5f35-4d14-9faa-c70d7f13f8bc,S000093,2026-02-12T03:48:00+00:00,email,Adult Education (Short Course),BUS332,4,I missed the live session but I’m up to date—where can I find the slides?,0
+1e9f00b0-777c-44c0-9ea2-bee4d092d284,S000025,2026-02-12T06:14:00+00:00,lms_forum,Adult Education (Short Course),EDU333,7,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+be4e78ac-b4c2-4f69-821f-0dad216797a5,S000028,2026-02-12T09:35:00+00:00,email,Adult Education (Short Course),EDU577,3,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+2bb3d8ec-293f-4a8c-9c11-c00b79563431,S000003,2026-02-12T12:16:00+00:00,lms_forum,Diploma (Community Services),BUS506,3,I’m enjoying the unit so far—thanks for the clear explanations.,0
+3e9440de-db89-4ad5-840e-272cfe4e092d,S000012,2026-02-12T15:05:00+00:00,lms_forum,Diploma (Community Services),EDU293,6,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+bf567a17-5bb1-48a0-9234-7b97424776a7,S000063,2026-02-12T18:05:00+00:00,chat,Adult Education (Short Course),COM500,12,Where do we submit quiz 2? I can’t find the link.,0
+01f7f1d2-e7bd-46be-92c2-e51aaee9bfb4,S000137,2026-02-12T21:50:00+00:00,lms_forum,Graduate Certificate (Data),DAT118,12,Is there an extension process for weekly reflection?,0
+e247ad24-6a2b-453b-babe-ccb156cd6ce7,S000079,2026-02-13T00:19:00+00:00,lms_forum,Graduate Certificate (Data),EDU484,7,Where do we submit quiz 2? I can’t find the link.,0
+a0758c49-b252-4a48-b877-d4085cc7489e,S000044,2026-02-13T03:37:00+00:00,support_ticket,Diploma (Community Services),CYS673,12,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+7c0a7014-d981-434b-bdcf-8ddbef8dc5b9,S000078,2026-02-13T06:39:00+00:00,email,Adult Education (Short Course),BUS155,7,What’s the format for the weekly reflection?,0
+75f2030a-3243-4b7d-9ab4-be796b11209e,S000100,2026-02-13T09:00:00+00:00,chat,Bachelor (IT),CYS205,7,I failed final assessment and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+36945430-ae23-461f-b4f5-f81d3281680a,S000099,2026-02-13T12:48:00+00:00,email,Bachelor (IT),DAT558,6,I failed capstone submission and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+78f0b70f-e367-4e93-a030-66ec4942abba,S000098,2026-02-13T15:06:00+00:00,email,Diploma (Community Services),BUS499,8,What’s the format for the weekly reflection?,0
+55f50ac6-cdfd-4d58-a3cd-0ca3dddeca90,S000168,2026-02-13T18:07:00+00:00,email,Micro-credential (Cybersecurity),EDU412,8,Can you confirm the due date for assignment 1 in week 8?,0
+4e2729ae-cb2e-4b2f-8b3d-0dabc3338bf0,S000185,2026-02-13T21:12:00+00:00,lms_forum,Graduate Certificate (Data),DAT435,1,Can someone explain question 3 on the practice quiz?,0
+3ce54ade-a912-46e0-b0bf-2849f706d429,S000130,2026-02-14T00:48:00+00:00,lms_forum,Graduate Certificate (Data),DAT474,6,Can you confirm the due date for assignment 1 in week 6?,0
+c269ce72-a18f-4ad3-8e23-cdddbb542cb9,S000040,2026-02-14T03:41:00+00:00,email,Bachelor (IT),BUS587,6,Is there a recording for this week’s lecture?,0
+fc91318e-9ec8-4560-9f0d-fa1ed14299d9,S000053,2026-02-14T06:20:00+00:00,lms_forum,Micro-credential (Cybersecurity),EDU647,1,I’m getting an error when uploading my file—any tips?,0
+68709eeb-6d35-46b1-a0cd-c5e71aa941a1,S000178,2026-02-14T09:25:00+00:00,email,Bachelor (Business),BUS306,4,I’m getting an error when uploading my file—any tips?,0
+0e37a687-98ca-43d2-bf91-69e2ce5eb438,S000100,2026-02-14T12:53:00+00:00,email,Bachelor (IT),BUS386,8,What’s the format for the weekly reflection?,0
+460e5321-16ea-453a-a888-acfc40726196,S000194,2026-02-14T15:35:00+00:00,email,Bachelor (IT),EDU149,12,What’s the format for the weekly reflection?,0
+1248c6e8-a0ba-4515-ba11-9c5264e3ab53,S000018,2026-02-14T18:32:00+00:00,email,Adult Education (Short Course),CYS216,5,I’m really behind in week 5 and I don’t think I can catch up. Can someone help me make a plan?,1
+ce60da8e-58c0-4159-bf0a-beb487d03ae6,S000035,2026-02-14T21:27:00+00:00,email,Micro-credential (Cybersecurity),DAT643,7,I missed the live session but I’m up to date—where can I find the slides?,0
+1240a227-d312-4fa3-a1af-a1de6a272622,S000126,2026-02-15T00:52:00+00:00,lms_forum,Adult Education (Short Course),IT519,2,Can you confirm the due date for weekly reflection in week 2?,0
+014dd34c-1f25-4c1d-a600-d31633fe8e0c,S000081,2026-02-15T03:51:00+00:00,lms_forum,Bachelor (Business),EDU548,5,What’s the format for the weekly reflection?,0
+d987ee59-afcb-4a84-aa79-b38ac08958ca,S000075,2026-02-15T06:01:00+00:00,email,Micro-credential (Cybersecurity),DAT235,10,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+80d5fb51-726c-4015-ba9e-26503885ca41,S000071,2026-02-15T09:18:00+00:00,lms_forum,Bachelor (Business),CYS551,11,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+932c6747-af1b-469d-8827-198e381dbd77,S000090,2026-02-15T12:41:00+00:00,chat,Graduate Certificate (Data),BUS130,6,How do I join a group for the group project?,0
+8d070172-c4d0-4f31-b798-66f58a5114b7,S000131,2026-02-15T15:06:00+00:00,email,Diploma (Community Services),COM466,9,I’m getting an error when uploading my file—any tips?,0
+2bad42aa-3c3f-4b48-8a77-01a8969992e3,S000087,2026-02-15T18:11:00+00:00,lms_forum,Bachelor (Business),COM260,4,I missed the live session but I’m up to date—where can I find the slides?,0
+af6f5314-6a06-4079-ab5d-a679ee4af26e,S000142,2026-02-15T21:18:00+00:00,lms_forum,Bachelor (IT),EDU672,9,Can someone explain question 3 on the practice quiz?,0
+2b9f81bb-c2bf-4fc5-b01d-5e8904c508ec,S000137,2026-02-16T00:32:00+00:00,lms_forum,Graduate Certificate (Data),DAT317,1,I failed group project and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+db9bd60b-5c7c-499f-88f8-b0f021803a0c,S000105,2026-02-16T03:19:00+00:00,email,Adult Education (Short Course),IT551,2,Is there an extension process for assignment 2?,0
+7ea7c2e6-ec3d-450f-ac18-035b22e2834e,S000044,2026-02-16T06:16:00+00:00,lms_forum,Diploma (Community Services),CYS171,3,Where do we submit quiz 1? I can’t find the link.,0
+19a876a2-279f-4324-b5a6-9b3fe4485daf,S000143,2026-02-16T09:35:00+00:00,support_ticket,Graduate Certificate (Data),CYS534,2,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+6c752c83-1991-4719-beca-d64364122a84,S000193,2026-02-16T12:45:00+00:00,support_ticket,Bachelor (IT),CYS114,5,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+8330019f-da64-4ceb-ba6d-73a22ba34300,S000053,2026-02-16T15:16:00+00:00,chat,Micro-credential (Cybersecurity),BUS441,5,I’m getting an error when uploading my file—any tips?,0
+c2627303-5f3d-4885-9c57-29e16c77514f,S000189,2026-02-16T18:38:00+00:00,support_ticket,Graduate Certificate (Data),BUS376,5,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+341d5d8f-916b-4c9e-a933-32723f287013,S000069,2026-02-16T21:39:00+00:00,support_ticket,Bachelor (IT),BUS115,4,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+90ca297b-957d-4cca-a34f-8bc68c397321,S000053,2026-02-17T00:01:00+00:00,chat,Micro-credential (Cybersecurity),BUS332,3,Can someone explain question 3 on the practice quiz?,0
+12819a04-92cf-4f68-8434-faf4fdee4f2c,S000053,2026-02-17T03:16:00+00:00,lms_forum,Micro-credential (Cybersecurity),DAT589,5,I missed the live session but I’m up to date—where can I find the slides?,0
+f9ec2ba5-bbe4-4f26-8e18-c035b02c2600,S000139,2026-02-17T06:44:00+00:00,support_ticket,Micro-credential (Cybersecurity),EDU159,6,Is there an extension process for quiz 1?,0
+68082039-ccab-41e5-ab57-9bf0fb8fd8e0,S000102,2026-02-17T09:49:00+00:00,support_ticket,Bachelor (IT),EDU626,6,Do we need APA 7th for capstone submission?,0
+ffc529cc-dcfd-40fc-ab66-56e898117a74,S000199,2026-02-17T12:14:00+00:00,chat,Adult Education (Short Course),CYS215,11,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+372744bc-5a0d-4d3d-95eb-fad8923b24ce,S000183,2026-02-17T15:11:00+00:00,chat,Micro-credential (Cybersecurity),DAT377,5,Is there a recording for this week’s lecture?,0
+607d2343-a82f-4539-b2e9-3f4af9f4e5c3,S000037,2026-02-17T18:16:00+00:00,chat,Graduate Certificate (Data),BUS583,3,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+3a9d45c3-1137-4814-944e-a9cfd62d9416,S000057,2026-02-17T21:50:00+00:00,lms_forum,Bachelor (Business),DAT491,10,Do we need APA 7th for capstone submission?,0
+eff49ddb-a37f-4c41-a7e5-4ad70b828ff0,S000184,2026-02-18T00:47:00+00:00,lms_forum,Bachelor (IT),COM568,7,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+1c554e2e-e0c9-46f1-8116-9e4ea0789cf9,S000137,2026-02-18T03:23:00+00:00,lms_forum,Graduate Certificate (Data),EDU424,8,Is there an extension process for weekly reflection?,0
+068d8321-28f5-4af8-9e12-08b07b53ad1c,S000063,2026-02-18T06:34:00+00:00,support_ticket,Adult Education (Short Course),COM426,4,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+43d5c312-b725-4d12-b010-f62fd92fd155,S000115,2026-02-18T09:19:00+00:00,email,Graduate Certificate (Data),CYS551,9,Can someone explain question 3 on the practice quiz?,0
+876f7239-b5af-4c02-9a5c-6773fb028355,S000096,2026-02-18T12:53:00+00:00,support_ticket,Graduate Certificate (Data),IT551,9,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+347ae94f-b867-4c9b-8001-3b2f9a147c81,S000138,2026-02-18T15:23:00+00:00,chat,Bachelor (IT),COM662,8,How do I join a group for the group project?,0
+1c2f01c1-d43e-4d5f-94bd-05037f32dad2,S000009,2026-02-18T18:09:00+00:00,lms_forum,Bachelor (IT),COM640,10,I missed the live session but I’m up to date—where can I find the slides?,0
+acc3ea45-69fe-40f8-9233-166088cc892e,S000190,2026-02-18T21:15:00+00:00,email,Bachelor (Business),DAT470,11,I failed to attach my file last time; can I resubmit the correct document?,0
+e843512a-1166-4696-a206-a79e17e9bde4,S000146,2026-02-19T00:55:00+00:00,chat,Diploma (Community Services),COM632,2,I missed the live session but I’m up to date—where can I find the slides?,0
+2a0d75bb-fc6b-4405-86c9-de698a9f0331,S000190,2026-02-19T03:09:00+00:00,lms_forum,Bachelor (Business),COM463,6,I failed to attach my file last time; can I resubmit the correct document?,0
+fda6effa-f913-4ad5-9e04-06a73122bafa,S000110,2026-02-19T06:01:00+00:00,email,Diploma (Community Services),CYS166,7,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+c339142a-294b-4843-ba44-c3474b3900d1,S000168,2026-02-19T09:10:00+00:00,support_ticket,Micro-credential (Cybersecurity),CYS131,12,What’s the format for the weekly reflection?,0
+66245557-22e6-4555-805b-86615c504911,S000088,2026-02-19T12:44:00+00:00,lms_forum,Graduate Certificate (Data),COM442,8,I’m enjoying the unit so far—thanks for the clear explanations.,0
+f8dec82b-331c-4645-98a2-3c8057523d70,S000053,2026-02-19T15:12:00+00:00,chat,Micro-credential (Cybersecurity),IT218,4,Is there a recording for this week’s lecture?,0
+0d0cb451-d3f3-4735-ada6-1e1fbaad89c4,S000102,2026-02-19T18:24:00+00:00,lms_forum,Bachelor (IT),BUS143,6,I failed group project and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+ff48faac-9c8a-415c-8b45-5ee03c42cc35,S000022,2026-02-19T21:54:00+00:00,email,Bachelor (IT),EDU362,9,I missed the live session but I’m up to date—where can I find the slides?,0
+d954d7eb-1e84-4190-9894-84c8b77df807,S000132,2026-02-20T00:27:00+00:00,lms_forum,Bachelor (Business),DAT217,2,Is there a recording for this week’s lecture?,0
+e144df7c-aa8a-4714-bee6-d9de61b257de,S000084,2026-02-20T03:16:00+00:00,lms_forum,Diploma (Community Services),IT540,11,Can someone explain question 3 on the practice quiz?,0
+42dc4793-3b69-4354-b3f0-7d103bd692be,S000126,2026-02-20T06:13:00+00:00,email,Adult Education (Short Course),COM667,12,Do we need APA 7th for weekly reflection?,0
+4b676a56-e27d-4a04-a745-1c07168554a5,S000178,2026-02-20T09:01:00+00:00,lms_forum,Bachelor (Business),EDU563,12,I missed the live session but I’m up to date—where can I find the slides?,0
+d3cc6f07-22ba-45a9-a853-4057413c3878,S000011,2026-02-20T12:42:00+00:00,lms_forum,Bachelor (Business),COM153,11,What’s the format for the weekly reflection?,0
+2baaac33-498f-414f-aec3-25fdccf2fce1,S000009,2026-02-20T15:33:00+00:00,lms_forum,Bachelor (IT),EDU549,6,I’m enjoying the unit so far—thanks for the clear explanations.,0
+f86c9658-672e-4b25-8be4-8291439d6a02,S000153,2026-02-20T18:03:00+00:00,lms_forum,Graduate Certificate (Data),COM632,5,I failed to attach my file last time; can I resubmit the correct document?,0
+beace5ee-998b-43d2-9c00-52930ac6ea79,S000007,2026-02-20T21:38:00+00:00,lms_forum,Bachelor (IT),EDU291,9,I submitted weekly reflection late again. I’m worried about penalties and failing the unit.,1
+811ab7f6-e448-4add-a855-aff7a8c810a3,S000144,2026-02-21T00:04:00+00:00,email,Adult Education (Short Course),COM268,1,Can someone explain question 3 on the practice quiz?,0
+a49a9996-b402-481c-8dd7-9951a47492c5,S000199,2026-02-21T03:32:00+00:00,lms_forum,Adult Education (Short Course),BUS618,2,Is there a recording for this week’s lecture?,0
+ae04bc6b-84b1-477b-a356-b9de3ca316a5,S000130,2026-02-21T06:48:00+00:00,email,Graduate Certificate (Data),CYS676,10,I’m getting an error when uploading my file—any tips?,0
+936a6f9f-b3e7-4113-8128-de5bf1347bf7,S000038,2026-02-21T09:10:00+00:00,lms_forum,Micro-credential (Cybersecurity),EDU155,5,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+3b027307-9199-4444-a0b1-6821d7ff6bb8,S000067,2026-02-21T12:48:00+00:00,support_ticket,Adult Education (Short Course),IT150,7,Where do we submit quiz 1? I can’t find the link.,0
+9b849194-6bc6-44c4-9588-28d1726c151e,S000010,2026-02-21T15:18:00+00:00,email,Bachelor (IT),IT665,6,What’s the format for the weekly reflection?,0
+d128e685-1e6a-421b-acb1-715bacc24e0d,S000063,2026-02-21T18:07:00+00:00,email,Adult Education (Short Course),DAT655,7,Can you confirm the due date for final assessment in week 7?,0
+b9f50465-f9ef-4904-946a-b7fac13986ed,S000047,2026-02-21T21:52:00+00:00,email,Bachelor (IT),CYS168,3,Do we need APA 7th for quiz 1?,0
+5ab3261e-aee9-46e2-8975-df0f3f0ff4f2,S000159,2026-02-22T00:10:00+00:00,support_ticket,Graduate Certificate (Data),DAT462,4,Can someone explain question 3 on the practice quiz?,0
+3d7125ad-5fcf-43f8-a7c0-7686e50071d5,S000114,2026-02-22T03:14:00+00:00,lms_forum,Bachelor (Business),DAT159,8,Can someone explain question 3 on the practice quiz?,0
+479bbf05-1322-41cf-a9e1-da82c526478f,S000059,2026-02-22T06:51:00+00:00,email,Adult Education (Short Course),IT312,2,Where do we submit weekly reflection? I can’t find the link.,0
+78b9e944-8210-48ec-b0bc-fd52572c6201,S000025,2026-02-22T09:09:00+00:00,lms_forum,Adult Education (Short Course),DAT612,12,I’m enjoying the unit so far—thanks for the clear explanations.,0
+5ee936e3-3203-43ab-b1fb-65707c9b1bf1,S000059,2026-02-22T12:03:00+00:00,support_ticket,Adult Education (Short Course),IT348,3,Can you confirm the due date for quiz 2 in week 3?,0
+c1177c2f-3bb8-4edd-924c-120bd2b88091,S000120,2026-02-22T15:41:00+00:00,email,Diploma (Community Services),COM484,5,Do we need APA 7th for assignment 1?,0
+b29b2a94-260d-45c4-a38f-9b3b869bb3d2,S000048,2026-02-22T18:04:00+00:00,lms_forum,Graduate Certificate (Data),BUS204,2,How do I join a group for the group project?,0
+f8ceddd5-6162-4397-a572-5668a17d54be,S000134,2026-02-22T21:29:00+00:00,support_ticket,Micro-credential (Cybersecurity),DAT431,3,How do I join a group for the group project?,0
+897376b4-89b1-449b-8d57-16d9b4feb160,S000106,2026-02-23T00:48:00+00:00,email,Bachelor (IT),COM201,7,I’m enjoying the unit so far—thanks for the clear explanations.,0
+54573d02-3004-43be-a647-cbefc283af48,S000197,2026-02-23T03:36:00+00:00,lms_forum,Adult Education (Short Course),IT170,6,Where do we submit capstone submission? I can’t find the link.,0
+f3150e04-bad1-465d-875e-7b1c8d591093,S000161,2026-02-23T06:27:00+00:00,email,Micro-credential (Cybersecurity),CYS298,12,Where do we submit weekly reflection? I can’t find the link.,0
+d7951935-4fbd-4471-9a77-73e9762c6c0d,S000080,2026-02-23T09:43:00+00:00,email,Bachelor (IT),IT406,4,I’m enjoying the unit so far—thanks for the clear explanations.,0
+a02b705a-756e-4893-9632-795bf58a7eaa,S000161,2026-02-23T12:50:00+00:00,chat,Micro-credential (Cybersecurity),COM658,11,I failed assignment 2 and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+1b1dd0d8-9934-40e2-823e-28511c17944a,S000183,2026-02-23T15:50:00+00:00,email,Micro-credential (Cybersecurity),EDU335,1,Can someone explain question 3 on the practice quiz?,0
+2fd89ec4-8d44-43f7-b7f2-08caef1df94a,S000115,2026-02-23T18:20:00+00:00,lms_forum,Graduate Certificate (Data),IT409,4,I’m getting an error when uploading my file—any tips?,0
+843e0942-b6b2-466d-8886-35e93310d247,S000030,2026-02-23T21:52:00+00:00,email,Bachelor (IT),IT165,5,Where do we submit assignment 2? I can’t find the link.,0
+de61a293-b3c4-41ff-b5ee-eee13923ead7,S000097,2026-02-24T00:32:00+00:00,lms_forum,Diploma (Community Services),DAT431,3,How do I join a group for the group project?,0
+8c2a47c1-6e28-4066-adac-b16d4bf250fd,S000187,2026-02-24T03:06:00+00:00,email,Graduate Certificate (Data),CYS570,8,I failed to attach my file last time; can I resubmit the correct document?,0
+1c343eea-6361-4b4e-ae0a-9a473acab702,S000083,2026-02-24T06:25:00+00:00,chat,Bachelor (IT),IT307,10,What’s the format for the weekly reflection?,0
+ddecaffa-3b4f-4fd6-94d5-2458833620f2,S000064,2026-02-24T09:46:00+00:00,email,Graduate Certificate (Data),IT359,9,Is there a recording for this week’s lecture?,0
+c97ebe88-7fed-4d00-8284-583c27b72033,S000098,2026-02-24T12:09:00+00:00,lms_forum,Diploma (Community Services),CYS530,6,What’s the format for the weekly reflection?,0
+e46c4988-5099-4018-ab78-ec400828386a,S000049,2026-02-24T15:17:00+00:00,chat,Bachelor (Business),IT275,7,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+6982b946-a867-47c6-9270-5418eeee03ea,S000093,2026-02-24T18:54:00+00:00,lms_forum,Adult Education (Short Course),CYS159,9,How do I join a group for the group project?,0
+1f05541c-ee08-4c67-b35a-5e98530789bf,S000008,2026-02-24T21:44:00+00:00,lms_forum,Bachelor (IT),EDU555,7,Is there a recording for this week’s lecture?,0
+40d6dbf0-d1b9-4dad-80e7-8a8e687b234e,S000079,2026-02-25T00:36:00+00:00,lms_forum,Graduate Certificate (Data),IT654,12,I missed the live session but I’m up to date—where can I find the slides?,0
+f59e6d87-ccca-4577-973b-b1dc9501c5e5,S000190,2026-02-25T03:31:00+00:00,lms_forum,Bachelor (Business),CYS689,7,Is there an extension process for assignment 1?,0
+356d94e8-5cc7-42ce-8e79-e5b67af8f788,S000022,2026-02-25T06:35:00+00:00,email,Bachelor (IT),IT613,12,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+9b287770-325c-4315-9ea3-af7ba05dd84d,S000180,2026-02-25T09:05:00+00:00,email,Micro-credential (Cybersecurity),EDU266,1,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+430950b8-ef65-4a7a-8093-d7e8691563a5,S000131,2026-02-25T12:33:00+00:00,lms_forum,Diploma (Community Services),EDU265,6,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+54d2583c-c0ab-49e5-aee7-cde79800135e,S000063,2026-02-25T15:11:00+00:00,lms_forum,Adult Education (Short Course),COM436,6,Where do we submit group project? I can’t find the link.,0
+e43642c9-ce0c-46fe-a72f-37ce9ba89c51,S000053,2026-02-25T18:07:00+00:00,lms_forum,Micro-credential (Cybersecurity),COM111,7,I’m enjoying the unit so far—thanks for the clear explanations.,0
+6bf7e579-a396-4608-8f54-a7a17f92be0e,S000142,2026-02-25T21:29:00+00:00,chat,Bachelor (IT),BUS110,4,How do I join a group for the group project?,0
+6a95e50d-92f0-4f20-933c-762e182b1851,S000188,2026-02-26T00:17:00+00:00,email,Micro-credential (Cybersecurity),BUS363,12,Is there a recording for this week’s lecture?,0
+6c548231-6e3d-44db-a0de-a9b8e54ad2e3,S000151,2026-02-26T03:27:00+00:00,lms_forum,Bachelor (Business),IT183,11,I missed the live session but I’m up to date—where can I find the slides?,0
+739bbc20-648c-47d3-898b-8a0d1e6e776f,S000025,2026-02-26T06:13:00+00:00,lms_forum,Adult Education (Short Course),EDU442,5,Where do we submit quiz 2? I can’t find the link.,0
+163c98ea-4fae-4696-b0c2-131121acd0ec,S000117,2026-02-26T09:26:00+00:00,email,Adult Education (Short Course),DAT613,1,What’s the format for the weekly reflection?,0
+bc6f8446-f3c4-4da4-ace2-18eda0e96666,S000012,2026-02-26T12:46:00+00:00,chat,Diploma (Community Services),IT622,10,Do we need APA 7th for capstone submission?,0
+2e82b953-f4c9-487a-a2f8-5fb392396f56,S000166,2026-02-26T15:25:00+00:00,lms_forum,Diploma (Community Services),CYS365,9,Can you confirm the due date for quiz 1 in week 9?,0
+73bd9d52-8a9b-464b-a7fb-374b3809583d,S000172,2026-02-26T18:11:00+00:00,lms_forum,Graduate Certificate (Data),DAT134,6,I submitted quiz 1 late again. I’m worried about penalties and failing the unit.,1
+3fe5d677-ab62-4214-a97c-1b425c8a5c6c,S000091,2026-02-26T21:25:00+00:00,lms_forum,Bachelor (Business),DAT455,7,I missed the live session but I’m up to date—where can I find the slides?,0
+ba4d347d-002e-465d-9cc7-d225eef7dffb,S000021,2026-02-27T00:32:00+00:00,email,Micro-credential (Cybersecurity),BUS187,5,What’s the format for the weekly reflection?,0
+304afcba-1681-4f96-a54b-86937faad6bd,S000144,2026-02-27T03:07:00+00:00,lms_forum,Adult Education (Short Course),BUS471,7,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+a40ce616-0e8e-4bbb-80df-2cab0ccf783e,S000100,2026-02-27T06:10:00+00:00,lms_forum,Bachelor (IT),BUS560,4,I’m really behind in week 4 and I don’t think I can catch up. Can someone help me make a plan?,1
+bf70d750-245b-470c-bff9-e1a704cafef3,S000005,2026-02-27T09:36:00+00:00,email,Diploma (Community Services),COM177,11,I failed to attach my file last time; can I resubmit the correct document?,0
+2055d133-26ad-4be4-83b2-ed0bda040a56,S000190,2026-02-27T12:24:00+00:00,lms_forum,Bachelor (Business),EDU589,4,Can you confirm the due date for capstone submission in week 4?,0
+e9d83660-955f-46ee-b1d5-ea34c5e85c18,S000165,2026-02-27T15:38:00+00:00,support_ticket,Bachelor (Business),DAT574,8,Do we need APA 7th for quiz 2?,0
+b448cc2a-5135-4b79-8652-fd897288dbcc,S000146,2026-02-27T18:23:00+00:00,support_ticket,Diploma (Community Services),CYS243,11,I’m enjoying the unit so far—thanks for the clear explanations.,0
+5dea0ee9-7a5e-4e95-b77c-bd98864fbac7,S000007,2026-02-27T21:03:00+00:00,email,Bachelor (IT),CYS685,10,I failed group project and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+96b46a1d-d525-4801-8ac1-705e77e2b94a,S000195,2026-02-28T00:24:00+00:00,lms_forum,Adult Education (Short Course),IT532,9,Is there an extension process for quiz 1?,0
+6391ae6c-c071-47c4-89c3-52a3b9be27f5,S000165,2026-02-28T03:19:00+00:00,chat,Bachelor (Business),CYS191,10,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+62d7fa35-ea85-4c30-9198-e6c790a6b7b3,S000031,2026-02-28T06:52:00+00:00,support_ticket,Bachelor (Business),IT152,10,Can someone explain question 3 on the practice quiz?,0
+bc4e08d9-94f6-4c5d-ade7-e4b824861651,S000099,2026-02-28T09:27:00+00:00,lms_forum,Bachelor (IT),CYS103,9,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+4e0b248d-f85c-4900-b0e9-fb6e28593bcb,S000127,2026-02-28T12:19:00+00:00,lms_forum,Bachelor (IT),IT181,4,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+46c1497e-2c09-4ded-9baf-26393939136f,S000040,2026-02-28T15:40:00+00:00,support_ticket,Bachelor (IT),DAT163,7,Is there an extension process for final assessment?,0
+005b1ec5-d383-4b24-94a7-eac096d3c0dd,S000002,2026-02-28T18:18:00+00:00,email,Bachelor (IT),IT270,1,Is there an extension process for assignment 2?,0
+e1f45f64-1066-4b61-80e3-c9912018631c,S000053,2026-02-28T21:49:00+00:00,lms_forum,Micro-credential (Cybersecurity),EDU576,4,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+807d5433-3a64-4f36-9b8f-cf7ac89b8bb4,S000081,2026-03-01T00:38:00+00:00,support_ticket,Bachelor (Business),BUS399,4,Can you confirm the due date for weekly reflection in week 4?,0
+1fd0788f-f926-4fca-a808-bac61180ce62,S000132,2026-03-01T03:05:00+00:00,lms_forum,Bachelor (Business),DAT188,1,I failed to attach my file last time; can I resubmit the correct document?,0
+9a669d88-0bc0-4b27-adce-bf18e34d0aa1,S000032,2026-03-01T06:03:00+00:00,lms_forum,Bachelor (Business),EDU269,9,Is there a recording for this week’s lecture?,0
+c8820258-cf79-4296-bded-c2a0dd128f97,S000042,2026-03-01T09:22:00+00:00,lms_forum,Diploma (Community Services),DAT616,12,Can someone explain question 3 on the practice quiz?,0
+90536b4a-1e91-4d0f-a146-4681e2b02baa,S000093,2026-03-01T12:38:00+00:00,chat,Adult Education (Short Course),IT249,3,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+d991f142-6034-4498-a2eb-8205282d06cf,S000003,2026-03-01T15:37:00+00:00,lms_forum,Diploma (Community Services),IT456,7,Can you confirm the due date for group project in week 7?,0
+a26f26a4-79d6-4e35-8f6f-dac5a2b3f600,S000032,2026-03-01T18:22:00+00:00,lms_forum,Bachelor (Business),IT586,9,I’m enjoying the unit so far—thanks for the clear explanations.,0
+52857f62-a5dd-41a9-9a26-3db81e200af7,S000019,2026-03-01T21:48:00+00:00,chat,Bachelor (Business),CYS611,11,What’s the format for the weekly reflection?,0
+f6de89cb-ad7d-4f92-865e-bf9983b029d3,S000199,2026-03-02T00:05:00+00:00,lms_forum,Adult Education (Short Course),IT391,2,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+8e4e5254-d801-4795-8b9d-12b561ef1c5b,S000084,2026-03-02T03:26:00+00:00,chat,Diploma (Community Services),IT480,3,I’m really behind in week 3 and I don’t think I can catch up. Can someone help me make a plan?,1
+600138ac-174f-4544-95c5-e144cfc6a641,S000091,2026-03-02T06:25:00+00:00,chat,Bachelor (Business),DAT568,3,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+07a54a31-157b-4aff-bfbe-bf0a06c46383,S000121,2026-03-02T09:26:00+00:00,email,Micro-credential (Cybersecurity),CYS290,8,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+56ce1ec9-ec20-4c75-a636-f13f0db4fc0d,S000106,2026-03-02T12:49:00+00:00,lms_forum,Bachelor (IT),COM397,3,I failed group project and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+07a5e221-4a5f-400e-ae05-ad4ba17d20b9,S000013,2026-03-02T15:15:00+00:00,email,Diploma (Community Services),DAT462,9,What’s the format for the weekly reflection?,0
+7d6f13a1-5a4a-444b-b256-352a9cff156d,S000083,2026-03-02T18:52:00+00:00,support_ticket,Bachelor (IT),IT436,8,I submitted weekly reflection late again. I’m worried about penalties and failing the unit.,1
+71240820-8267-46c3-bbb0-e846bce13f46,S000150,2026-03-02T21:55:00+00:00,support_ticket,Adult Education (Short Course),COM582,3,Can someone explain question 3 on the practice quiz?,0
+0d641bf9-531b-476d-afe3-2b3f5575215a,S000153,2026-03-03T00:35:00+00:00,chat,Graduate Certificate (Data),CYS186,10,I’m getting an error when uploading my file—any tips?,0
+6926ebd3-11f7-4ce5-ab50-bcd58edcc3b8,S000185,2026-03-03T03:29:00+00:00,lms_forum,Graduate Certificate (Data),EDU542,2,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+57893d51-69f1-4d37-8693-b9823554dbda,S000086,2026-03-03T06:19:00+00:00,email,Bachelor (IT),CYS127,7,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+836f054f-636b-4e2b-90f0-30f824507ac3,S000104,2026-03-03T09:32:00+00:00,email,Bachelor (IT),EDU545,7,What’s the format for the weekly reflection?,0
+33b6f01d-0153-4277-81cd-58c5ad33f166,S000136,2026-03-03T12:19:00+00:00,email,Micro-credential (Cybersecurity),COM101,11,I failed to attach my file last time; can I resubmit the correct document?,0
+83791c5e-edf0-4de3-817a-d6814096d271,S000087,2026-03-03T15:04:00+00:00,lms_forum,Bachelor (Business),COM396,12,I missed the live session but I’m up to date—where can I find the slides?,0
+5843e82f-257d-4437-ad2a-db5808ce6cd0,S000025,2026-03-03T18:22:00+00:00,lms_forum,Adult Education (Short Course),COM416,3,What’s the format for the weekly reflection?,0
+7b81f264-8cc2-4f31-a294-9d2de21d6d55,S000008,2026-03-03T21:30:00+00:00,lms_forum,Bachelor (IT),EDU672,12,I failed to attach my file last time; can I resubmit the correct document?,0
+471d85d9-b15d-459d-af03-5cb8357b4600,S000169,2026-03-04T00:07:00+00:00,email,Adult Education (Short Course),IT178,11,I’m enjoying the unit so far—thanks for the clear explanations.,0
+89aca447-d64c-48c7-9087-e13eb6dcc57c,S000095,2026-03-04T03:02:00+00:00,email,Adult Education (Short Course),IT102,11,How do I join a group for the group project?,0
+058f6e4c-4e3e-4cc4-8624-1022c3944936,S000002,2026-03-04T06:33:00+00:00,support_ticket,Bachelor (IT),CYS436,10,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+190e7f11-4b17-4569-9ab0-eb390d74c832,S000116,2026-03-04T09:40:00+00:00,support_ticket,Micro-credential (Cybersecurity),CYS304,9,Can someone explain question 3 on the practice quiz?,0
+108ce341-be07-48fa-bc64-97fda074d45f,S000138,2026-03-04T12:25:00+00:00,lms_forum,Bachelor (IT),IT525,2,I missed the live session but I’m up to date—where can I find the slides?,0
+16d4faaa-230d-411f-b634-a9a3634a2419,S000166,2026-03-04T15:37:00+00:00,chat,Diploma (Community Services),CYS450,7,I failed capstone submission and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+e1edb12d-6458-4741-924d-a6349ba4af0f,S000036,2026-03-04T18:22:00+00:00,support_ticket,Adult Education (Short Course),DAT674,12,I submitted quiz 1 late again. I’m worried about penalties and failing the unit.,1
+491eecf5-4e67-484e-a378-3c421f81d0fb,S000040,2026-03-04T21:41:00+00:00,lms_forum,Bachelor (IT),EDU506,4,Can you confirm the due date for final assessment in week 4?,0
+3e767746-17cf-49fd-b355-8e428aae6bcc,S000157,2026-03-05T00:55:00+00:00,support_ticket,Bachelor (Business),COM139,8,Can someone explain question 3 on the practice quiz?,0
+dc08ed63-be8f-4660-ab98-1eb4cbac5f7d,S000121,2026-03-05T03:38:00+00:00,support_ticket,Micro-credential (Cybersecurity),DAT340,9,I’m enjoying the unit so far—thanks for the clear explanations.,0
+b2a25cf1-55b4-4bf3-9c1b-4f19e50df261,S000160,2026-03-05T06:48:00+00:00,lms_forum,Adult Education (Short Course),COM368,1,Can you confirm the due date for group project in week 1?,0
+e1c44ab4-eb0e-4312-adda-3beebe43efc2,S000192,2026-03-05T09:29:00+00:00,chat,Bachelor (Business),BUS561,7,Is there a recording for this week’s lecture?,0
+951e2740-ea3f-42ed-814c-cd009aead96b,S000016,2026-03-05T12:24:00+00:00,email,Bachelor (Business),BUS421,7,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+18fe98fc-d0fe-46d7-9d08-874971e2ef3e,S000079,2026-03-05T15:45:00+00:00,chat,Graduate Certificate (Data),BUS529,4,I failed to attach my file last time; can I resubmit the correct document?,0
+a0185a39-841d-4e42-b863-7ec3f5fa1aa4,S000076,2026-03-05T18:48:00+00:00,lms_forum,Bachelor (IT),COM530,12,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+f21dd971-2056-4240-8277-d19c7c04bcc4,S000081,2026-03-05T21:54:00+00:00,chat,Bachelor (Business),IT563,2,I submitted group project late again. I’m worried about penalties and failing the unit.,1
+c7ab63bb-fd79-412d-a512-1e114f576f8a,S000036,2026-03-06T00:27:00+00:00,lms_forum,Adult Education (Short Course),IT431,5,Is there a recording for this week’s lecture?,0
+d625cbee-d116-48f8-9f17-ac1e4bd86ef0,S000153,2026-03-06T03:37:00+00:00,support_ticket,Graduate Certificate (Data),BUS504,11,I’m getting an error when uploading my file—any tips?,0
+c2f4bac0-f473-4b0c-915d-239a0b48759c,S000005,2026-03-06T06:51:00+00:00,lms_forum,Diploma (Community Services),IT575,8,Can you confirm the due date for weekly reflection in week 8?,0
+b53db9b3-4acb-471a-9add-49963e9ce434,S000051,2026-03-06T09:38:00+00:00,chat,Diploma (Community Services),CYS425,12,How do I join a group for the group project?,0
+519ec72a-4b54-48a4-8900-f0d3a711bd7f,S000025,2026-03-06T12:51:00+00:00,lms_forum,Adult Education (Short Course),EDU552,8,Is there a recording for this week’s lecture?,0
+35a8028e-c2a5-482e-8835-a3d007ba638b,S000187,2026-03-06T15:36:00+00:00,chat,Graduate Certificate (Data),DAT344,6,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+55987217-a768-4dce-b2a0-ec33fbc7b3d0,S000198,2026-03-06T18:26:00+00:00,lms_forum,Bachelor (IT),IT547,9,I missed the live session but I’m up to date—where can I find the slides?,0
+e3ad51c8-efc7-42b3-8b3b-6c37e975af80,S000124,2026-03-06T21:48:00+00:00,email,Micro-credential (Cybersecurity),COM288,6,What’s the format for the weekly reflection?,0
+d3f62ee5-cabb-4a74-85c8-ff735cf5ac29,S000145,2026-03-07T00:15:00+00:00,chat,Adult Education (Short Course),BUS671,11,I failed quiz 1 and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+d277e302-7b9e-4d4c-8734-7b51492f6543,S000026,2026-03-07T03:34:00+00:00,lms_forum,Micro-credential (Cybersecurity),EDU343,12,How do I join a group for the group project?,0
+83d63f6e-bfbc-4d84-a41a-64a2239ac72e,S000102,2026-03-07T06:29:00+00:00,email,Bachelor (IT),EDU649,12,I failed to attach my file last time; can I resubmit the correct document?,0
+be473a2d-969f-4eef-8726-c8cefe6d0ee0,S000048,2026-03-07T09:48:00+00:00,lms_forum,Graduate Certificate (Data),EDU159,9,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+5b37748c-dd1a-4dfc-a46b-823d3daf0b14,S000140,2026-03-07T12:52:00+00:00,chat,Graduate Certificate (Data),IT497,12,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+d0ecb7e2-ca04-4423-b796-f26130424163,S000173,2026-03-07T15:09:00+00:00,lms_forum,Graduate Certificate (Data),COM115,9,Do we need APA 7th for assignment 2?,0
+afcaf0df-dc55-40db-8824-1567b95f0da4,S000131,2026-03-07T18:15:00+00:00,support_ticket,Diploma (Community Services),EDU166,4,Can you confirm the due date for assignment 1 in week 4?,0
+cd83e093-765e-4067-84e8-5b58357bfb99,S000144,2026-03-07T21:25:00+00:00,chat,Adult Education (Short Course),COM563,1,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+9eb5708c-32fe-45bb-96e8-9262efabd086,S000121,2026-03-08T00:35:00+00:00,lms_forum,Micro-credential (Cybersecurity),EDU404,7,I missed the live session but I’m up to date—where can I find the slides?,0
+4de679ad-c056-4b03-9834-1c6d34dab5c3,S000088,2026-03-08T03:03:00+00:00,lms_forum,Graduate Certificate (Data),DAT174,12,I failed to attach my file last time; can I resubmit the correct document?,0
+b118507a-e318-4860-a859-39ef6af11f3a,S000044,2026-03-08T06:52:00+00:00,lms_forum,Diploma (Community Services),DAT328,7,What’s the format for the weekly reflection?,0
+75d49c1e-f98d-4842-9a42-0a3b95f23250,S000067,2026-03-08T09:35:00+00:00,lms_forum,Adult Education (Short Course),BUS373,7,I failed to attach my file last time; can I resubmit the correct document?,0
+5025e91f-29e9-4df7-9887-dcb455fb5d5d,S000071,2026-03-08T12:52:00+00:00,email,Bachelor (Business),IT359,3,I’m getting an error when uploading my file—any tips?,0
+ea3793ff-bddd-4d4f-95b4-c586ce25cb42,S000020,2026-03-08T15:33:00+00:00,support_ticket,Adult Education (Short Course),COM507,8,I failed to attach my file last time; can I resubmit the correct document?,0
+303f79d4-c655-4934-aa82-b874cdd867e8,S000104,2026-03-08T18:10:00+00:00,lms_forum,Bachelor (IT),BUS270,10,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+913f038b-20b6-4d8b-844b-77c539dbeecc,S000020,2026-03-08T21:48:00+00:00,email,Adult Education (Short Course),BUS528,3,I missed the live session but I’m up to date—where can I find the slides?,0
+2e3e4563-fe02-406f-bf9e-742c56e2ecb0,S000067,2026-03-09T00:11:00+00:00,lms_forum,Adult Education (Short Course),IT613,6,Where do we submit assignment 1? I can’t find the link.,0
+3fed2493-b9fe-4a5d-9ab7-1fd50b976392,S000061,2026-03-09T03:22:00+00:00,support_ticket,Diploma (Community Services),CYS229,9,I failed to attach my file last time; can I resubmit the correct document?,0
+b079126f-7c87-405a-98e5-fb2e98151947,S000171,2026-03-09T06:08:00+00:00,lms_forum,Micro-credential (Cybersecurity),EDU244,12,I’m really behind in week 12 and I don’t think I can catch up. Can someone help me make a plan?,1
+0ff643e1-566a-46fa-ac1e-bf59d0964373,S000107,2026-03-09T09:19:00+00:00,lms_forum,Diploma (Community Services),IT571,5,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+c2cffec7-134c-47a8-a3b3-4cc10858d8a8,S000068,2026-03-09T12:50:00+00:00,email,Diploma (Community Services),CYS275,10,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+717c3f59-59a8-420d-acbf-3607f407b6ad,S000072,2026-03-09T15:22:00+00:00,email,Bachelor (Business),DAT486,7,How do I join a group for the group project?,0
+858ee649-65e2-4b4b-9840-d358b0825dd7,S000028,2026-03-09T18:47:00+00:00,lms_forum,Adult Education (Short Course),COM204,1,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+6b647842-a1cb-4c51-b781-e235ba64b7f6,S000043,2026-03-09T21:17:00+00:00,email,Graduate Certificate (Data),CYS317,2,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+ce7a8855-6d0e-45dc-8783-82d16f57d13f,S000167,2026-03-10T00:15:00+00:00,email,Bachelor (IT),COM537,2,Can someone explain question 3 on the practice quiz?,0
+2459796a-5885-4daf-88d1-0557107eb13f,S000024,2026-03-10T03:19:00+00:00,email,Adult Education (Short Course),DAT205,7,I’m really behind in week 7 and I don’t think I can catch up. Can someone help me make a plan?,1
+13a048bc-ded8-4e93-9430-e715c73dec4c,S000036,2026-03-10T06:38:00+00:00,email,Adult Education (Short Course),IT686,4,I failed to attach my file last time; can I resubmit the correct document?,0
+3ca72742-85ed-4d71-9b91-e838b0f9fa9f,S000085,2026-03-10T09:36:00+00:00,chat,Bachelor (IT),COM314,6,I’m getting an error when uploading my file—any tips?,0
+a77ef893-fefd-44e4-b406-40cd72e878cd,S000071,2026-03-10T12:53:00+00:00,lms_forum,Bachelor (Business),IT558,10,I failed group project and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+b8009b5f-e5ce-4e3e-8a6d-bc706fa0e49d,S000194,2026-03-10T15:14:00+00:00,email,Bachelor (IT),BUS251,12,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+3e90ec40-f414-4b5c-947a-70d3d4b4caaa,S000111,2026-03-10T18:18:00+00:00,lms_forum,Graduate Certificate (Data),IT115,7,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+4120e947-9a40-4b7b-90bc-6ae2cb2751d5,S000049,2026-03-10T21:15:00+00:00,chat,Bachelor (Business),COM603,1,Can you confirm the due date for capstone submission in week 1?,0
+9387f3f2-ebf7-4b86-9121-4233aabec724,S000034,2026-03-11T00:39:00+00:00,support_ticket,Graduate Certificate (Data),IT294,9,I failed to attach my file last time; can I resubmit the correct document?,0
+98d569da-ccb2-4087-8340-88cf80a226b6,S000167,2026-03-11T03:47:00+00:00,lms_forum,Bachelor (IT),EDU302,11,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+b3dc0d9b-1381-443b-9586-ba20f2c6a274,S000029,2026-03-11T06:39:00+00:00,support_ticket,Bachelor (IT),IT341,8,Is there an extension process for final assessment?,0
+75f4ee9a-8c5e-4ffc-995e-7b3ec70dae89,S000140,2026-03-11T09:51:00+00:00,email,Graduate Certificate (Data),IT475,2,Can someone explain question 3 on the practice quiz?,0
+7a0b4718-d783-4fb3-830a-96806b1cfe6d,S000190,2026-03-11T12:02:00+00:00,lms_forum,Bachelor (Business),IT666,3,What’s the format for the weekly reflection?,0
+c1a6137d-e1ea-4da1-be02-649512d57c18,S000046,2026-03-11T15:26:00+00:00,lms_forum,Micro-credential (Cybersecurity),EDU448,3,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+fe4fe305-0e77-4de1-9450-63bd29af9e03,S000104,2026-03-11T18:07:00+00:00,lms_forum,Bachelor (IT),IT370,11,I failed to attach my file last time; can I resubmit the correct document?,0
+f5b0a62c-e83c-463b-a94e-0ceb7c18b1a5,S000001,2026-03-11T21:22:00+00:00,lms_forum,Bachelor (IT),DAT403,11,I missed the live session but I’m up to date—where can I find the slides?,0
+e7ad4f9e-ccae-455a-b4ab-7c7a8b273929,S000115,2026-03-12T00:13:00+00:00,email,Graduate Certificate (Data),CYS328,8,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+2af23ff5-66f6-4e46-954b-9cddf26ca596,S000070,2026-03-12T03:30:00+00:00,email,Bachelor (Business),BUS219,4,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+986faca7-04cc-4fd4-8123-18e6a735cab6,S000165,2026-03-12T06:05:00+00:00,chat,Bachelor (Business),COM292,6,I failed assignment 2 and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+5da518f5-5f23-43ce-be7c-f73820fe4888,S000062,2026-03-12T09:44:00+00:00,lms_forum,Adult Education (Short Course),EDU337,3,I’m really behind in week 3 and I don’t think I can catch up. Can someone help me make a plan?,1
+13f23222-3520-425c-b58d-c15e949b8a52,S000144,2026-03-12T12:13:00+00:00,lms_forum,Adult Education (Short Course),DAT595,5,I missed the live session but I’m up to date—where can I find the slides?,0
+d01b4ec1-3aa7-4db2-9a47-1e4f23cf9d65,S000064,2026-03-12T15:04:00+00:00,chat,Graduate Certificate (Data),COM489,9,How do I join a group for the group project?,0
+5a26934e-3a71-4e8e-b39f-c52ac9f65149,S000174,2026-03-12T18:32:00+00:00,lms_forum,Bachelor (Business),CYS102,7,I failed to attach my file last time; can I resubmit the correct document?,0
+a448ce48-e4e5-425a-be81-a1e7c7696ad8,S000170,2026-03-12T21:39:00+00:00,lms_forum,Bachelor (Business),DAT411,11,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+4256d230-1392-47db-9f05-485bb5d6dfe9,S000061,2026-03-13T00:31:00+00:00,lms_forum,Diploma (Community Services),IT569,6,I’m enjoying the unit so far—thanks for the clear explanations.,0
+3f8920fa-0210-4974-9508-2303e54cd9c0,S000116,2026-03-13T03:04:00+00:00,support_ticket,Micro-credential (Cybersecurity),COM551,1,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+ade56655-04b1-45ff-b52c-abb68e29ad69,S000065,2026-03-13T06:15:00+00:00,lms_forum,Adult Education (Short Course),BUS453,7,I failed assignment 2 and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+ffa57e85-8c15-4527-88d6-87e6692829dc,S000065,2026-03-13T09:08:00+00:00,email,Adult Education (Short Course),IT160,4,Is there a recording for this week’s lecture?,0
+d5cf17c1-2563-4132-8c57-027f52f1ee0b,S000103,2026-03-13T12:20:00+00:00,support_ticket,Bachelor (Business),EDU650,7,Is there an extension process for weekly reflection?,0
+ac1eba6a-5098-445f-b456-e8adb39b5867,S000051,2026-03-13T15:34:00+00:00,support_ticket,Diploma (Community Services),DAT451,3,Is there a recording for this week’s lecture?,0
+9517ffc1-1e47-4aec-a384-d2cfc4e696e3,S000031,2026-03-13T18:44:00+00:00,lms_forum,Bachelor (Business),DAT230,9,How do I join a group for the group project?,0
+58e2d9b1-8bda-48b5-998a-598b0af800bb,S000079,2026-03-13T21:12:00+00:00,email,Graduate Certificate (Data),EDU107,12,Is there a recording for this week’s lecture?,0
+e043c8a0-a43f-48dc-aa3b-920cbc1266a0,S000149,2026-03-14T00:09:00+00:00,lms_forum,Adult Education (Short Course),CYS634,12,How do I join a group for the group project?,0
+54949bcf-a64e-4f46-9489-4045c5f0189f,S000146,2026-03-14T03:20:00+00:00,lms_forum,Diploma (Community Services),EDU221,12,Is there a recording for this week’s lecture?,0
+2a540602-7fef-4901-8b70-6a9b7d580aeb,S000153,2026-03-14T06:38:00+00:00,lms_forum,Graduate Certificate (Data),CYS268,5,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+5d2aec15-9d74-41e8-bc4c-b9ca55164497,S000099,2026-03-14T09:19:00+00:00,chat,Bachelor (IT),COM298,3,Can you confirm the due date for final assessment in week 3?,0
+b81831d1-86bc-4c17-a342-9f8b4da09d61,S000108,2026-03-14T12:51:00+00:00,email,Bachelor (IT),COM277,4,Do we need APA 7th for weekly reflection?,0
+9f8d6f1b-efaf-4561-b8ed-a6c4aab3ad06,S000048,2026-03-14T15:38:00+00:00,chat,Graduate Certificate (Data),EDU563,3,Can someone explain question 3 on the practice quiz?,0
+1627386c-79b0-4e0a-a6fc-f2ac6bba01d3,S000027,2026-03-14T18:03:00+00:00,email,Micro-credential (Cybersecurity),EDU484,4,I missed the live session but I’m up to date—where can I find the slides?,0
+7defea5a-85be-4be2-87dc-2969a20e6bfd,S000142,2026-03-14T21:50:00+00:00,lms_forum,Bachelor (IT),CYS223,12,I missed the live session but I’m up to date—where can I find the slides?,0
+ad7b5d28-20d0-42c9-a2d9-ed69fc5fd7bd,S000071,2026-03-15T00:27:00+00:00,chat,Bachelor (Business),IT376,7,I missed the live session but I’m up to date—where can I find the slides?,0
+f322f94f-c47b-4947-9249-1cbda41cc9ca,S000138,2026-03-15T03:08:00+00:00,email,Bachelor (IT),IT658,9,Can you confirm the due date for group project in week 9?,0
+569e7d4c-b7a6-4a2c-b1be-801cb9f9314b,S000155,2026-03-15T06:14:00+00:00,email,Bachelor (IT),COM654,11,Is there an extension process for quiz 2?,0
+ae83fbdf-fb1f-4061-83d9-c1bc2e5c54d2,S000174,2026-03-15T09:49:00+00:00,email,Bachelor (Business),EDU574,7,Do we need APA 7th for weekly reflection?,0
+f295092f-30b9-48f2-9368-f974f180ee3f,S000175,2026-03-15T12:49:00+00:00,lms_forum,Adult Education (Short Course),DAT683,8,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+c3b6332b-8ed3-4310-aa98-e45d9a20e18f,S000150,2026-03-15T15:18:00+00:00,email,Adult Education (Short Course),DAT509,2,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+4d870588-f413-49fe-9a03-e357876c82ed,S000098,2026-03-15T18:20:00+00:00,lms_forum,Diploma (Community Services),COM109,6,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+c7ab4b56-7b37-470f-8f67-eba7e930e95f,S000041,2026-03-15T21:53:00+00:00,lms_forum,Micro-credential (Cybersecurity),CYS414,4,I failed final assessment and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+b9f33307-3d08-4936-8f4d-fa51ba6b78fd,S000120,2026-03-16T00:52:00+00:00,lms_forum,Diploma (Community Services),EDU164,8,What’s the format for the weekly reflection?,0
+f3f4d4f2-a5b2-46e3-bfda-a841135e7d38,S000033,2026-03-16T03:36:00+00:00,lms_forum,Diploma (Community Services),IT201,4,I missed the live session but I’m up to date—where can I find the slides?,0
+e584f658-05b8-4763-b206-4ee018768845,S000097,2026-03-16T06:02:00+00:00,chat,Diploma (Community Services),BUS293,5,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+9e03b6a3-5284-43d1-87ea-d7cb1ad16382,S000051,2026-03-16T09:32:00+00:00,support_ticket,Diploma (Community Services),EDU586,8,What’s the format for the weekly reflection?,0
+45600f7f-41b6-4063-a02b-803faedf5077,S000112,2026-03-16T12:53:00+00:00,lms_forum,Bachelor (Business),DAT656,9,Where do we submit weekly reflection? I can’t find the link.,0
+c0c2d85d-3d89-462e-aadf-ea01ef92a00b,S000188,2026-03-16T15:09:00+00:00,support_ticket,Micro-credential (Cybersecurity),BUS132,12,I failed final assessment and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+3f2ae3c7-75bf-4245-9e56-d8648f2f00ae,S000065,2026-03-16T18:31:00+00:00,lms_forum,Adult Education (Short Course),DAT332,2,Can you confirm the due date for assignment 1 in week 2?,0
+4741c4cc-31a2-4b9c-9d42-9ccd70066807,S000131,2026-03-16T21:50:00+00:00,lms_forum,Diploma (Community Services),DAT280,10,Where do we submit quiz 2? I can’t find the link.,0
+50f8e19f-06c5-401d-bb1b-edd8e2ba1e6d,S000067,2026-03-17T00:02:00+00:00,support_ticket,Adult Education (Short Course),EDU233,6,Do we need APA 7th for final assessment?,0
+a8bda778-623c-4731-a5d8-723558195937,S000026,2026-03-17T03:15:00+00:00,email,Micro-credential (Cybersecurity),CYS257,1,How do I join a group for the group project?,0
+4b55a2dd-3067-4933-9ded-0a86e5740870,S000105,2026-03-17T06:33:00+00:00,support_ticket,Adult Education (Short Course),EDU350,6,What’s the format for the weekly reflection?,0
+45f114c7-5650-4862-a456-372935305703,S000077,2026-03-17T09:45:00+00:00,chat,Graduate Certificate (Data),BUS488,6,I failed to attach my file last time; can I resubmit the correct document?,0
+5bae4eeb-c636-4ef5-990d-8635c8f2d1a4,S000192,2026-03-17T12:52:00+00:00,email,Bachelor (Business),COM152,2,Is there an extension process for assignment 1?,0
+9308ad6e-c568-4657-bfbd-a36efb71e195,S000015,2026-03-17T15:41:00+00:00,support_ticket,Bachelor (Business),CYS210,9,I missed the live session but I’m up to date—where can I find the slides?,0
+8827617e-3989-4eec-b292-293610b059ce,S000171,2026-03-17T18:24:00+00:00,chat,Micro-credential (Cybersecurity),IT626,11,I missed the live session but I’m up to date—where can I find the slides?,0
+8199a12a-e35f-442e-87d7-5b5265c8c303,S000088,2026-03-17T21:39:00+00:00,support_ticket,Graduate Certificate (Data),IT363,10,I’m getting an error when uploading my file—any tips?,0
+be1f71f9-ea41-4ff0-84b8-cbda30f05250,S000005,2026-03-18T00:46:00+00:00,lms_forum,Diploma (Community Services),COM247,2,Can someone explain question 3 on the practice quiz?,0
+eaa56d35-934b-4422-a7be-ea11daeeb91f,S000065,2026-03-18T03:04:00+00:00,lms_forum,Adult Education (Short Course),IT638,2,I failed capstone submission and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+c58f572d-b971-487f-8665-c5bd33f59cb1,S000157,2026-03-18T06:24:00+00:00,lms_forum,Bachelor (Business),DAT279,12,Do we need APA 7th for assignment 1?,0
+11b7809e-a3fb-4456-98fa-43ea536b75e6,S000163,2026-03-18T09:01:00+00:00,email,Bachelor (Business),COM564,2,Do we need APA 7th for weekly reflection?,0
+a16c72ae-87c4-414e-89f8-d68f46f2501d,S000098,2026-03-18T12:44:00+00:00,email,Diploma (Community Services),EDU389,1,Is there an extension process for quiz 1?,0
+c577985d-6cd7-4238-9274-46b9771bf455,S000085,2026-03-18T15:09:00+00:00,email,Bachelor (IT),EDU626,1,Can you confirm the due date for capstone submission in week 1?,0
+514cb0fb-e06b-4ee4-8d9e-8e5c4bb7ffea,S000188,2026-03-18T18:09:00+00:00,lms_forum,Micro-credential (Cybersecurity),IT699,12,Do we need APA 7th for group project?,0
+66e4cbf4-e6cf-4ee8-a565-1b32bd11cd25,S000035,2026-03-18T21:09:00+00:00,lms_forum,Micro-credential (Cybersecurity),CYS553,6,Can you confirm the due date for assignment 2 in week 6?,0
+63a089eb-f68e-4c69-bd6b-2ba5a15da47c,S000167,2026-03-19T00:50:00+00:00,chat,Bachelor (IT),EDU667,2,I’m really behind in week 2 and I don’t think I can catch up. Can someone help me make a plan?,1
+b34cb29e-6263-4606-a3be-f933b25e9637,S000077,2026-03-19T03:25:00+00:00,lms_forum,Graduate Certificate (Data),BUS690,3,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+3c0c208c-b6b8-4e5d-93cc-c46c20931e3c,S000014,2026-03-19T06:12:00+00:00,lms_forum,Graduate Certificate (Data),BUS174,4,What’s the format for the weekly reflection?,0
+55665d52-d401-4c60-8c3d-fd322d78f586,S000067,2026-03-19T09:22:00+00:00,lms_forum,Adult Education (Short Course),CYS582,10,I’m enjoying the unit so far—thanks for the clear explanations.,0
+c14250b3-671a-4d60-a0ea-d709d0e3a571,S000108,2026-03-19T12:13:00+00:00,lms_forum,Bachelor (IT),EDU443,1,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+93d166e4-ab96-4758-9bea-7953705481bd,S000126,2026-03-19T15:44:00+00:00,lms_forum,Adult Education (Short Course),COM364,1,Where do we submit final assessment? I can’t find the link.,0
+0830ec75-a7d5-41ce-a829-d20a162c8e08,S000130,2026-03-19T18:10:00+00:00,email,Graduate Certificate (Data),EDU244,7,I missed the live session but I’m up to date—where can I find the slides?,0
+f9e5fc82-a1a2-48c0-9e12-302466a3be3c,S000138,2026-03-19T21:10:00+00:00,lms_forum,Bachelor (IT),EDU414,3,Is there a recording for this week’s lecture?,0
+4778c770-8842-4225-8b7d-bf520d26fa92,S000064,2026-03-20T00:55:00+00:00,lms_forum,Graduate Certificate (Data),CYS483,3,What’s the format for the weekly reflection?,0
+25ed9bce-2888-4e48-9614-bd68df5b9552,S000048,2026-03-20T03:09:00+00:00,email,Graduate Certificate (Data),EDU287,3,Is there an extension process for quiz 2?,0
+94847ba5-f5d3-4905-979f-b1862d49c470,S000136,2026-03-20T06:51:00+00:00,lms_forum,Micro-credential (Cybersecurity),BUS399,7,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+db3fc2e0-50df-4110-8bc7-b7f0512a09a1,S000074,2026-03-20T09:37:00+00:00,lms_forum,Bachelor (Business),EDU466,7,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+a65636f0-b31e-4784-ad94-84f1e78423a5,S000131,2026-03-20T12:16:00+00:00,email,Diploma (Community Services),DAT459,2,I failed to attach my file last time; can I resubmit the correct document?,0
+489a1bd9-cbdb-4a09-8ff2-3584480ea3ac,S000132,2026-03-20T15:13:00+00:00,email,Bachelor (Business),BUS697,6,I’m getting an error when uploading my file—any tips?,0
+891f9e72-43b8-4e81-abf5-122579fc2a87,S000064,2026-03-20T18:29:00+00:00,lms_forum,Graduate Certificate (Data),EDU584,9,How do I join a group for the group project?,0
+63a3ca8b-e08d-4eb9-ac81-2591c31e91d3,S000077,2026-03-20T21:02:00+00:00,chat,Graduate Certificate (Data),IT130,1,I missed the live session but I’m up to date—where can I find the slides?,0
+495288e4-1f11-4cc9-aaa2-0b56d781ab5e,S000124,2026-03-21T00:02:00+00:00,support_ticket,Micro-credential (Cybersecurity),EDU429,10,Can you confirm the due date for quiz 1 in week 10?,0
+14410e4c-a889-479f-bd70-4b6e25afcab7,S000148,2026-03-21T03:53:00+00:00,email,Micro-credential (Cybersecurity),BUS562,1,I failed quiz 1 and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+e6404799-cf2f-4bd8-bf1b-87cd61776c8e,S000028,2026-03-21T06:33:00+00:00,email,Adult Education (Short Course),IT653,6,I failed to attach my file last time; can I resubmit the correct document?,0
+1f5300fc-c65c-402b-afb6-afb7b4a7c2f4,S000130,2026-03-21T09:14:00+00:00,lms_forum,Graduate Certificate (Data),IT683,5,How do I join a group for the group project?,0
+46c2bbb2-a407-477e-9dbc-eb20c314c297,S000131,2026-03-21T12:03:00+00:00,support_ticket,Diploma (Community Services),DAT135,1,I failed to attach my file last time; can I resubmit the correct document?,0
+9db18aff-eef0-4d67-8f99-03854e7f9db7,S000026,2026-03-21T15:31:00+00:00,email,Micro-credential (Cybersecurity),EDU335,4,I failed weekly reflection and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+388002e1-289c-40be-ac79-c8ec9874a3f6,S000144,2026-03-21T18:25:00+00:00,chat,Adult Education (Short Course),IT614,4,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+88c42c03-5f20-4285-aea3-a12210a200a9,S000163,2026-03-21T21:37:00+00:00,lms_forum,Bachelor (Business),EDU581,1,Do we need APA 7th for quiz 1?,0
+760f3f6f-30fd-441e-8246-adb0977fff02,S000058,2026-03-22T00:51:00+00:00,email,Bachelor (IT),IT460,11,I submitted assignment 2 late again. I’m worried about penalties and failing the unit.,1
+0df3afeb-ef29-44b8-9077-6928b52e56f8,S000181,2026-03-22T03:13:00+00:00,lms_forum,Adult Education (Short Course),BUS339,10,I missed the live session but I’m up to date—where can I find the slides?,0
+bb08fbc0-bf81-4adf-a34f-43a5de3d5ddf,S000086,2026-03-22T06:50:00+00:00,email,Bachelor (IT),COM408,11,What’s the format for the weekly reflection?,0
+fadd883e-f5d7-4fc7-835d-c667df2eaeb6,S000043,2026-03-22T09:19:00+00:00,email,Graduate Certificate (Data),COM648,1,I’m getting an error when uploading my file—any tips?,0
+39510423-5526-423c-95a7-0c288010bd2b,S000133,2026-03-22T12:18:00+00:00,lms_forum,Diploma (Community Services),EDU378,6,I’m enjoying the unit so far—thanks for the clear explanations.,0
+9a1bd7bd-676f-4b93-94d2-905dc35b4441,S000052,2026-03-22T15:45:00+00:00,chat,Bachelor (Business),CYS457,7,What’s the format for the weekly reflection?,0
+c97ca491-5263-4ca2-b2e8-b071f3b4c992,S000136,2026-03-22T18:22:00+00:00,lms_forum,Micro-credential (Cybersecurity),BUS574,5,Where do we submit quiz 1? I can’t find the link.,0
+9df180a6-ffb8-44ae-b5b8-5ac5809b9c73,S000003,2026-03-22T21:26:00+00:00,support_ticket,Diploma (Community Services),CYS685,8,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+2b1f18b9-9a5a-4528-97bb-aa89cd8cd5b7,S000112,2026-03-23T00:31:00+00:00,chat,Bachelor (Business),CYS208,1,I’m getting an error when uploading my file—any tips?,0
+31dce424-7a7e-4790-b664-75c4be1d4bde,S000167,2026-03-23T03:05:00+00:00,lms_forum,Bachelor (IT),DAT123,7,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+1af88a27-31bf-40a0-bb0e-17bb11a9f645,S000051,2026-03-23T06:30:00+00:00,support_ticket,Diploma (Community Services),DAT390,3,How do I join a group for the group project?,0
+083b4fed-c21c-483d-ad1d-2d8d964ee9ad,S000127,2026-03-23T09:22:00+00:00,email,Bachelor (IT),COM422,7,I failed to attach my file last time; can I resubmit the correct document?,0
+623aed5a-c7ca-4b0d-bb4d-61c188202259,S000125,2026-03-23T12:30:00+00:00,email,Bachelor (Business),DAT323,2,Is there an extension process for quiz 2?,0
+081c9b20-fc99-4fa9-9000-9591c8bb3487,S000026,2026-03-23T15:32:00+00:00,support_ticket,Micro-credential (Cybersecurity),BUS190,9,Can someone explain question 3 on the practice quiz?,0
+7bcc38b6-cc98-4d3a-a41f-6d579db19c6d,S000191,2026-03-23T18:10:00+00:00,chat,Graduate Certificate (Data),COM531,11,Can you confirm the due date for assignment 2 in week 11?,0
+cdac5d5d-0f95-4760-ab7a-a4a7a41ef397,S000044,2026-03-23T21:22:00+00:00,lms_forum,Diploma (Community Services),IT368,2,Can you confirm the due date for assignment 2 in week 2?,0
+16abd782-f62d-4314-840d-c34abb492ed3,S000027,2026-03-24T00:37:00+00:00,email,Micro-credential (Cybersecurity),BUS304,6,What’s the format for the weekly reflection?,0
+bc527348-be03-461b-907d-18e45cc74c78,S000098,2026-03-24T03:18:00+00:00,lms_forum,Diploma (Community Services),EDU470,4,Can someone explain question 3 on the practice quiz?,0
+027a06eb-43ab-4dd5-8f8b-ea2e2a06c37d,S000004,2026-03-24T06:41:00+00:00,lms_forum,Bachelor (IT),BUS421,10,I missed the live session but I’m up to date—where can I find the slides?,0
+79d0e3c0-8b51-437a-9031-55155df7887d,S000148,2026-03-24T09:02:00+00:00,support_ticket,Micro-credential (Cybersecurity),BUS588,10,I missed the live session but I’m up to date—where can I find the slides?,0
+d2874e32-377f-402e-a4ea-84f3f156934b,S000029,2026-03-24T12:15:00+00:00,email,Bachelor (IT),DAT299,12,Can someone explain question 3 on the practice quiz?,0
+cb72251b-7f70-457f-a85b-d6c52d1d009a,S000186,2026-03-24T15:01:00+00:00,lms_forum,Graduate Certificate (Data),EDU564,2,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+ad8ce8b9-abd1-4c83-b7ab-3fd88b2df7be,S000120,2026-03-24T18:01:00+00:00,lms_forum,Diploma (Community Services),COM401,1,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+d2006520-e16d-42cb-b9b1-93c88bf5b5be,S000168,2026-03-24T21:35:00+00:00,lms_forum,Micro-credential (Cybersecurity),COM660,11,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+73b05e28-fc97-430e-9f5d-cc6a24b36238,S000114,2026-03-25T00:29:00+00:00,lms_forum,Bachelor (Business),EDU116,1,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+bc18bb9e-0d8b-4106-b6b7-c0a85d35ac41,S000019,2026-03-25T03:49:00+00:00,lms_forum,Bachelor (Business),BUS138,5,Is there an extension process for quiz 1?,0
+bcb4bc4e-05d8-4416-aa37-9bb288c3d6d5,S000124,2026-03-25T06:27:00+00:00,support_ticket,Micro-credential (Cybersecurity),IT204,6,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+08fde792-8279-49f0-bdf1-6d73d66ff2ac,S000086,2026-03-25T09:14:00+00:00,chat,Bachelor (IT),BUS247,12,Do we need APA 7th for assignment 1?,0
+4160d5bd-4fc0-4660-9ec4-7aff35bae657,S000005,2026-03-25T12:22:00+00:00,lms_forum,Diploma (Community Services),DAT388,6,What’s the format for the weekly reflection?,0
+205c9632-a4b4-4992-ac1a-674d6997c9a4,S000044,2026-03-25T15:45:00+00:00,email,Diploma (Community Services),BUS336,1,How do I join a group for the group project?,0
+1a5f6db9-7eee-4e5a-9cdc-712b354c9d17,S000159,2026-03-25T18:27:00+00:00,chat,Graduate Certificate (Data),CYS677,11,Do we need APA 7th for final assessment?,0
+76b6d7bb-8b84-4c94-8798-7a6c49b8dd6d,S000178,2026-03-25T21:02:00+00:00,email,Bachelor (Business),DAT275,2,I failed to attach my file last time; can I resubmit the correct document?,0
+7a9cdbfe-db4b-4959-9508-665d58a38043,S000173,2026-03-26T00:10:00+00:00,email,Graduate Certificate (Data),DAT387,1,I failed to attach my file last time; can I resubmit the correct document?,0
+91a7a146-618a-4676-80b2-fb884828e663,S000030,2026-03-26T03:49:00+00:00,email,Bachelor (IT),COM337,9,Where do we submit weekly reflection? I can’t find the link.,0
+2bcbc8b4-85b0-496e-9c15-df5a426f6a23,S000061,2026-03-26T06:01:00+00:00,chat,Diploma (Community Services),IT259,9,Can someone explain question 3 on the practice quiz?,0
+d89b2a2a-8cf0-4c6a-bf2c-9c7cf4a14f78,S000018,2026-03-26T09:41:00+00:00,email,Adult Education (Short Course),COM212,4,Is there a recording for this week’s lecture?,0
+add4d3bd-a899-4663-a5e6-152e34816893,S000115,2026-03-26T12:01:00+00:00,support_ticket,Graduate Certificate (Data),COM486,3,What’s the format for the weekly reflection?,0
+861e2452-706e-47b2-b6b8-40783ff30656,S000058,2026-03-26T15:37:00+00:00,chat,Bachelor (IT),CYS636,1,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+1d03eb05-5ac6-4094-8e4d-9582eedc5dec,S000074,2026-03-26T18:53:00+00:00,lms_forum,Bachelor (Business),DAT575,10,I failed assignment 2 and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+a20a511a-6267-4cc9-9b06-df1bb5328481,S000170,2026-03-26T21:24:00+00:00,support_ticket,Bachelor (Business),EDU288,12,What’s the format for the weekly reflection?,0
+d0493c22-9ced-4657-99ee-358e9a519451,S000058,2026-03-27T00:48:00+00:00,lms_forum,Bachelor (IT),COM409,1,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+334f794b-b621-46f3-b06e-dce26c0319be,S000180,2026-03-27T03:31:00+00:00,email,Micro-credential (Cybersecurity),EDU482,12,I’m struggling to understand the lectures and I’m too far behind to participate in tutorials.,1
+06d60d26-187b-44cf-bdad-5438b9e84dad,S000038,2026-03-27T06:26:00+00:00,email,Micro-credential (Cybersecurity),IT198,10,What’s the format for the weekly reflection?,0
+fc2d3302-6343-4cdb-bdcd-aa51f8b92dc9,S000062,2026-03-27T09:31:00+00:00,lms_forum,Adult Education (Short Course),CYS605,3,I missed the live session but I’m up to date—where can I find the slides?,0
+fa3dffe0-0058-4bbf-959e-9e0baa4145c3,S000042,2026-03-27T12:46:00+00:00,email,Diploma (Community Services),DAT247,7,Is there a recording for this week’s lecture?,0
+5845a1b7-9118-46ae-b023-8599c4725642,S000089,2026-03-27T15:46:00+00:00,support_ticket,Bachelor (Business),BUS423,10,Is there a recording for this week’s lecture?,0
+cd0defdc-b353-4711-9cae-3a51a9a7b18c,S000159,2026-03-27T18:12:00+00:00,email,Graduate Certificate (Data),DAT325,8,Where do we submit final assessment? I can’t find the link.,0
+bbda5618-65b6-4457-b136-f3232e401f33,S000032,2026-03-27T21:25:00+00:00,lms_forum,Bachelor (Business),COM629,11,Can you confirm the due date for final assessment in week 11?,0
+2a89f292-ea8c-4a97-97b0-4a8dceedcf3d,S000050,2026-03-28T00:28:00+00:00,lms_forum,Adult Education (Short Course),CYS235,7,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+b26fbd2d-24f4-4b80-8291-a9716823e5e5,S000148,2026-03-28T03:31:00+00:00,lms_forum,Micro-credential (Cybersecurity),CYS517,3,What’s the format for the weekly reflection?,0
+aa6d9793-0e36-4cc9-8115-4bcf5b9d09f7,S000084,2026-03-28T06:22:00+00:00,lms_forum,Diploma (Community Services),BUS328,4,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+42c1eeae-8c5d-4e7d-b79e-f9f9720d6892,S000175,2026-03-28T09:23:00+00:00,email,Adult Education (Short Course),DAT188,10,I’m considering withdrawing because I can’t keep up with work and study at the moment.,1
+38c32880-032c-4e7f-84ff-c34b5b8f0f99,S000126,2026-03-28T12:03:00+00:00,email,Adult Education (Short Course),BUS336,11,What’s the format for the weekly reflection?,0
+85475923-bb30-4124-830c-9460d9b488e3,S000032,2026-03-28T15:52:00+00:00,lms_forum,Bachelor (Business),IT640,7,I failed to attach my file last time; can I resubmit the correct document?,0
+61181789-4303-4706-bf80-d9eb2ae39859,S000046,2026-03-28T18:14:00+00:00,lms_forum,Micro-credential (Cybersecurity),EDU285,9,I failed to attach my file last time; can I resubmit the correct document?,0
+c9e943ed-2526-4e3b-bcc7-ea6153aca72c,S000103,2026-03-28T21:14:00+00:00,chat,Bachelor (Business),DAT175,4,I’m getting an error when uploading my file—any tips?,0
+b02890a0-53a4-444f-bbdf-87d135a351dc,S000108,2026-03-29T00:11:00+00:00,lms_forum,Bachelor (IT),EDU390,7,I’m enjoying the unit so far—thanks for the clear explanations.,0
+f7097e8d-7b63-465c-9964-450680b7109d,S000180,2026-03-29T03:51:00+00:00,lms_forum,Micro-credential (Cybersecurity),COM278,1,I’m enjoying the unit so far—thanks for the clear explanations.,0
+6d135a94-743f-4f59-ac88-e98b242c8c9f,S000109,2026-03-29T06:29:00+00:00,lms_forum,Diploma (Community Services),IT272,9,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+e0a1872c-0ca2-43c9-8211-92278d63bd26,S000139,2026-03-29T09:00:00+00:00,lms_forum,Micro-credential (Cybersecurity),DAT199,7,I submitted assignment 2 late again. I’m worried about penalties and failing the unit.,1
+967c7dcb-48c2-4fe4-89cf-153dc432c7e5,S000133,2026-03-29T12:40:00+00:00,email,Diploma (Community Services),IT331,3,I submitted final assessment late again. I’m worried about penalties and failing the unit.,1
+89bea24a-489f-49f7-bd33-ef0151dd10e4,S000001,2026-03-29T15:25:00+00:00,support_ticket,Bachelor (IT),IT552,7,Can you confirm the due date for quiz 2 in week 7?,0
+eee0804e-9064-4a11-b023-f7eaff033060,S000191,2026-03-29T18:21:00+00:00,email,Graduate Certificate (Data),EDU204,11,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+ef32f8f2-2dbe-44c4-8b8b-612ac96a8e4b,S000080,2026-03-29T21:36:00+00:00,email,Bachelor (IT),BUS128,7,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+8872d3e0-6300-4ef8-9815-a56ab67d31a0,S000041,2026-03-30T00:26:00+00:00,support_ticket,Micro-credential (Cybersecurity),EDU343,9,I’m getting an error when uploading my file—any tips?,0
+61b300b2-a832-4874-9d8a-a2a4e3c34c2c,S000101,2026-03-30T03:04:00+00:00,lms_forum,Bachelor (Business),BUS168,3,I’m enjoying the unit so far—thanks for the clear explanations.,0
+15c9d7a5-5f8d-4d8a-9690-68a049e52f4c,S000058,2026-03-30T06:12:00+00:00,support_ticket,Bachelor (IT),IT157,8,I’m getting an error when uploading my file—any tips?,0
+f26473b0-bff2-4b6a-9f12-dd62fd397225,S000162,2026-03-30T09:15:00+00:00,lms_forum,Diploma (Community Services),CYS164,3,Is there a recording for this week’s lecture?,0
+3063bbfb-e409-4293-a63b-8be6e476eb96,S000178,2026-03-30T12:11:00+00:00,chat,Bachelor (Business),CYS265,8,Is there an extension process for final assessment?,0
+8f7dcf97-d1f3-4b5d-addd-b803befbb652,S000060,2026-03-30T15:53:00+00:00,support_ticket,Bachelor (IT),BUS474,1,I’m getting an error when uploading my file—any tips?,0
+aa059e6a-9476-49a0-9c3b-88a8bd4d8e4b,S000101,2026-03-30T18:51:00+00:00,email,Bachelor (Business),BUS306,12,I failed to attach my file last time; can I resubmit the correct document?,0
+99af9b8b-6a81-4e26-a9cb-599accd0d81b,S000072,2026-03-30T21:23:00+00:00,email,Bachelor (Business),IT227,3,I’ve missed several weeks due to personal commitments and I’m not sure I can recover this term.,1
+6f4ca890-4665-4ed1-bb7b-b37871f423e9,S000147,2026-03-31T00:51:00+00:00,email,Diploma (Community Services),CYS586,4,Is there an extension process for assignment 2?,0
+d746fb5b-bb62-457d-95bd-71185503a009,S000137,2026-03-31T03:00:00+00:00,lms_forum,Graduate Certificate (Data),DAT541,5,Is there a recording for this week’s lecture?,0
+9e881b48-1e53-43f6-8606-9ce6e26f113e,S000022,2026-03-31T06:53:00+00:00,chat,Bachelor (IT),CYS594,6,Can someone explain question 3 on the practice quiz?,0
+30cc6971-57db-4129-bed1-a21837bc34bf,S000111,2026-03-31T09:17:00+00:00,support_ticket,Graduate Certificate (Data),COM135,5,Is there a recording for this week’s lecture?,0
+b80c11e6-29d5-4d41-a076-a2fb6b6fabf0,S000039,2026-03-31T12:19:00+00:00,support_ticket,Bachelor (Business),BUS378,11,What’s the format for the weekly reflection?,0
+81221cfb-0f1d-4855-ab9c-e8cfb6f67198,S000124,2026-03-31T15:15:00+00:00,chat,Micro-credential (Cybersecurity),CYS341,12,I failed to attach my file last time; can I resubmit the correct document?,0
+7180b805-521b-4bdc-bf93-4a34c8800c5e,S000170,2026-03-31T18:20:00+00:00,lms_forum,Bachelor (Business),COM673,4,I haven’t been able to access the LMS for days and I’ve fallen behind. I’m getting stressed about it.,1
+99bf3081-4d06-45d2-bc2c-7aaf87052f14,S000136,2026-03-31T21:30:00+00:00,lms_forum,Micro-credential (Cybersecurity),CYS676,8,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+0b99ab69-d2c5-4388-a6e1-261126dcc681,S000081,2026-04-01T00:36:00+00:00,lms_forum,Bachelor (Business),EDU348,3,Is there a recording for this week’s lecture?,0
+3f9d0fd0-4e35-4f2d-8ca0-7d5affeabdc5,S000005,2026-04-01T03:41:00+00:00,chat,Diploma (Community Services),BUS349,4,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1
+572275d0-a855-4f51-aa2a-2708f957c169,S000162,2026-04-01T06:12:00+00:00,lms_forum,Diploma (Community Services),CYS565,1,Do we need APA 7th for group project?,0
+b3681ad2-c072-4caa-9a3f-62256751f39b,S000008,2026-04-01T09:39:00+00:00,chat,Bachelor (IT),IT263,11,Is there a recording for this week’s lecture?,0
+2fe1ba16-7e2f-4e6b-b08b-079635cf6ba3,S000137,2026-04-01T12:25:00+00:00,support_ticket,Graduate Certificate (Data),BUS670,7,Is there a recording for this week’s lecture?,0
+ac756ce0-1127-4da8-b6d0-bbe3e1f24b13,S000159,2026-04-01T15:53:00+00:00,email,Graduate Certificate (Data),CYS540,10,I’m enjoying the unit so far—thanks for the clear explanations.,0
+4710ef07-a34c-4947-ac40-15dfeede8fd1,S000194,2026-04-01T18:51:00+00:00,lms_forum,Bachelor (IT),DAT529,6,Do we need APA 7th for weekly reflection?,0
+23f487a5-0224-4f21-8cbb-5f9a500f0b53,S000116,2026-04-01T21:14:00+00:00,lms_forum,Micro-credential (Cybersecurity),CYS153,2,How do I join a group for the group project?,0
+97f17c95-e3af-4764-8fe2-e40cbd02a5db,S000061,2026-04-02T00:37:00+00:00,support_ticket,Diploma (Community Services),BUS615,10,I’m getting an error when uploading my file—any tips?,0
+e4a4b36c-77e2-4a64-8c86-4a7c109b7013,S000133,2026-04-02T03:29:00+00:00,lms_forum,Diploma (Community Services),IT527,10,Where do we submit capstone submission? I can’t find the link.,0
+13ded75d-e850-432c-969a-36c24f215ca4,S000071,2026-04-02T06:02:00+00:00,lms_forum,Bachelor (Business),CYS627,1,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+94671cdd-f74f-4679-ba1d-fdb6099d1df3,S000092,2026-04-02T09:10:00+00:00,lms_forum,Bachelor (IT),DAT512,6,Can you confirm the due date for final assessment in week 6?,0
+875f942f-ad9f-4ce1-8971-c5c6c7572b55,S000108,2026-04-02T12:55:00+00:00,lms_forum,Bachelor (IT),COM562,3,I missed the live session but I’m up to date—where can I find the slides?,0
+73f36b9a-2885-4743-abc5-ca384b585c84,S000053,2026-04-02T15:18:00+00:00,email,Micro-credential (Cybersecurity),CYS668,11,Is there a recording for this week’s lecture?,0
+41cc96f2-b91b-4a2b-a591-2d7e4ca75233,S000116,2026-04-02T18:47:00+00:00,lms_forum,Micro-credential (Cybersecurity),COM329,3,How do I join a group for the group project?,0
+1c1b8d61-c97f-487b-9be7-9b521f45a588,S000122,2026-04-02T21:33:00+00:00,chat,Micro-credential (Cybersecurity),CYS274,9,What’s the format for the weekly reflection?,0
+f7ebd5a4-63b2-4d10-b4fd-47801c127b3f,S000075,2026-04-03T00:25:00+00:00,lms_forum,Micro-credential (Cybersecurity),COM663,4,Can you confirm the due date for quiz 2 in week 4?,0
+194158e1-f6ab-410b-ae93-185a18717a06,S000132,2026-04-03T03:22:00+00:00,lms_forum,Bachelor (Business),COM334,2,I missed the live session but I’m up to date—where can I find the slides?,0
+f083496e-8ce3-47ac-b5ac-25b2ddef8151,S000095,2026-04-03T06:47:00+00:00,chat,Adult Education (Short Course),IT161,12,I’m getting an error when uploading my file—any tips?,0
+e6a6dfee-17a7-46e3-9345-4f6c9e783613,S000182,2026-04-03T09:43:00+00:00,support_ticket,Diploma (Community Services),EDU447,2,Can someone explain question 3 on the practice quiz?,0
+1ecd2a8b-e40d-4a6e-8dde-4ec7c53d6075,S000031,2026-04-03T12:38:00+00:00,lms_forum,Bachelor (Business),DAT413,5,Can someone explain question 3 on the practice quiz?,0
+de1e2509-7bfd-4e65-9ce3-3b4429da90ff,S000127,2026-04-03T15:52:00+00:00,chat,Bachelor (IT),BUS390,7,Can you confirm the due date for group project in week 7?,0
+f1738244-1d15-4d7f-a67e-0f80fcb4ec72,S000079,2026-04-03T18:28:00+00:00,email,Graduate Certificate (Data),COM332,11,Can you confirm the due date for assignment 1 in week 11?,0
+351f1316-9ee1-4f13-91f5-396563fbd3b1,S000032,2026-04-03T21:22:00+00:00,chat,Bachelor (Business),BUS201,12,What’s the format for the weekly reflection?,0
+20db2d02-6fa6-40be-b4ac-0f8fc2555848,S000186,2026-04-04T00:26:00+00:00,lms_forum,Graduate Certificate (Data),CYS277,5,How do I join a group for the group project?,0
+30ffeb64-c191-41c9-8171-07d61a5b3bf6,S000033,2026-04-04T03:09:00+00:00,chat,Diploma (Community Services),BUS448,8,I’ve missed two deadlines and I’m worried I’m going to fail. What are my options from here?,1
+83f68c18-ccab-47d2-b5a9-50153ef137a5,S000125,2026-04-04T06:10:00+00:00,chat,Bachelor (Business),CYS492,1,Can someone explain question 3 on the practice quiz?,0
+efa6cfac-cea3-499b-97cf-7c526b68cb7b,S000191,2026-04-04T09:24:00+00:00,lms_forum,Graduate Certificate (Data),DAT515,8,I failed group project and I don’t understand what I’m doing wrong. I need guidance. Any chance to talk to someone?,1
+0d8485d7-af87-43b6-9334-ded514bf813b,S000190,2026-04-04T12:37:00+00:00,support_ticket,Bachelor (Business),IT167,4,Where do we submit group project? I can’t find the link.,0
+0e1dbabd-a7ab-42b0-926b-11f0531e6f1d,S000141,2026-04-04T15:08:00+00:00,lms_forum,Micro-credential (Cybersecurity),CYS441,9,I’m overwhelmed by the workload and I’m not sure I should continue this unit.,1
+537e00fc-5838-47e7-a1af-fdacd3ce45af,S000157,2026-04-04T18:28:00+00:00,chat,Bachelor (Business),BUS239,5,I keep getting low marks and I don’t know how to improve. I’m thinking of deferring.,1

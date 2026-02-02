@@ -73,6 +73,10 @@ Use one of these options:
 - Option A: facilitator-provided dataset location (recommended)
 - Option B: a small public dataset copied into the workbench
 - Option C: synthetic dataset generated in-code
+- Option D: use the provided synthetic "at-risk language" CSVs in `Chapter06/Labs/assets/`
+
+  - Messages: `at_risk_student_messages_500.csv` (text + label)
+  - Student metadata (for joins): `at_risk_student_profiles.csv`
 
 Tasks:
 - [ ] Load dataset into a dataframe

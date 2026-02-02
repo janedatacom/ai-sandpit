@@ -1,0 +1,201 @@
+student_id,age_band,study_mode,program,employment,cohort
+S000001,18-24,online,Bachelor (IT),full-time,2025-T1
+S000002,35-44,blended,Bachelor (IT),part-time,2025-T2
+S000003,18-24,online,Diploma (Community Services),casual,2025-T1
+S000004,18-24,blended,Bachelor (IT),part-time,2025-T2
+S000005,45-54,online,Diploma (Community Services),full-time,2025-T3
+S000006,18-24,blended,Bachelor (IT),full-time,2025-T2
+S000007,18-24,online,Bachelor (IT),part-time,2026-T1
+S000008,25-34,blended,Bachelor (IT),full-time,2025-T1
+S000009,25-34,online,Bachelor (IT),part-time,2025-T1
+S000010,35-44,online,Bachelor (IT),unemployed,2026-T1
+S000011,18-24,online,Bachelor (Business),full-time,2025-T3
+S000012,18-24,online,Diploma (Community Services),full-time,2025-T2
+S000013,35-44,online,Diploma (Community Services),casual,2026-T1
+S000014,25-34,blended,Graduate Certificate (Data),casual,2026-T1
+S000015,25-34,online,Bachelor (Business),unemployed,2025-T1
+S000016,25-34,blended,Bachelor (Business),casual,2026-T1
+S000017,25-34,on-campus,Micro-credential (Cybersecurity),casual,2026-T1
+S000018,25-34,blended,Adult Education (Short Course),part-time,2025-T1
+S000019,35-44,online,Bachelor (Business),full-time,2026-T1
+S000020,25-34,online,Adult Education (Short Course),full-time,2025-T1
+S000021,25-34,online,Micro-credential (Cybersecurity),casual,2025-T2
+S000022,25-34,blended,Bachelor (IT),full-time,2025-T2
+S000023,25-34,blended,Graduate Certificate (Data),casual,2026-T1
+S000024,18-24,online,Adult Education (Short Course),full-time,2025-T1
+S000025,25-34,online,Adult Education (Short Course),casual,2026-T1
+S000026,18-24,online,Micro-credential (Cybersecurity),casual,2025-T3
+S000027,55+,online,Micro-credential (Cybersecurity),part-time,2026-T1
+S000028,18-24,online,Adult Education (Short Course),full-time,2026-T1
+S000029,25-34,online,Bachelor (IT),casual,2026-T1
+S000030,18-24,online,Bachelor (IT),full-time,2025-T3
+S000031,25-34,on-campus,Bachelor (Business),part-time,2025-T3
+S000032,45-54,blended,Bachelor (Business),unemployed,2026-T1
+S000033,25-34,blended,Diploma (Community Services),full-time,2025-T3
+S000034,55+,online,Graduate Certificate (Data),unemployed,2025-T2
+S000035,35-44,on-campus,Micro-credential (Cybersecurity),full-time,2026-T1
+S000036,25-34,online,Adult Education (Short Course),casual,2026-T1
+S000037,25-34,online,Graduate Certificate (Data),full-time,2025-T1
+S000038,25-34,blended,Micro-credential (Cybersecurity),part-time,2026-T1
+S000039,35-44,blended,Bachelor (Business),full-time,2026-T1
+S000040,25-34,online,Bachelor (IT),career-break,2025-T2
+S000041,25-34,online,Micro-credential (Cybersecurity),full-time,2025-T3
+S000042,35-44,on-campus,Diploma (Community Services),part-time,2025-T3
+S000043,25-34,blended,Graduate Certificate (Data),part-time,2026-T1
+S000044,25-34,online,Diploma (Community Services),casual,2025-T3
+S000045,25-34,online,Bachelor (IT),part-time,2025-T1
+S000046,55+,on-campus,Micro-credential (Cybersecurity),full-time,2025-T3
+S000047,18-24,on-campus,Bachelor (IT),career-break,2025-T1
+S000048,18-24,on-campus,Graduate Certificate (Data),part-time,2025-T3
+S000049,18-24,online,Bachelor (Business),career-break,2025-T1
+S000050,35-44,online,Adult Education (Short Course),career-break,2026-T1
+S000051,25-34,online,Diploma (Community Services),unemployed,2025-T2
+S000052,35-44,online,Bachelor (Business),full-time,2025-T3
+S000053,18-24,online,Micro-credential (Cybersecurity),full-time,2025-T3
+S000054,18-24,online,Graduate Certificate (Data),full-time,2025-T3
+S000055,18-24,blended,Micro-credential (Cybersecurity),casual,2025-T1
+S000056,18-24,blended,Adult Education (Short Course),unemployed,2026-T1
+S000057,25-34,on-campus,Bachelor (Business),part-time,2025-T1
+S000058,18-24,online,Bachelor (IT),part-time,2025-T2
+S000059,35-44,on-campus,Adult Education (Short Course),part-time,2025-T1
+S000060,25-34,on-campus,Bachelor (IT),casual,2026-T1
+S000061,18-24,online,Diploma (Community Services),full-time,2025-T1
+S000062,18-24,on-campus,Adult Education (Short Course),part-time,2025-T3
+S000063,25-34,online,Adult Education (Short Course),casual,2025-T3
+S000064,18-24,blended,Graduate Certificate (Data),part-time,2025-T1
+S000065,25-34,on-campus,Adult Education (Short Course),full-time,2025-T1
+S000066,25-34,online,Bachelor (IT),unemployed,2026-T1
+S000067,18-24,on-campus,Adult Education (Short Course),casual,2025-T2
+S000068,18-24,online,Diploma (Community Services),unemployed,2026-T1
+S000069,18-24,online,Bachelor (IT),full-time,2025-T1
+S000070,35-44,online,Bachelor (Business),casual,2025-T1
+S000071,18-24,online,Bachelor (Business),part-time,2025-T2
+S000072,18-24,online,Bachelor (Business),casual,2025-T2
+S000073,18-24,on-campus,Bachelor (IT),unemployed,2025-T1
+S000074,25-34,blended,Bachelor (Business),full-time,2025-T2
+S000075,18-24,on-campus,Micro-credential (Cybersecurity),casual,2026-T1
+S000076,35-44,blended,Bachelor (IT),full-time,2025-T2
+S000077,18-24,online,Graduate Certificate (Data),full-time,2025-T2
+S000078,18-24,blended,Adult Education (Short Course),unemployed,2026-T1
+S000079,45-54,online,Graduate Certificate (Data),casual,2026-T1
+S000080,18-24,online,Bachelor (IT),career-break,2025-T1
+S000081,25-34,online,Bachelor (Business),unemployed,2025-T1
+S000082,18-24,on-campus,Adult Education (Short Course),part-time,2025-T3
+S000083,18-24,on-campus,Bachelor (IT),part-time,2025-T3
+S000084,35-44,online,Diploma (Community Services),casual,2025-T2
+S000085,25-34,online,Bachelor (IT),casual,2026-T1
+S000086,45-54,online,Bachelor (IT),full-time,2025-T1
+S000087,35-44,online,Bachelor (Business),full-time,2025-T3
+S000088,35-44,online,Graduate Certificate (Data),unemployed,2025-T1
+S000089,25-34,online,Bachelor (Business),casual,2025-T2
+S000090,25-34,online,Graduate Certificate (Data),casual,2025-T2
+S000091,18-24,online,Bachelor (Business),unemployed,2026-T1
+S000092,35-44,blended,Bachelor (IT),part-time,2026-T1
+S000093,18-24,online,Adult Education (Short Course),unemployed,2025-T1
+S000094,35-44,on-campus,Bachelor (IT),career-break,2026-T1
+S000095,25-34,online,Adult Education (Short Course),full-time,2025-T3
+S000096,25-34,online,Graduate Certificate (Data),part-time,2026-T1
+S000097,35-44,online,Diploma (Community Services),part-time,2025-T3
+S000098,35-44,online,Diploma (Community Services),unemployed,2026-T1
+S000099,25-34,blended,Bachelor (IT),part-time,2025-T1
+S000100,25-34,online,Bachelor (IT),casual,2026-T1
+S000101,18-24,online,Bachelor (Business),casual,2026-T1
+S000102,18-24,blended,Bachelor (IT),casual,2026-T1
+S000103,18-24,online,Bachelor (Business),part-time,2025-T1
+S000104,25-34,online,Bachelor (IT),full-time,2025-T1
+S000105,35-44,online,Adult Education (Short Course),unemployed,2025-T1
+S000106,18-24,on-campus,Bachelor (IT),casual,2025-T2
+S000107,25-34,online,Diploma (Community Services),career-break,2025-T2
+S000108,45-54,blended,Bachelor (IT),part-time,2025-T3
+S000109,18-24,on-campus,Diploma (Community Services),unemployed,2026-T1
+S000110,35-44,online,Diploma (Community Services),part-time,2025-T1
+S000111,18-24,on-campus,Graduate Certificate (Data),full-time,2025-T2
+S000112,18-24,on-campus,Bachelor (Business),full-time,2025-T1
+S000113,18-24,online,Micro-credential (Cybersecurity),part-time,2025-T1
+S000114,18-24,online,Bachelor (Business),full-time,2025-T1
+S000115,18-24,on-campus,Graduate Certificate (Data),casual,2025-T1
+S000116,25-34,blended,Micro-credential (Cybersecurity),unemployed,2025-T2
+S000117,25-34,on-campus,Adult Education (Short Course),full-time,2026-T1
+S000118,18-24,blended,Graduate Certificate (Data),full-time,2026-T1
+S000119,18-24,online,Diploma (Community Services),part-time,2025-T3
+S000120,35-44,blended,Diploma (Community Services),full-time,2025-T3
+S000121,45-54,blended,Micro-credential (Cybersecurity),part-time,2025-T1
+S000122,25-34,blended,Micro-credential (Cybersecurity),unemployed,2025-T1
+S000123,25-34,blended,Bachelor (Business),casual,2025-T1
+S000124,18-24,online,Micro-credential (Cybersecurity),part-time,2025-T2
+S000125,18-24,online,Bachelor (Business),casual,2026-T1
+S000126,25-34,online,Adult Education (Short Course),part-time,2025-T2
+S000127,18-24,on-campus,Bachelor (IT),full-time,2025-T2
+S000128,18-24,online,Bachelor (IT),full-time,2026-T1
+S000129,45-54,blended,Bachelor (Business),career-break,2025-T3
+S000130,35-44,on-campus,Graduate Certificate (Data),full-time,2025-T1
+S000131,18-24,on-campus,Diploma (Community Services),part-time,2026-T1
+S000132,35-44,online,Bachelor (Business),part-time,2025-T2
+S000133,35-44,on-campus,Diploma (Community Services),full-time,2025-T1
+S000134,25-34,online,Micro-credential (Cybersecurity),part-time,2026-T1
+S000135,25-34,online,Bachelor (Business),part-time,2025-T3
+S000136,18-24,online,Micro-credential (Cybersecurity),full-time,2026-T1
+S000137,35-44,blended,Graduate Certificate (Data),career-break,2026-T1
+S000138,18-24,on-campus,Bachelor (IT),full-time,2026-T1
+S000139,55+,on-campus,Micro-credential (Cybersecurity),unemployed,2025-T1
+S000140,45-54,blended,Graduate Certificate (Data),part-time,2025-T3
+S000141,25-34,on-campus,Micro-credential (Cybersecurity),full-time,2026-T1
+S000142,25-34,blended,Bachelor (IT),full-time,2025-T1
+S000143,25-34,blended,Graduate Certificate (Data),full-time,2025-T2
+S000144,25-34,on-campus,Adult Education (Short Course),full-time,2025-T2
+S000145,18-24,on-campus,Adult Education (Short Course),full-time,2026-T1
+S000146,35-44,online,Diploma (Community Services),casual,2025-T2
+S000147,25-34,online,Diploma (Community Services),full-time,2025-T2
+S000148,25-34,on-campus,Micro-credential (Cybersecurity),full-time,2026-T1
+S000149,45-54,blended,Adult Education (Short Course),full-time,2025-T3
+S000150,18-24,online,Adult Education (Short Course),casual,2026-T1
+S000151,25-34,blended,Bachelor (Business),part-time,2025-T1
+S000152,18-24,online,Graduate Certificate (Data),casual,2026-T1
+S000153,18-24,on-campus,Graduate Certificate (Data),casual,2025-T3
+S000154,18-24,online,Micro-credential (Cybersecurity),part-time,2025-T1
+S000155,35-44,online,Bachelor (IT),unemployed,2026-T1
+S000156,45-54,online,Bachelor (IT),full-time,2025-T1
+S000157,25-34,online,Bachelor (Business),unemployed,2025-T3
+S000158,25-34,on-campus,Bachelor (Business),full-time,2025-T2
+S000159,55+,online,Graduate Certificate (Data),career-break,2026-T1
+S000160,25-34,online,Adult Education (Short Course),casual,2026-T1
+S000161,35-44,on-campus,Micro-credential (Cybersecurity),full-time,2025-T1
+S000162,25-34,online,Diploma (Community Services),full-time,2026-T1
+S000163,25-34,online,Bachelor (Business),full-time,2026-T1
+S000164,18-24,blended,Graduate Certificate (Data),career-break,2025-T2
+S000165,18-24,on-campus,Bachelor (Business),career-break,2025-T2
+S000166,18-24,online,Diploma (Community Services),part-time,2026-T1
+S000167,25-34,online,Bachelor (IT),part-time,2026-T1
+S000168,18-24,online,Micro-credential (Cybersecurity),unemployed,2025-T2
+S000169,18-24,on-campus,Adult Education (Short Course),unemployed,2025-T1
+S000170,18-24,online,Bachelor (Business),full-time,2026-T1
+S000171,25-34,online,Micro-credential (Cybersecurity),part-time,2025-T3
+S000172,45-54,online,Graduate Certificate (Data),casual,2025-T1
+S000173,25-34,online,Graduate Certificate (Data),part-time,2025-T2
+S000174,25-34,online,Bachelor (Business),part-time,2025-T2
+S000175,35-44,online,Adult Education (Short Course),part-time,2026-T1
+S000176,25-34,online,Adult Education (Short Course),full-time,2025-T2
+S000177,25-34,on-campus,Micro-credential (Cybersecurity),unemployed,2025-T1
+S000178,18-24,online,Bachelor (Business),unemployed,2025-T1
+S000179,25-34,online,Bachelor (Business),unemployed,2025-T3
+S000180,45-54,online,Micro-credential (Cybersecurity),unemployed,2026-T1
+S000181,25-34,blended,Adult Education (Short Course),unemployed,2025-T3
+S000182,25-34,blended,Diploma (Community Services),part-time,2025-T2
+S000183,25-34,blended,Micro-credential (Cybersecurity),full-time,2025-T3
+S000184,25-34,online,Bachelor (IT),part-time,2025-T1
+S000185,25-34,online,Graduate Certificate (Data),career-break,2025-T1
+S000186,18-24,blended,Graduate Certificate (Data),casual,2025-T3
+S000187,25-34,blended,Graduate Certificate (Data),full-time,2026-T1
+S000188,18-24,online,Micro-credential (Cybersecurity),part-time,2025-T1
+S000189,25-34,online,Graduate Certificate (Data),unemployed,2025-T1
+S000190,35-44,online,Bachelor (Business),part-time,2025-T2
+S000191,45-54,online,Graduate Certificate (Data),full-time,2026-T1
+S000192,25-34,online,Bachelor (Business),casual,2025-T2
+S000193,25-34,online,Bachelor (IT),casual,2025-T3
+S000194,18-24,online,Bachelor (IT),unemployed,2025-T2
+S000195,25-34,blended,Adult Education (Short Course),full-time,2025-T2
+S000196,25-34,on-campus,Graduate Certificate (Data),full-time,2025-T1
+S000197,18-24,online,Adult Education (Short Course),full-time,2025-T3
+S000198,18-24,on-campus,Bachelor (IT),part-time,2025-T3
+S000199,25-34,blended,Adult Education (Short Course),full-time,2026-T1
+S000200,25-34,on-campus,Graduate Certificate (Data),part-time,2025-T3
