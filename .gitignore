@@ -26,3 +26,9 @@ yarn-error.log*
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local VS Code settings
+.vscode/
+
+# Local scratch folder
+temp/
