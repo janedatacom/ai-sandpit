@@ -20,10 +20,23 @@
     }
     
     @media print {
+      @page {
+        margin: 0;
+      }
+
+      :root {
+        --print-base-font: 10px;
+        --print-line-height: 1.12;
+        --print-page-padding: 5mm;
+        --print-section-padding: 5px;
+        --print-section-margin-bottom: 5px;
+      }
+
       body {
         background: white;
         padding: 0;
-        font-size: 8px;
+        font-size: var(--print-base-font);
+        line-height: var(--print-line-height);
       }
       .no-print {
         display: none;
@@ -32,7 +45,7 @@
         page-break-after: always;
         box-shadow: none !important;
         margin: 0 !important;
-        padding: 8mm !important;
+        padding: var(--print-page-padding) !important;
         min-height: auto;
         height: 277mm;
         overflow: hidden;
@@ -40,6 +53,59 @@
       .page:last-child {
         page-break-after: avoid;
       }
+
+      /* Print readability bump + spacing tighten to preserve page count */
+      .page-title { font-size: 16px; margin-bottom: 5px; padding-bottom: 3px; }
+
+      .intro-box {
+        font-size: 10px;
+        padding: 4px 6px;
+        margin-bottom: var(--print-section-margin-bottom);
+      }
+      .intro-box h3 { font-size: 11px; margin-bottom: 2px; }
+
+      .general-section {
+        padding: var(--print-section-padding);
+        margin-bottom: var(--print-section-margin-bottom);
+      }
+      .general-section h3 { font-size: 11px; margin-bottom: 3px; }
+      .general-section li { font-size: 9px; padding: 1px 0; padding-left: 12px; }
+
+      .two-column { gap: 6px; }
+      .three-column { gap: 5px; }
+
+      .industry-section { padding: 5px; margin-bottom: 5px; }
+      .industry-header { margin-bottom: 3px; padding-bottom: 2px; }
+      .industry-icon { font-size: 12px; }
+      .industry-name { font-size: 10px; }
+
+      .run-sheet-item { padding: 3px 0; }
+      .run-sheet-item.highlight { margin: 0 -5px; padding: 3px 5px; }
+      .run-sheet-time { font-size: 10px; width: 52px; }
+      .run-sheet-content h4 { font-size: 10px; margin-bottom: 1px; }
+      .run-sheet-content p,
+      .run-sheet-content ul,
+      .run-sheet-content li { font-size: 9px; }
+
+      .transition-note,
+      .time-warning { font-size: 9px; margin: 4px 0; padding: 4px 6px; }
+
+      .question-category { font-size: 8px; margin-top: 3px; margin-bottom: 2px; }
+      .questions li { font-size: 9px; padding: 1px 0; padding-left: 8px; }
+      .hot-tip { font-size: 8px; padding: 3px 5px; margin-top: 3px; }
+
+      .objection-table,
+      .objection-table th,
+      .objection-table td { font-size: 9px; }
+      .objection-table th,
+      .objection-table td { padding: 3px 5px; }
+
+      .persona-grid { gap: 5px; }
+      .persona-card { padding: 5px; }
+      .persona-card h4 { font-size: 9px; }
+      .persona-card p,
+      .persona-card ul,
+      .persona-card li { font-size: 8px; }
     }
     
     .no-print {
